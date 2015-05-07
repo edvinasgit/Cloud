@@ -1,0 +1,1006 @@
+2015-04-15 16:01:17,433 INFO  [Info] #################################################################################### 
+2015-04-15 16:01:24,682 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-15 16:01:24,688 INFO  [Info] Login started 0 
+2015-04-15 16:01:38,925 INFO  [Info] Login Passed 
+2015-04-15 16:01:45,527 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-15 16:01:45,598 INFO  [Info] AddDevice Started 
+2015-04-15 16:02:04,904 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-04-15 16:02:04,904 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-15 16:02:05,880 INFO  [Info] DeleteDevice Started 
+2015-04-15 16:02:06,245 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-15 16:02:12,650 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-15 16:02:12,651 INFO  [Info] DeleteDevice Started 
+2015-04-15 16:02:19,576 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-15 16:02:26,620 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-15 16:02:26,621 INFO  [Info] Logout Started 
+2015-04-15 16:02:31,676 INFO  [Info] Logout Passed 
+2015-04-15 16:42:52,844 INFO  [Info] #################################################################################### 
+2015-04-15 16:43:00,324 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-15 16:43:00,330 INFO  [Info] Login started 0 
+2015-04-15 16:43:49,303 INFO  [Info] Login Passed 
+2015-04-15 16:43:55,697 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-15 16:43:55,754 INFO  [Info] AddDevice Started 
+2015-04-15 16:44:31,850 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-04-15 16:44:31,851 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-15 16:44:32,714 INFO  [Info] DeleteDevice Started 
+2015-04-15 16:44:33,070 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-15 16:44:39,994 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-15 16:44:39,995 INFO  [Info] DeleteDevice Started 
+2015-04-15 16:44:52,826 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-15 16:45:00,010 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-15 16:45:00,011 INFO  [Info] Logout Started 
+2015-04-15 16:45:05,268 INFO  [Info] Logout Passed 
+2015-04-16 20:53:26,092 INFO  [Info] #################################################################################### 
+2015-04-16 20:53:37,791 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-16 20:53:37,798 INFO  [Info] Login started 0 
+2015-04-16 20:54:10,959 INFO  [Info] Login Passed 
+2015-04-16 20:54:18,802 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-16 20:54:18,856 INFO  [Info] AddDevice Started 
+2015-04-16 20:55:07,726 INFO  [FATAL] AddDevice: null 
+2015-04-16 20:55:14,901 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-16 20:55:14,904 INFO  [Info] DeleteDevice Started 
+2015-04-16 20:56:18,366 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-16 20:56:26,038 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-16 20:56:26,041 INFO  [Info] Logout Started 
+2015-04-16 20:57:25,931 INFO  [Info] Logout Passed 
+2015-04-16 22:21:07,162 INFO  [Info] #################################################################################### 
+2015-04-16 22:21:20,548 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-16 22:21:20,550 INFO  [Info] Login started 0 
+2015-04-16 22:21:46,692 INFO  [Info] Login Passed 
+2015-04-16 22:21:55,342 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-16 22:21:55,400 INFO  [Info] AddDevice Started 
+2015-04-16 22:22:26,692 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-04-16 22:22:26,692 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-16 22:22:28,285 INFO  [Info] DeleteDevice Started 
+2015-04-16 22:22:28,633 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-16 22:22:38,733 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-16 22:22:38,734 INFO  [Info] DeleteDevice Started 
+2015-04-16 22:22:50,055 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-16 22:22:57,677 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-16 22:22:57,677 INFO  [Info] Logout Started 
+2015-04-16 22:23:14,845 INFO  [Info] Logout Passed 
+2015-04-16 22:28:36,181 INFO  [Info] #################################################################################### 
+2015-04-16 22:28:46,683 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-16 22:28:46,685 INFO  [Info] Login started 0 
+2015-04-16 22:29:03,782 INFO  [Info] Login Passed 
+2015-04-16 22:29:12,856 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-16 22:29:12,927 INFO  [Info] AddDevice Started 
+2015-04-16 22:29:38,990 INFO  [FATAL] AddDevice: null 
+2015-04-16 22:29:47,672 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-16 22:29:47,673 INFO  [Info] DeleteDevice Started 
+2015-04-16 22:30:04,879 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-16 22:30:13,177 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-16 22:30:13,178 INFO  [Info] Logout Started 
+2015-04-16 22:30:24,025 INFO  [Info] Logout Passed 
+2015-04-18 18:10:51,543 INFO  [Info] #################################################################################### 
+2015-04-18 18:11:10,042 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 18:11:10,054 INFO  [Info] Login started 0 
+2015-04-18 18:11:19,915 INFO  [Info] Login Passed 
+2015-04-18 18:11:26,223 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 18:11:26,269 INFO  [Info] AddDevice Started 
+2015-04-18 18:11:51,011 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-04-18 18:11:51,011 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-18 18:11:52,021 INFO  [Info] DeleteDevice Started 
+2015-04-18 18:11:52,327 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-18 18:11:59,218 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 18:11:59,219 INFO  [Info] DeleteDevice Started 
+2015-04-18 18:12:18,746 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-18 18:12:25,785 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 18:12:25,785 INFO  [Info] Logout Started 
+2015-04-18 18:12:43,779 INFO  [Info] Logout Passed 
+2015-04-18 18:13:56,088 INFO  [Info] #################################################################################### 
+2015-04-18 18:14:04,056 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 18:14:04,058 INFO  [Info] Login started 0 
+2015-04-18 18:14:16,951 INFO  [Info] Login Passed 
+2015-04-18 18:14:23,880 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 18:14:23,898 INFO  [Info] AddDevice Started 
+2015-04-18 18:14:48,321 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-04-18 18:14:48,321 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-18 18:14:51,243 INFO  [Info] DeleteDevice Started 
+2015-04-18 18:14:51,573 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-18 18:14:59,532 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 18:14:59,532 INFO  [Info] DeleteDevice Started 
+2015-04-18 18:15:14,580 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-18 18:15:22,325 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 18:15:22,326 INFO  [Info] Logout Started 
+2015-04-18 18:15:53,016 INFO  [Info] Logout Passed 
+2015-04-18 18:46:09,592 INFO  [Info] #################################################################################### 
+2015-04-18 18:46:19,614 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 18:46:19,614 INFO  [Info] testLogin started 
+2015-04-18 18:46:33,445 INFO  [Info] testLogin PASSED 
+2015-04-18 18:46:40,722 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 18:46:40,723 INFO  [Info] testAddDevice started 
+2015-04-18 18:47:03,074 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-04-18 18:47:03,074 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-18 18:47:04,623 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-18 18:47:05,307 INFO  [Info] testAddDevice FAILED 
+2015-04-18 18:47:12,594 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 18:47:12,594 INFO  [Info] testDeleteDevice started 
+2015-04-18 18:47:22,376 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-18 18:47:23,164 INFO  [Info] testDeleteDevice FAILED 
+2015-04-18 18:47:31,092 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 18:47:31,093 INFO  [Info] testLogout started 
+2015-04-18 18:47:31,094 INFO  [Info] Logout Started 
+2015-04-18 18:47:44,103 INFO  [Info] testLogout PASSED 
+2015-04-18 20:27:19,318 INFO  [Info] #################################################################################### 
+2015-04-18 20:27:30,843 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 20:27:30,843 INFO  [Info] testLogin started 
+2015-04-18 20:27:50,964 INFO  [Info] testLogin PASSED 
+2015-04-18 20:27:59,343 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 20:27:59,343 INFO  [Info] testAddDevice started 
+2015-04-18 20:28:36,290 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-04-18 20:28:36,290 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-18 20:28:37,751 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-18 20:28:38,523 INFO  [Info] testAddDevice FAILED 
+2015-04-18 20:28:46,309 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 20:28:46,309 INFO  [Info] testDeleteDevice started 
+2015-04-18 20:29:05,057 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-18 20:29:05,962 INFO  [Info] testDeleteDevice FAILED 
+2015-04-18 20:29:13,098 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 20:29:13,098 INFO  [Info] testLogout started 
+2015-04-18 20:29:13,099 INFO  [Info] Logout Started 
+2015-04-18 20:29:31,224 INFO  [Info] testLogout PASSED 
+2015-04-18 20:37:54,995 INFO  [Info] #################################################################################### 
+2015-04-18 20:38:06,439 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 20:38:06,440 INFO  [Info] testLogin started 
+2015-04-18 20:38:30,864 INFO  [Info] testLogin PASSED 
+2015-04-18 20:38:38,121 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 20:38:38,121 INFO  [Info] testAddDevice started 
+2015-04-18 20:39:14,358 INFO  [FATAL] AddDevice: null 
+2015-04-18 20:39:14,358 INFO  [Info] testAddDevice PASSED 
+2015-04-18 20:39:21,551 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 20:39:21,551 INFO  [Info] testDeleteDevice started 
+2015-04-18 20:39:32,664 INFO  [ERROR] Your device is offline 
+2015-04-18 20:39:33,318 INFO  [Info] testDeleteDevice FAILED 
+2015-04-18 20:39:41,243 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 20:39:41,243 INFO  [Info] testLogout started 
+2015-04-18 20:39:52,153 INFO  [Info] testLogout PASSED 
+2015-04-18 20:44:14,026 INFO  [Info] #################################################################################### 
+2015-04-18 20:44:24,577 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 20:44:24,578 INFO  [Info] testLogin started 
+2015-04-18 20:44:37,872 INFO  [Info] testLogin PASSED 
+2015-04-18 20:44:45,990 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 20:44:45,990 INFO  [Info] testAddDevice started 
+2015-04-18 20:47:00,856 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-04-18 20:47:00,856 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-18 20:47:02,618 INFO  [ERROR] Your device is offline 
+2015-04-18 20:47:03,140 INFO  [Info] testAddDevice FAILED 
+2015-04-18 20:47:10,735 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 20:47:10,735 INFO  [Info] testDeleteDevice started 
+2015-04-18 20:47:23,384 INFO  [ERROR] Your device is offline 
+2015-04-18 20:47:24,153 INFO  [Info] testDeleteDevice FAILED 
+2015-04-18 20:47:32,584 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 20:47:32,585 INFO  [Info] testLogout started 
+2015-04-18 20:47:48,650 INFO  [Info] testLogout PASSED 
+2015-04-18 21:06:58,814 INFO  [Info] #################################################################################### 
+2015-04-18 21:07:11,381 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 21:07:11,382 INFO  [Info] testLogin Started 
+2015-04-18 21:07:20,864 INFO  [Info] testLogin PASSED 
+2015-04-18 21:07:30,068 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 21:07:30,068 INFO  [Info] testAddDevice Started 
+2015-04-18 21:07:50,720 INFO  [ERROR] ERROR: Smart Security ID is too short (minimum is 32 characters). 
+2015-04-18 21:07:50,721 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-18 21:07:52,334 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-18 21:07:53,033 INFO  [Info] testAddDevice FAILED 
+2015-04-18 21:08:02,648 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 21:08:02,648 INFO  [Info] testDeleteDevice Started 
+2015-04-18 21:08:15,807 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-18 21:08:16,720 INFO  [Info] testDeleteDevice FAILED 
+2015-04-18 21:08:24,929 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 21:08:24,930 INFO  [Info] testLogout Started 
+2015-04-18 21:08:38,553 INFO  [Info] testLogout PASSED 
+2015-04-18 23:33:28,726 INFO  [Info] #################################################################################### 
+2015-04-18 23:34:00,547 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 23:34:00,548 INFO  [Info] testLogin Started 
+2015-04-18 23:34:11,474 INFO  [Info] testLogin PASSED 
+2015-04-18 23:34:19,255 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 23:34:19,255 INFO  [Info] testAddDevice Started 
+2015-04-18 23:34:41,833 INFO  [ERROR] ERROR: Smart Security ID is too short (minimum is 32 characters). 
+2015-04-18 23:34:41,833 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-18 23:34:43,441 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-18 23:34:44,278 INFO  [Info] testAddDevice FAILED 
+2015-04-18 23:34:50,538 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 23:34:50,538 INFO  [Info] testDeleteDevice Started 
+2015-04-18 23:35:03,400 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-18 23:35:04,413 INFO  [Info] testDeleteDevice FAILED 
+2015-04-18 23:35:10,776 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 23:35:10,777 INFO  [Info] testLogout Started 
+2015-04-18 23:35:23,021 INFO  [Info] testLogout PASSED 
+2015-04-18 23:35:30,297 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 23:35:30,298 INFO  [Info] testControl Started 
+2015-04-18 23:35:43,679 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-18 23:35:44,275 INFO  [Info] testControl FAILED 
+2015-04-18 23:42:24,250 INFO  [Info] #################################################################################### 
+2015-04-18 23:42:32,770 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 23:42:32,771 INFO  [Info] testLogin Started 
+2015-04-18 23:42:46,574 INFO  [Info] testLogin PASSED 
+2015-04-18 23:42:54,316 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 23:42:54,316 INFO  [Info] testAddDevice Started 
+2015-04-18 23:43:16,395 INFO  [ERROR] ERROR: Smart Security ID is too short (minimum is 32 characters). 
+2015-04-18 23:43:16,395 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-18 23:43:18,052 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-18 23:43:18,850 INFO  [Info] testAddDevice FAILED 
+2015-04-18 23:43:25,965 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 23:43:25,965 INFO  [Info] testDeleteDevice Started 
+2015-04-18 23:44:12,132 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-18 23:44:12,828 INFO  [Info] testDeleteDevice FAILED 
+2015-04-18 23:44:19,975 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 23:44:19,975 INFO  [Info] testLogout Started 
+2015-04-18 23:44:45,456 INFO  [Info] testLogout PASSED 
+2015-04-18 23:44:53,136 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 23:44:53,136 INFO  [Info] testControl Started 
+2015-04-18 23:45:13,833 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-18 23:45:14,445 INFO  [Info] testControl FAILED 
+2015-04-18 23:53:53,064 INFO  [Info] #################################################################################### 
+2015-04-18 23:55:23,985 INFO  [Info] #################################################################################### 
+2015-04-18 23:55:32,804 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-18 23:55:32,805 INFO  [Info] testControl Started 
+2015-04-18 23:55:52,815 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-18 23:55:52,975 INFO  [Info] testControl PASSED 
+2015-04-19 11:18:20,418 INFO  [Info] #################################################################################### 
+2015-04-19 11:18:38,343 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 11:18:38,343 INFO  [Info] testControl Started 
+2015-04-19 11:18:46,980 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-19 11:18:47,121 INFO  [Info] testControl PASSED 
+2015-04-19 11:23:43,420 INFO  [Info] #################################################################################### 
+2015-04-19 11:23:51,585 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 11:23:51,585 INFO  [Info] testControl Started 
+2015-04-19 11:24:05,209 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-19 11:24:05,351 INFO  [Info] testControl PASSED 
+2015-04-19 12:56:31,427 INFO  [Info] #################################################################################### 
+2015-04-19 12:56:51,214 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 12:56:51,214 INFO  [Info] testControl Started 
+2015-04-19 12:56:59,777 INFO  [Info] testControl PASSED 
+2015-04-19 13:03:08,665 INFO  [Info] #################################################################################### 
+2015-04-19 13:03:17,332 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:03:17,334 INFO  [Info] testControl Started 
+2015-04-19 13:03:25,795 INFO  [FATAL] Logout: java.lang.NullPointerException 
+2015-04-19 13:03:26,644 INFO  [Info] testControl FAILED 
+2015-04-19 13:09:11,313 INFO  [Info] #################################################################################### 
+2015-04-19 13:09:21,274 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:09:21,277 INFO  [Info] testControl Started 
+2015-04-19 13:09:29,741 INFO  [FATAL] Logout: java.lang.NullPointerException 
+2015-04-19 13:09:30,430 INFO  [Info] testControl FAILED 
+2015-04-19 13:12:54,635 INFO  [Info] #################################################################################### 
+2015-04-19 13:13:02,433 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:13:02,436 INFO  [Info] testControl Started 
+2015-04-19 13:13:11,342 INFO  [FATAL] Logout: java.lang.NullPointerException 
+2015-04-19 13:13:12,145 INFO  [Info] testControl FAILED 
+2015-04-19 13:15:56,588 INFO  [Info] #################################################################################### 
+2015-04-19 13:16:05,233 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:16:05,234 INFO  [Info] testControl Started 
+2015-04-19 13:16:14,963 INFO  [FATAL] Logout: java.lang.NullPointerException 
+2015-04-19 13:16:15,646 INFO  [Info] testControl FAILED 
+2015-04-19 13:20:50,072 INFO  [Info] #################################################################################### 
+2015-04-19 13:21:00,575 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:21:00,579 INFO  [Info] testControl Started 
+2015-04-19 13:21:15,219 INFO  [FATAL] Logout: null 
+2015-04-19 13:21:15,923 INFO  [Info] testControl FAILED 
+2015-04-19 13:25:56,928 INFO  [Info] #################################################################################### 
+2015-04-19 13:26:06,105 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:26:06,106 INFO  [Info] testControl Started 
+2015-04-19 13:26:18,697 INFO  [FATAL] Logout: null 
+2015-04-19 13:26:19,438 INFO  [Info] testControl FAILED 
+2015-04-19 13:28:15,989 INFO  [Info] #################################################################################### 
+2015-04-19 13:28:24,451 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:28:24,451 INFO  [Info] testControl Started 
+2015-04-19 13:28:36,278 INFO  [Info] testControl PASSED 
+2015-04-19 13:30:03,103 INFO  [Info] #################################################################################### 
+2015-04-19 13:30:11,746 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:30:11,749 INFO  [Info] testControl Started 
+2015-04-19 13:30:19,966 INFO  [FATAL] Logout: null 
+2015-04-19 13:30:20,641 INFO  [Info] testControl FAILED 
+2015-04-19 13:31:42,103 INFO  [Info] #################################################################################### 
+2015-04-19 13:31:50,953 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:31:50,953 INFO  [Info] testControl Started 
+2015-04-19 13:31:59,988 INFO  [FATAL] Logout: null 
+2015-04-19 13:32:00,816 INFO  [Info] testControl FAILED 
+2015-04-19 13:33:07,103 INFO  [Info] #################################################################################### 
+2015-04-19 13:33:15,162 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:33:15,163 INFO  [Info] testControl Started 
+2015-04-19 13:33:24,394 INFO  [FATAL] Logout: null 
+2015-04-19 13:33:25,263 INFO  [Info] testControl FAILED 
+2015-04-19 13:38:43,272 INFO  [Info] #################################################################################### 
+2015-04-19 13:38:51,764 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:38:51,765 INFO  [Info] testControl Started 
+2015-04-19 13:39:01,773 INFO  [FATAL] Logout: null 
+2015-04-19 13:39:02,577 INFO  [Info] testControl FAILED 
+2015-04-19 13:43:02,169 INFO  [Info] #################################################################################### 
+2015-04-19 13:43:11,430 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:43:11,431 INFO  [Info] testControl Started 
+2015-04-19 13:43:20,776 INFO  [FATAL] Logout: null 
+2015-04-19 13:43:21,540 INFO  [Info] testControl FAILED 
+2015-04-19 13:44:26,261 INFO  [Info] #################################################################################### 
+2015-04-19 13:44:33,903 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:44:33,904 INFO  [Info] testControl Started 
+2015-04-19 13:44:44,294 INFO  [Info] testControl PASSED 
+2015-04-19 13:47:19,448 INFO  [Info] #################################################################################### 
+2015-04-19 13:47:28,357 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:47:28,358 INFO  [Info] testControl Started 
+2015-04-19 13:47:37,451 INFO  [FATAL] Logout: null 
+2015-04-19 13:47:38,487 INFO  [Info] testControl FAILED 
+2015-04-19 13:56:16,934 INFO  [Info] #################################################################################### 
+2015-04-19 13:56:26,073 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:56:26,074 INFO  [Info] testControl Started 
+2015-04-19 13:56:36,983 INFO  [Info] testControl PASSED 
+2015-04-19 13:58:14,341 INFO  [Info] #################################################################################### 
+2015-04-19 13:58:22,709 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 13:58:22,710 INFO  [Info] testControl Started 
+2015-04-19 13:58:31,306 INFO  [Info] testControl PASSED 
+2015-04-19 14:01:13,947 INFO  [Info] #################################################################################### 
+2015-04-19 14:01:22,463 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 14:01:22,464 INFO  [Info] testControl Started 
+2015-04-19 14:01:43,835 INFO  [Info] testControl PASSED 
+2015-04-19 19:01:46,723 INFO  [Info] #################################################################################### 
+2015-04-19 19:01:56,279 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 19:01:56,279 INFO  [Info] testControl Started 
+2015-04-19 19:02:26,344 INFO  [Info] testControl PASSED 
+2015-04-19 19:03:33,157 INFO  [Info] #################################################################################### 
+2015-04-19 19:03:40,116 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 19:03:40,116 INFO  [Info] testControl Started 
+2015-04-19 19:04:06,284 INFO  [Info] testControl PASSED 
+2015-04-19 19:05:54,124 INFO  [Info] #################################################################################### 
+2015-04-19 19:06:01,389 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 19:06:01,390 INFO  [Info] testControl Started 
+2015-04-19 19:06:37,152 INFO  [Info] testControl PASSED 
+2015-04-19 19:12:06,429 INFO  [Info] #################################################################################### 
+2015-04-19 19:12:13,411 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 19:12:13,411 INFO  [Info] testControl Started 
+2015-04-19 19:12:34,440 INFO  [Info] testControl PASSED 
+2015-04-19 19:37:43,418 INFO  [Info] #################################################################################### 
+2015-04-19 19:37:50,518 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 19:37:50,518 INFO  [Info] testControl Started 
+2015-04-19 19:38:10,708 INFO  [Info] testControl PASSED 
+2015-04-19 19:39:14,578 INFO  [Info] #################################################################################### 
+2015-04-19 19:39:21,479 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 19:39:21,479 INFO  [Info] testControl Started 
+2015-04-19 19:39:47,611 INFO  [Info] testControl PASSED 
+2015-04-19 19:51:35,036 INFO  [Info] #################################################################################### 
+2015-04-19 19:51:42,431 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 19:51:42,435 INFO  [Info] testControl Started 
+2015-04-19 19:51:53,752 INFO  [Info] testControl PASSED 
+2015-04-19 19:53:08,946 INFO  [Info] #################################################################################### 
+2015-04-19 19:53:17,049 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 19:53:17,049 INFO  [Info] testControl Started 
+2015-04-19 19:53:23,105 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.24.211', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-04-19 19:54:17,838 INFO  [Info] #################################################################################### 
+2015-04-19 19:54:24,874 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 19:54:24,875 INFO  [Info] testLogin Started 
+2015-04-19 19:54:43,182 INFO  [Info] testLogin PASSED 
+2015-04-19 19:54:50,972 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 19:54:50,973 INFO  [Info] testAddDevice Started 
+2015-04-19 19:55:35,530 INFO  [ERROR] ERROR: Smart Security ID is too short (minimum is 32 characters). 
+2015-04-19 19:55:35,530 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-19 19:55:36,388 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-19 19:55:37,041 INFO  [Info] testAddDevice FAILED 
+2015-04-19 19:55:43,884 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 19:55:43,884 INFO  [Info] testDeleteDevice Started 
+2015-04-19 19:55:43,884 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-19 19:55:44,041 INFO  [Info] testDeleteDevice FAILED 
+2015-04-19 19:55:49,774 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 19:55:49,775 INFO  [Info] testLogout Started 
+2015-04-19 19:56:30,000 INFO  [Info] testLogout PASSED 
+2015-04-19 19:56:36,814 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 19:56:36,814 INFO  [Info] testControl Started 
+2015-04-19 19:57:17,735 INFO  [Info] testControl PASSED 
+2015-04-19 20:04:41,567 INFO  [Info] #################################################################################### 
+2015-04-19 20:04:49,071 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:04:49,071 INFO  [Info] testLogin Started 
+2015-04-19 20:05:00,637 INFO  [Info] testLogin PASSED 
+2015-04-19 20:05:07,428 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:05:07,428 INFO  [Info] testAddDevice Started 
+2015-04-19 20:06:04,092 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for visibility of element located by By.id: Device_crypted_imei_em_
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.24.211', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 59fd6227-580e-431b-88f8-c3c41fb3b603 
+2015-04-19 20:06:04,664 INFO  [Info] testAddDevice FAILED 
+2015-04-19 20:06:11,854 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:06:11,855 INFO  [Info] testDeleteDevice Started 
+2015-04-19 20:06:11,857 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-19 20:06:11,989 INFO  [Info] testDeleteDevice FAILED 
+2015-04-19 20:06:18,922 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:06:18,922 INFO  [Info] testLogout Started 
+2015-04-19 20:06:33,327 INFO  [Info] testLogout PASSED 
+2015-04-19 20:06:39,903 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:06:39,903 INFO  [Info] testControl Started 
+2015-04-19 20:06:56,671 INFO  [Info] testControl PASSED 
+2015-04-19 20:12:02,162 INFO  [Info] #################################################################################### 
+2015-04-19 20:12:09,803 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:12:09,803 INFO  [Info] testDeleteDevice Started 
+2015-04-19 20:12:10,093 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-19 20:12:10,306 INFO  [Info] testDeleteDevice FAILED 
+2015-04-19 20:13:48,705 INFO  [Info] #################################################################################### 
+2015-04-19 20:13:56,882 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:13:56,883 INFO  [Info] testDeleteDevice Started 
+2015-04-19 20:14:22,509 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-19 20:14:23,174 INFO  [Info] testDeleteDevice FAILED 
+2015-04-19 20:20:08,149 INFO  [Info] #################################################################################### 
+2015-04-19 20:20:15,934 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:20:15,935 INFO  [Info] testDeleteDevice Started 
+2015-04-19 20:20:36,673 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-19 20:20:37,333 INFO  [Info] testDeleteDevice FAILED 
+2015-04-19 20:40:04,917 INFO  [Info] #################################################################################### 
+2015-04-19 20:40:04,987 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:40:04,987 INFO  [Info] testLogin Started 
+2015-04-19 20:41:16,510 INFO  [Info] testLogin PASSED 
+2015-04-19 20:43:50,664 INFO  [Info] #################################################################################### 
+2015-04-19 20:43:57,956 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:43:57,957 INFO  [Info] testLogin Started 
+2015-04-19 20:44:24,619 INFO  [Info] testLogin PASSED 
+2015-04-19 20:44:31,210 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:44:31,211 INFO  [Info] testAddDevice Started 
+2015-04-19 20:45:53,372 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for visibility of element located by By.id: Device_crypted_imei_em_
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.24.211', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b48c3515-fced-42ed-8031-8e5c3fe059cc 
+2015-04-19 20:45:53,984 INFO  [Info] testAddDevice FAILED 
+2015-04-19 20:46:02,815 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:46:02,815 INFO  [Info] testDeleteDevice Started 
+2015-04-19 20:46:48,049 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-19 20:46:48,662 INFO  [Info] testDeleteDevice FAILED 
+2015-04-19 20:46:55,674 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:46:55,674 INFO  [Info] testLogout Started 
+2015-04-19 20:47:44,056 INFO  [Info] testLogout PASSED 
+2015-04-19 20:47:51,085 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 20:47:51,085 INFO  [Info] testControl Started 
+2015-04-19 20:48:25,418 INFO  [Info] testControl PASSED 
+2015-04-19 21:13:23,644 INFO  [Info] #################################################################################### 
+2015-04-19 21:13:33,146 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 21:13:33,149 INFO  [Info] testControl Started 
+2015-04-19 21:14:32,061 INFO  [Info] testControl PASSED 
+2015-04-19 21:22:55,666 INFO  [Info] #################################################################################### 
+2015-04-19 21:23:05,199 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 21:23:05,199 INFO  [Info] testLogin Started 
+2015-04-19 21:23:51,444 INFO  [Info] testLogin PASSED 
+2015-04-19 21:23:59,142 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 21:23:59,143 INFO  [Info] testAddDevice Started 
+2015-04-19 21:24:47,310 INFO  [ERROR] ERROR: Smart Security ID is too short (minimum is 32 characters). 
+2015-04-19 21:24:47,310 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-19 21:24:48,904 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-19 21:24:49,540 INFO  [Info] testAddDevice FAILED 
+2015-04-19 21:24:59,420 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 21:24:59,420 INFO  [Info] testDeleteDevice Started 
+2015-04-19 21:25:40,342 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-19 21:25:40,918 INFO  [Info] testDeleteDevice FAILED 
+2015-04-19 21:25:48,656 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 21:25:48,656 INFO  [Info] testLogout Started 
+2015-04-19 21:26:35,756 INFO  [Info] testLogout PASSED 
+2015-04-19 21:26:43,049 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-19 21:26:43,049 INFO  [Info] testControl Started 
+2015-04-19 21:27:23,364 INFO  [Info] testControl PASSED 
+2015-04-21 21:42:38,976 INFO  [Info] #################################################################################### 
+2015-04-21 21:42:57,680 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-21 21:42:57,681 INFO  [Info] testLogin Started 
+2015-04-21 21:43:28,121 INFO  [Info] testLogin PASSED 
+2015-04-21 21:43:40,260 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-21 21:43:40,260 INFO  [Info] testAddDevice Started 
+2015-04-21 21:44:12,652 INFO  [ERROR] ERROR: Smart Security ID is too short (minimum is 32 characters). 
+2015-04-21 21:44:12,653 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-21 21:44:15,348 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-21 21:44:16,515 INFO  [Info] testAddDevice FAILED 
+2015-04-21 21:44:25,132 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-21 21:44:25,133 INFO  [Info] testDeleteDevice Started 
+2015-04-21 21:44:48,032 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-21 21:44:48,887 INFO  [Info] testDeleteDevice FAILED 
+2015-04-21 21:44:57,919 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-21 21:44:57,919 INFO  [Info] testLogout Started 
+2015-04-21 21:45:22,982 INFO  [Info] testLogout PASSED 
+2015-04-21 21:45:30,459 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-21 21:45:30,460 INFO  [Info] testControl Started 
+2015-04-21 21:45:53,626 INFO  [Info] testControl PASSED 
+2015-04-21 22:13:57,679 INFO  [Info] #################################################################################### 
+2015-04-21 22:14:09,124 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-21 22:14:09,124 INFO  [Info] testControl Started 
+2015-04-21 22:14:38,637 INFO  [Info] testControl PASSED 
+2015-04-21 22:26:11,705 INFO  [Info] #################################################################################### 
+2015-04-21 22:26:27,702 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-21 22:26:27,702 INFO  [Info] testControl Started 
+2015-04-21 22:29:09,177 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='controlsPanel-3606']/div/div/div[3]/div[1]/div/div/p"}
+Command duration or timeout: 17.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.166.240', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0564f4d7-6709-430f-9717-e0b7d630bd18
+*** Element info: {Using=xpath, value=//*[@id='controlsPanel-3606']/div/div/div[3]/div[1]/div/div/p} 
+2015-04-21 22:29:09,666 INFO  [Info] testControl FAILED 
+2015-04-21 22:30:29,699 INFO  [Info] #################################################################################### 
+2015-04-21 22:30:40,856 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-21 22:30:40,860 INFO  [Info] testControl Started 
+2015-04-21 22:32:12,153 INFO  [Info] testControl PASSED 
+2015-04-22 10:17:44,014 INFO  [Info] #################################################################################### 
+2015-04-22 10:17:54,613 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-22 10:17:54,614 INFO  [Info] testLogin Started 
+2015-04-22 10:18:04,421 INFO  [Info] testLogin PASSED 
+2015-04-22 10:18:11,883 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-22 10:18:11,883 INFO  [Info] testAddDevice Started 
+2015-04-22 10:18:23,706 INFO  [ERROR] ERROR: Smart Security ID is too short (minimum is 32 characters). 
+2015-04-22 10:18:23,706 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-04-22 10:18:25,124 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-22 10:18:25,812 INFO  [Info] testAddDevice FAILED 
+2015-04-22 10:18:33,186 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-22 10:18:33,187 INFO  [Info] testDeleteDevice Started 
+2015-04-22 10:18:39,458 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-04-22 10:18:40,062 INFO  [Info] testDeleteDevice FAILED 
+2015-04-22 10:18:46,246 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-22 10:18:46,246 INFO  [Info] testLogout Started 
+2015-04-22 10:18:54,234 INFO  [Info] testLogout PASSED 
+2015-04-22 10:19:00,159 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-22 10:19:00,159 INFO  [Info] testControl Started 
+2015-04-22 10:19:15,203 INFO  [Info] testControl PASSED 
+2015-04-22 17:02:05,705 INFO  [Info] #################################################################################### 
+2015-04-22 17:02:14,675 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-22 17:02:14,676 INFO  [Info] testControl Started 
+2015-04-22 17:02:29,024 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder disarm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 106 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28b6eb74-bc9e-4fbd-bc9c-6f3533a55c80
+*** Element info: {Using=class name, value=armingBtnHolder disarm ng-scope} 
+2015-04-22 17:02:29,686 INFO  [Info] testControl FAILED 
+2015-04-24 14:22:14,313 INFO  [Info] #################################################################################### 
+2015-04-24 14:23:39,968 INFO  [Info] #################################################################################### 
+2015-04-24 14:23:58,114 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-24 14:23:58,115 INFO  [Info] testControl Started 
+2015-04-24 14:24:15,562 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder disarm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 109 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0475963e-5792-4317-9219-a9f3fd1576a6
+*** Element info: {Using=class name, value=armingBtnHolder disarm ng-scope} 
+2015-04-24 14:24:16,126 INFO  [Info] testControl FAILED 
+2015-04-24 14:26:11,358 INFO  [Info] #################################################################################### 
+2015-04-24 14:26:19,366 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-24 14:26:19,366 INFO  [Info] testControl Started 
+2015-04-24 14:26:34,285 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder disarm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 90 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3664c588-fa9a-448a-a783-5e8bd77f89e0
+*** Element info: {Using=class name, value=armingBtnHolder disarm ng-scope} 
+2015-04-24 14:26:34,314 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-04-24 14:26:34,315 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-04-24 14:26:34,315 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-04-24 14:26:34,316 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-04-24 14:26:34,316 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-04-24 14:26:34,316 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-04-24 16:17:04,738 INFO  [Info] #################################################################################### 
+2015-04-24 16:17:16,304 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-24 16:17:16,305 INFO  [Info] testRegister Started 
+2015-04-24 16:17:30,244 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"btn btn-success"}
+Command duration or timeout: 10.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8c08a080-ea1a-43ca-8ea0-fbb889f1d8b3
+*** Element info: {Using=css selector, value=btn btn-success} 
+2015-04-24 16:17:34,068 INFO  [Info] testRegister FAILED 
+2015-04-24 16:18:30,282 INFO  [Info] #################################################################################### 
+2015-04-24 16:18:40,395 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-24 16:18:40,398 INFO  [Info] testRegister Started 
+2015-04-24 16:18:44,787 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector btn btn-success is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 145 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b86ebaf1-8a69-4df4-b83c-719712a1eb9b
+*** Element info: {Using=class name, value=btn btn-success} 
+2015-04-24 16:18:48,325 INFO  [Info] testRegister FAILED 
+2015-04-24 16:19:49,659 INFO  [Info] #################################################################################### 
+2015-04-24 16:19:58,878 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-24 16:19:58,878 INFO  [Info] testRegister Started 
+2015-04-24 16:20:02,365 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector btn btn-success is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 143 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 624bd91b-085f-4a22-b5ed-795512444d34
+*** Element info: {Using=class name, value=btn btn-success} 
+2015-04-24 16:20:05,671 INFO  [Info] testRegister FAILED 
+2015-04-24 16:21:22,579 INFO  [Info] #################################################################################### 
+2015-04-24 16:21:30,099 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-24 16:21:30,099 INFO  [Info] testRegister Started 
+2015-04-24 16:21:33,643 INFO  [Info] testRegister PASSED 
+2015-04-24 16:34:46,156 INFO  [Info] #################################################################################### 
+2015-04-24 16:34:55,221 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-24 16:34:55,221 INFO  [Info] testRegister Started 
+2015-04-24 16:35:08,896 INFO  [FATAL] Logout: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 10.07 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 299e0c54-3e88-4fe9-aaa1-2f45d875beb8 
+2015-04-24 16:35:12,507 INFO  [Info] testRegister FAILED 
+2015-04-24 16:47:57,904 INFO  [Info] #################################################################################### 
+2015-04-24 16:48:07,557 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-24 16:48:07,557 INFO  [Info] testRegister Started 
+2015-04-24 16:48:12,094 INFO  [Info] testRegister PASSED 
+2015-04-24 17:13:33,493 INFO  [Info] #################################################################################### 
+2015-04-24 17:13:41,861 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-24 17:13:41,862 INFO  [Info] testRegister Started 
+2015-04-24 17:13:57,036 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"gmail-sign-in"}
+Command duration or timeout: 10.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a3fce9fb-b09b-4d23-95a9-0fb4219cbe71
+*** Element info: {Using=id, value=gmail-sign-in} 
+2015-04-24 17:13:57,310 INFO  [Info] testRegister FAILED 
+2015-04-24 17:16:01,783 INFO  [Info] #################################################################################### 
+2015-04-24 17:16:11,655 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-24 17:16:11,656 INFO  [Info] testRegister Started 
+2015-04-24 17:16:26,479 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"account-chooser-add-account"}
+Command duration or timeout: 10.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3727df4a-7f1d-4e9a-8a3b-5fa5d6a12690
+*** Element info: {Using=id, value=account-chooser-add-account} 
+2015-04-24 17:16:26,718 INFO  [Info] testRegister FAILED 
+2015-04-24 17:19:08,770 INFO  [Info] #################################################################################### 
+2015-04-24 17:19:16,858 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-24 17:19:16,860 INFO  [Info] testRegister Started 
+2015-04-24 17:19:23,408 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-04-24 17:19:23,649 INFO  [Info] testRegister FAILED 
+2015-04-24 17:20:40,575 INFO  [Info] #################################################################################### 
+2015-04-24 17:20:48,912 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-04-24 17:20:48,913 INFO  [Info] testRegister Started 
+2015-04-24 17:20:54,807 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-04-24 17:21:18,949 INFO  [Info] testRegister FAILED 
+2015-05-04 17:21:05,796 INFO  [Info] #################################################################################### 
+2015-05-04 17:21:19,260 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-04 17:21:19,260 INFO  [Info] testLogin Started 
+2015-05-04 17:21:25,509 INFO  [Info] testLogin PASSED 
+2015-05-04 17:21:32,165 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-04 17:21:32,166 INFO  [Info] testAddDevice Started 
+2015-05-04 17:21:40,677 INFO  [ERROR] ERROR: Smart Security ID is too short (minimum is 32 characters). 
+2015-05-04 17:21:40,677 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-05-04 17:21:41,972 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-05-04 17:21:42,612 INFO  [Info] testAddDevice FAILED 
+2015-05-04 17:21:48,532 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-04 17:21:48,532 INFO  [Info] testDeleteDevice Started 
+2015-05-04 17:21:53,759 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-05-04 17:21:54,364 INFO  [Info] testDeleteDevice FAILED 
+2015-05-04 17:22:00,664 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-04 17:22:00,664 INFO  [Info] testLogout Started 
+2015-05-04 17:22:06,464 INFO  [Info] testLogout PASSED 
+2015-05-04 17:22:13,337 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-04 17:22:13,337 INFO  [Info] testControl Started 
+2015-05-04 17:22:38,087 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 38d3ad02-9073-4391-8037-74be4b2498ba
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-04 17:22:38,636 INFO  [Info] testControl FAILED 
+2015-05-04 17:22:45,340 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-04 17:22:45,341 INFO  [Info] testRegister Started 
+2015-05-04 17:22:51,860 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-04 17:23:10,943 INFO  [Info] testRegister FAILED 
+2015-05-05 14:14:23,098 INFO  [Info] #################################################################################### 
+2015-05-05 14:14:34,528 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:14:34,529 INFO  [Info] testLogin Started 
+2015-05-05 14:14:40,020 INFO  [Info] testLogin PASSED 
+2015-05-05 14:14:46,709 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:14:46,709 INFO  [Info] testAddDevice Started 
+2015-05-05 14:14:57,061 INFO  [ERROR] ERROR: Smart Security ID is too short (minimum is 32 characters). 
+2015-05-05 14:14:57,062 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-05-05 14:14:58,618 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-05-05 14:14:59,385 INFO  [Info] testAddDevice FAILED 
+2015-05-05 14:15:06,084 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:15:06,084 INFO  [Info] testDeleteDevice Started 
+2015-05-05 14:15:11,787 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-05-05 14:15:12,462 INFO  [Info] testDeleteDevice FAILED 
+2015-05-05 14:15:19,366 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:15:19,367 INFO  [Info] testLogout Started 
+2015-05-05 14:15:24,956 INFO  [Info] testLogout PASSED 
+2015-05-05 14:15:31,290 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:15:31,291 INFO  [Info] testControl Started 
+2015-05-05 14:15:54,763 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 014d5967-afbd-4e97-b5ca-a77de06ef83a
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-05 14:15:55,317 INFO  [Info] testControl FAILED 
+2015-05-05 14:16:01,931 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:16:01,931 INFO  [Info] testRegister Started 
+2015-05-05 14:16:08,295 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-05 14:16:28,213 INFO  [Info] testRegister FAILED 
+2015-05-05 14:35:50,571 INFO  [Info] #################################################################################### 
+2015-05-05 14:35:57,841 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:35:57,841 INFO  [Info] testLogin Started 
+2015-05-05 14:36:01,792 INFO  [Info] testLogin PASSED 
+2015-05-05 14:36:08,489 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:36:08,489 INFO  [Info] testAddDevice Started 
+2015-05-05 14:36:18,645 INFO  [ERROR] ERROR: Smart Security ID is too short (minimum is 32 characters). 
+2015-05-05 14:36:18,645 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-05-05 14:36:19,984 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-05-05 14:36:20,726 INFO  [Info] testAddDevice FAILED 
+2015-05-05 14:36:27,244 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:36:27,245 INFO  [Info] testDeleteDevice Started 
+2015-05-05 14:36:32,205 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-05-05 14:36:32,829 INFO  [Info] testDeleteDevice FAILED 
+2015-05-05 14:36:39,250 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:36:39,250 INFO  [Info] testLogout Started 
+2015-05-05 14:36:45,407 INFO  [Info] testLogout PASSED 
+2015-05-05 14:36:52,119 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:36:52,119 INFO  [Info] testControl Started 
+2015-05-05 14:37:16,034 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f110a1ea-0d15-4c81-8ab8-626fde4dec11
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-05 14:37:16,571 INFO  [Info] testControl FAILED 
+2015-05-05 14:37:24,221 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:37:24,222 INFO  [Info] testRegister Started 
+2015-05-05 14:37:47,294 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"account-chooser-add-account"}
+Command duration or timeout: 11.78 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1e94b90f-b59b-4be8-8592-77dfffd7275c
+*** Element info: {Using=id, value=account-chooser-add-account} 
+2015-05-05 14:38:05,177 INFO  [Info] testRegister FAILED 
+2015-05-05 14:41:46,208 INFO  [Info] #################################################################################### 
+2015-05-05 14:41:54,210 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:41:54,210 INFO  [Info] testLogin Started 
+2015-05-05 14:41:58,378 INFO  [Info] testLogin PASSED 
+2015-05-05 14:42:04,641 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:42:04,641 INFO  [Info] testAddDevice Started 
+2015-05-05 14:42:15,030 INFO  [ERROR] ERROR: Smart Security ID is too short (minimum is 32 characters). 
+2015-05-05 14:42:15,030 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-05-05 14:42:17,266 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-05-05 14:42:17,855 INFO  [Info] testAddDevice FAILED 
+2015-05-05 14:42:24,313 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:42:24,313 INFO  [Info] testDeleteDevice Started 
+2015-05-05 14:42:29,174 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-05-05 14:42:29,827 INFO  [Info] testDeleteDevice FAILED 
+2015-05-05 14:42:35,747 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:42:35,747 INFO  [Info] testLogout Started 
+2015-05-05 14:42:41,365 INFO  [Info] testLogout PASSED 
+2015-05-05 14:42:47,423 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:42:47,423 INFO  [Info] testControl Started 
+2015-05-05 14:43:12,452 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d84ff537-dfbd-4d78-94ff-5bb8a6dbe2fb
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-05 14:43:12,984 INFO  [Info] testControl FAILED 
+2015-05-05 14:43:19,471 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 14:43:19,471 INFO  [Info] testRegister Started 
+2015-05-05 14:43:44,930 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"account-chooser-add-account"}
+Command duration or timeout: 12.49 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a1c9aa34-16a7-49cf-b591-e1ecdb1c253e
+*** Element info: {Using=id, value=account-chooser-add-account} 
+2015-05-05 14:44:04,728 INFO  [Info] testRegister FAILED 
+2015-05-05 15:00:26,948 INFO  [Info] #################################################################################### 
+2015-05-05 15:00:34,679 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 15:00:34,679 INFO  [Info] testLogin Started 
+2015-05-05 15:00:45,194 INFO  [Info] testLogin PASSED 
+2015-05-05 15:00:51,895 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 15:00:51,895 INFO  [Info] testAddDevice Started 
+2015-05-05 15:01:10,916 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 8 seconds waiting for visibility of element located by By.id: Device_crypted_imei_em_
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9190f097-7bbd-4fc9-bce2-2abe03a128dd 
+2015-05-05 15:01:11,468 INFO  [Info] testAddDevice FAILED 
+2015-05-05 15:01:18,716 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 15:01:18,716 INFO  [Info] testDeleteDevice Started 
+2015-05-05 15:01:24,663 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-05-05 15:01:25,309 INFO  [Info] testDeleteDevice FAILED 
+2015-05-05 15:01:31,967 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 15:01:31,967 INFO  [Info] testLogout Started 
+2015-05-05 15:01:40,358 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"span > span > span"}
+Command duration or timeout: 84 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 392dca77-2018-4dd5-933a-8c5754e7a396
+*** Element info: {Using=css selector, value=span > span > span} 
+2015-05-05 15:01:40,668 INFO  [Info] testLogout FAILED 
+2015-05-05 15:01:47,731 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 15:01:47,731 INFO  [Info] testControl Started 
+2015-05-05 15:02:13,285 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d7e29e16-7769-4d41-9735-cd443a21100b
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-05 15:02:13,872 INFO  [Info] testControl FAILED 
+2015-05-05 15:02:20,628 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 15:02:20,628 INFO  [Info] testRegister Started 
+2015-05-05 15:02:42,774 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"account-chooser-add-account"}
+Command duration or timeout: 11.39 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1d9fa7d9-8763-4a8e-b61a-2734f829a2c1
+*** Element info: {Using=id, value=account-chooser-add-account} 
+2015-05-05 15:03:03,421 INFO  [Info] testRegister FAILED 
+2015-05-05 15:10:20,280 INFO  [Info] #################################################################################### 
+2015-05-05 15:10:27,601 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 15:10:27,601 INFO  [Info] testLogin Started 
+2015-05-05 15:10:31,820 INFO  [Info] testLogin PASSED 
+2015-05-05 15:10:37,619 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 15:10:37,619 INFO  [Info] testAddDevice Started 
+2015-05-05 15:10:54,886 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 8 seconds waiting for visibility of element located by By.id: Device_crypted_imei_em_
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0c6e0b49-64bc-4ab6-b254-e82f8ac8478e 
+2015-05-05 15:10:55,376 INFO  [Info] testAddDevice FAILED 
+2015-05-05 15:11:01,510 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 15:11:01,510 INFO  [Info] testDeleteDevice Started 
+2015-05-05 15:11:06,108 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-05-05 15:11:06,653 INFO  [Info] testDeleteDevice FAILED 
+2015-05-05 15:11:12,741 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 15:11:12,742 INFO  [Info] testLogout Started 
+2015-05-05 15:11:18,120 INFO  [Info] testLogout PASSED 
+2015-05-05 15:11:24,348 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 15:11:24,348 INFO  [Info] testControl Started 
+2015-05-05 15:11:49,523 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dff5fc2e-0b2c-4107-923a-bfe99e8a70dc
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-05 15:11:50,082 INFO  [Info] testControl FAILED 
+2015-05-05 15:11:57,355 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-05 15:11:57,355 INFO  [Info] testRegister Started 
+2015-05-05 15:12:21,728 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"account-chooser-add-account"}
+Command duration or timeout: 11.36 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13edb9be-9286-4abc-8c29-5fa453776abe
+*** Element info: {Using=id, value=account-chooser-add-account} 
+2015-05-05 15:12:39,932 INFO  [Info] testRegister FAILED 
+2015-05-07 16:40:25,696 INFO  [Info] #################################################################################### 
+2015-05-07 16:40:41,694 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 16:40:41,695 INFO  [Info] testLogin Started 
+2015-05-07 16:40:46,797 INFO  [Info] testLogin PASSED 
+2015-05-07 16:40:56,394 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 16:40:56,394 INFO  [Info] testAddDevice Started 
+2015-05-07 16:41:16,347 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 8 seconds waiting for visibility of element located by By.id: Device_crypted_imei_em_
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 01275161-3cf6-4c20-9d39-76b147bf30b6 
+2015-05-07 16:41:16,983 INFO  [Info] testAddDevice FAILED 
+2015-05-07 16:41:24,429 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 16:41:24,429 INFO  [Info] testDeleteDevice Started 
+2015-05-07 16:41:28,876 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-07 16:41:29,670 INFO  [Info] testDeleteDevice FAILED 
+2015-05-07 16:41:38,822 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 16:41:38,822 INFO  [Info] testLogout Started 
+2015-05-07 16:41:43,944 INFO  [Info] testLogout PASSED 
+2015-05-07 16:41:51,923 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 16:41:51,924 INFO  [Info] testControl Started 
+2015-05-07 16:42:16,423 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bae58c28-5304-4bc2-9feb-f76e809b7b6f
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-07 16:42:17,159 INFO  [Info] testControl FAILED 
+2015-05-07 16:42:23,923 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 16:42:23,923 INFO  [Info] testRegister Started 
+2015-05-07 16:42:35,617 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-07 16:43:16,404 INFO  [Info] #################################################################################### 
+2015-05-07 16:43:24,173 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 16:43:24,174 INFO  [Info] testAddDevice Started 
+2015-05-07 16:43:41,120 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 8 seconds waiting for visibility of element located by By.id: Device_crypted_imei_em_
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dd869d39-5877-4e22-9c55-837356edf57f 
+2015-05-07 16:43:41,670 INFO  [Info] testAddDevice FAILED 
+2015-05-07 16:53:21,712 INFO  [Info] #################################################################################### 
+2015-05-07 16:53:29,333 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 16:53:29,335 INFO  [Info] testAddDevice Started 
+2015-05-07 16:53:39,620 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-05-07 16:53:39,620 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-05-07 16:53:54,006 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 8 seconds waiting for visibility of element located by By.id: Device_crypted_imei_em_
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c3e8dafb-583f-430a-9fa0-04306557b1f3 
+2015-05-07 16:53:54,599 INFO  [Info] testAddDevice FAILED 
+2015-05-07 16:57:37,037 INFO  [Info] #################################################################################### 
+2015-05-07 16:57:45,510 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 16:57:45,511 INFO  [Info] testAddDevice Started 
+2015-05-07 16:57:57,291 INFO  [ERROR] ERROR: Smart Security ID is too short (minimum is 32 characters). 
+2015-05-07 16:57:57,292 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-05-07 16:57:58,454 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-07 16:57:59,074 INFO  [Info] testAddDevice FAILED 
