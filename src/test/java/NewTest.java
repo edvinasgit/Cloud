@@ -88,7 +88,8 @@ public void setUp(Method method) throws Exception {
 	    	driver.findElement(By.cssSelector("input.modalBtn.ok")).click();
 	    	System.out.println("ERROR: " + str); Error.info("ERROR: " + str);
 	    	//File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE); 
-			//FileUtils.copyFile(scrFile, new File("D:\\testScreenShot.jpg"));
+	    	//System.out.println(System.getProperty("user.dir")+"\\ScreenShots\\"+testName+".jpg");
+	    	takeScreenShotOnFailure(null, null);
 	    }
 	    catch(Exception e){
 	    }
@@ -127,8 +128,9 @@ public void setUp(Method method) throws Exception {
     	str = driver.findElement(By.className("modal-body")).getText();
     	driver.findElement(By.cssSelector("input.modalBtn.ok")).click();
     	System.out.println("ERROR: " + str); Error.info("ERROR: " + str);
-    	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE); 
-		FileUtils.copyFile(scrFile, new File("D:\\testScreenShot.jpg"));
+    	//File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE); 
+		//FileUtils.copyFile(scrFile, new File("D:\\testScreenShot.jpg"));
+		takeScreenShotOnFailure(null, null);
     }
     catch(Exception e){
     }
@@ -156,7 +158,7 @@ public void setUp(Method method) throws Exception {
 	 
 	    driver.get(baseUrl + "/device/create");
 	    driver.findElement(By.id("Device_crypted_imei")).clear();
-	    driver.findElement(By.id("Device_crypted_imei")).sendKeys("IMEI");
+	    driver.findElement(By.id("Device_crypted_imei")).sendKeys(IMEI);
 
 		driver.findElement(By.id("DeviceProfile_name")).clear();
 		driver.findElement(By.id("DeviceProfile_name")).sendKeys(devname);
