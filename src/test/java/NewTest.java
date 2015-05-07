@@ -165,7 +165,7 @@ public void setUp(Method method) throws Exception {
 		driver.findElement(By.id("DeviceProfile_phone")).clear();
 		driver.findElement(By.id("DeviceProfile_phone")).sendKeys("+37068771762");
 		//Thread.sleep(5000);
-		      
+		       
 		WebDriverWait waitpromt = new WebDriverWait(driver, 15);
     	waitpromt.until(ExpectedConditions.visibilityOfElementLocated(By.id("Device_crypted_imei_em_")));
 	    if(!driver.findElement(By.id("Device_crypted_imei_em_")).isDisplayed())
