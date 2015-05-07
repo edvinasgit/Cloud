@@ -1004,3 +1004,128 @@ Session ID: c3e8dafb-583f-430a-9fa0-04306557b1f3
 2015-05-07 16:57:57,292 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
 2015-05-07 16:57:58,454 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
 2015-05-07 16:57:59,074 INFO  [Info] testAddDevice FAILED 
+2015-05-07 22:58:08,713 INFO  [Info] #################################################################################### 
+2015-05-07 22:58:18,023 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 22:58:18,024 INFO  [Info] testLogin Started 
+2015-05-07 22:58:33,834 INFO  [Info] testLogin PASSED 
+2015-05-07 22:58:40,804 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 22:58:40,804 INFO  [Info] testAddDevice Started 
+2015-05-07 22:59:40,326 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for visibility of element located by By.id: Device_crypted_imei_em_
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.235.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 477edbec-2655-4f01-9891-d16eb3e8b71f 
+2015-05-07 22:59:40,970 INFO  [Info] testAddDevice FAILED 
+2015-05-07 22:59:48,355 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 22:59:48,355 INFO  [Info] testDeleteDevice Started 
+2015-05-07 23:00:05,862 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-07 23:00:06,550 INFO  [Info] testDeleteDevice FAILED 
+2015-05-07 23:00:13,658 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 23:00:13,658 INFO  [Info] testLogout Started 
+2015-05-07 23:00:23,926 INFO  [Info] testLogout PASSED 
+2015-05-07 23:00:29,885 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 23:00:29,885 INFO  [Info] testControl Started 
+2015-05-07 23:00:58,532 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.235.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 30f25e18-4b2a-4e4e-879f-15925c3a8596
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-07 23:00:59,003 INFO  [Info] testControl FAILED 
+2015-05-07 23:01:05,554 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 23:01:05,554 INFO  [Info] testRegister Started 
+2015-05-07 23:01:13,270 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.235.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-07 23:01:30,893 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2015-05-07 23:01:30,893 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-05-07 23:21:18,505 INFO  [Info] #################################################################################### 
+2015-05-07 23:21:26,148 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 23:21:26,149 INFO  [Info] testAddDevice Started 
+2015-05-07 23:22:13,073 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-05-07 23:22:13,073 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-05-07 23:22:34,705 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for visibility of element located by By.id: Device_crypted_imei_em_
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.235.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bb3056c0-c2b1-4b84-8887-efc341a46157 
+2015-05-07 23:22:35,322 INFO  [Info] testAddDevice FAILED 
+2015-05-07 23:24:54,725 INFO  [Info] #################################################################################### 
+2015-05-07 23:25:02,733 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 23:25:02,734 INFO  [Info] testAddDevice Started 
+2015-05-07 23:25:28,938 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for visibility of element located by By.id: Device_crypted_imei_em_
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.235.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e128c334-48eb-4055-a736-d25ee5373037 
+2015-05-07 23:25:29,552 INFO  [Info] testAddDevice FAILED 
+2015-05-07 23:27:38,796 INFO  [Info] #################################################################################### 
+2015-05-07 23:27:46,597 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 23:27:46,598 INFO  [Info] testAddDevice Started 
+2015-05-07 23:28:14,795 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for visibility of element located by By.id: Device_crypted_imei_em_
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.235.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 20381f88-f74a-4602-ba41-48a86e150b21 
+2015-05-07 23:28:15,391 INFO  [Info] testAddDevice FAILED 
+2015-05-07 23:29:24,719 INFO  [Info] #################################################################################### 
+2015-05-07 23:29:31,702 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 23:29:31,702 INFO  [Info] testAddDevice Started 
+2015-05-07 23:29:56,277 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for visibility of element located by By.id: Device_crypted_imei_em_
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.235.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 72859280-58eb-4d9f-9e1d-957b382109e3 
+2015-05-07 23:29:56,857 INFO  [Info] testAddDevice FAILED 
+2015-05-07 23:32:11,630 INFO  [Info] #################################################################################### 
+2015-05-07 23:32:19,966 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 23:32:19,967 INFO  [Info] testAddDevice Started 
+2015-05-07 23:32:46,231 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for visibility of element located by By.id: Device_crypted_imei_em_
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.235.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9b3eae98-4686-4b32-a08f-07b79b1d0fa5 
+2015-05-07 23:32:46,850 INFO  [Info] testAddDevice FAILED 
+2015-05-07 23:35:41,983 INFO  [Info] #################################################################################### 
+2015-05-07 23:35:49,644 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 23:35:49,644 INFO  [Info] testAddDevice Started 
+2015-05-07 23:36:01,624 INFO  [FATAL] AddDevice: org.openqa.selenium.InvalidSelectorException: The given selector row-fluid button_add is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 61 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.235.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4806a8ce-0c21-42a0-90d5-4a76f3a2ce8f
+*** Element info: {Using=class name, value=row-fluid button_add} 
+2015-05-07 23:36:02,261 INFO  [Info] testAddDevice FAILED 
+2015-05-07 23:37:03,326 INFO  [Info] #################################################################################### 
+2015-05-07 23:37:10,778 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 23:37:10,778 INFO  [Info] testAddDevice Started 
+2015-05-07 23:37:32,660 INFO  [FATAL] AddDevice: org.openqa.selenium.InvalidSelectorException: The given selector row-fluid button_add is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 52 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.235.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4c94bcb7-738e-41d5-947a-2f26ac9c51d6
+*** Element info: {Using=class name, value=row-fluid button_add} 
+2015-05-07 23:37:33,287 INFO  [Info] testAddDevice FAILED 
+2015-05-07 23:40:15,721 INFO  [Info] #################################################################################### 
+2015-05-07 23:40:23,469 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-07 23:40:23,469 INFO  [Info] testAddDevice Started 
+2015-05-07 23:43:02,797 INFO  [Info] AddDevice Passed 
+2015-05-07 23:43:02,799 INFO  [Info] testAddDevice PASSED 
