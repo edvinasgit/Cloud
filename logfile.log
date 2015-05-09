@@ -10,7 +10,7 @@
 2015-04-15 16:02:06,245 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
 2015-04-15 16:02:12,650 INFO  [Info] ---------------------------------------------------------------------------------- 
 2015-04-15 16:02:12,651 INFO  [Info] DeleteDevice Started 
-2015-04-15 16:02:19,576 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-04-15 16:02:19,576 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found  
 2015-04-15 16:02:26,620 INFO  [Info] ---------------------------------------------------------------------------------- 
 2015-04-15 16:02:26,621 INFO  [Info] Logout Started 
 2015-04-15 16:02:31,676 INFO  [Info] Logout Passed 
