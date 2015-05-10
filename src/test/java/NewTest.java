@@ -184,7 +184,7 @@ public void setUp(Method method) throws Exception {
 		    Info.info("AddDevice Passed");
 		    System.out.println("Pin Code entered");
 	    	
-	    }
+	    }      
 	    else
 	    {
 	    	str = driver.findElement(By.id("Device_crypted_imei_em_")).getText();
