@@ -1129,3 +1129,1790 @@ Session ID: 4c94bcb7-738e-41d5-947a-2f26ac9c51d6
 2015-05-07 23:40:23,469 INFO  [Info] testAddDevice Started 
 2015-05-07 23:43:02,797 INFO  [Info] AddDevice Passed 
 2015-05-07 23:43:02,799 INFO  [Info] testAddDevice PASSED 
+2015-05-10 18:54:19,697 INFO  [Info] #################################################################################### 
+2015-05-10 18:54:50,274 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 18:54:50,276 INFO  [Info] testLogin Started 
+2015-05-10 18:54:50,277 INFO  [FATAL] Login: java.lang.NullPointerException 
+2015-05-10 18:54:50,785 INFO  [Info] testLogin FAILED 
+2015-05-10 18:55:01,099 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 18:55:01,099 INFO  [Info] testAddDevice Started 
+2015-05-10 18:55:01,100 INFO  [Info] testAddDevice PASSED 
+2015-05-10 18:55:08,693 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 18:55:08,694 INFO  [Info] testDeleteDevice Started 
+2015-05-10 18:55:09,043 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-10 18:55:09,238 INFO  [Info] testDeleteDevice FAILED 
+2015-05-10 18:55:18,146 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 18:55:18,146 INFO  [Info] testLogout Started 
+2015-05-10 18:55:18,388 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"span > span > span"}
+Command duration or timeout: 46 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dd373c19-a852-42e1-b1a5-dac02b9ec436
+*** Element info: {Using=css selector, value=span > span > span} 
+2015-05-10 18:55:18,492 INFO  [Info] testLogout FAILED 
+2015-05-10 18:55:26,680 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 18:55:26,680 INFO  [Info] testControl Started 
+2015-05-10 18:56:17,252 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 408b0dbc-f865-4cf1-8121-63425876cfb1
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-10 18:56:17,342 INFO  [Info] testControl FAILED 
+2015-05-10 18:56:25,737 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 18:56:25,737 INFO  [Info] testRegister Started 
+2015-05-10 18:56:39,420 INFO  [FATAL] Logout: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: [object Object]) The alert disappeared before it could be closed.: [object Object]
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a011423a-1632-4a65-bbe2-8a238b58f19f
+*** Element info: {Using=id, value=account-chooser-add-account} 
+2015-05-10 18:56:40,810 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2015-05-10 18:56:40,811 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-05-10 19:08:47,750 INFO  [Info] #################################################################################### 
+2015-05-10 19:08:57,601 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 19:08:57,601 INFO  [Info] testLogin Started 
+2015-05-10 19:08:57,603 INFO  [FATAL] Login: java.lang.NullPointerException 
+2015-05-10 19:08:57,769 INFO  [Info] testLogin FAILED 
+2015-05-10 19:09:05,492 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 19:09:05,492 INFO  [Info] testAddDevice Started 
+2015-05-10 19:09:05,493 INFO  [Info] testAddDevice PASSED 
+2015-05-10 19:09:13,966 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 19:09:13,966 INFO  [Info] testDeleteDevice Started 
+2015-05-10 19:09:14,311 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-10 19:09:14,494 INFO  [Info] testDeleteDevice FAILED 
+2015-05-10 19:09:28,702 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 19:09:28,702 INFO  [Info] testLogout Started 
+2015-05-10 19:09:28,941 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"span > span > span"}
+Command duration or timeout: 53 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8da6a7b3-ce2c-43df-8aad-ce40ca24c63c
+*** Element info: {Using=css selector, value=span > span > span} 
+2015-05-10 19:09:29,080 INFO  [Info] testLogout FAILED 
+2015-05-10 19:09:36,009 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 19:09:36,009 INFO  [Info] testControl Started 
+2015-05-10 19:10:26,568 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 08cb5e0e-6c3d-4111-a6b0-14043cc92a0d
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-10 19:10:26,700 INFO  [Info] testControl FAILED 
+2015-05-10 19:10:34,251 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 19:10:34,251 INFO  [Info] testRegister Started 
+2015-05-10 19:10:45,122 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-10 19:10:49,318 INFO  [Info] testRegister FAILED 
+2015-05-10 19:12:43,509 INFO  [Info] #################################################################################### 
+2015-05-10 19:14:26,910 INFO  [Info] #################################################################################### 
+2015-05-10 20:00:42,425 INFO  [Info] #################################################################################### 
+2015-05-10 20:01:19,400 INFO  [Info] #################################################################################### 
+2015-05-10 20:01:40,773 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 20:01:40,776 INFO  [Info] testLogin Started 
+2015-05-10 20:01:40,780 INFO  [FATAL] Login: java.lang.NullPointerException 
+2015-05-10 20:01:41,368 INFO  [Info] testLogin FAILED 
+2015-05-10 20:01:49,522 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 20:01:49,522 INFO  [Info] testAddDevice Started 
+2015-05-10 20:01:49,524 INFO  [Info] testAddDevice PASSED 
+2015-05-10 20:01:57,243 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 20:01:57,244 INFO  [Info] testDeleteDevice Started 
+2015-05-10 20:01:57,553 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-10 20:01:57,741 INFO  [Info] testDeleteDevice FAILED 
+2015-05-10 20:02:16,451 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 20:02:16,451 INFO  [Info] testLogout Started 
+2015-05-10 20:02:16,675 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"span > span > span"}
+Command duration or timeout: 62 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0a624511-093a-41bb-9872-9c2c74d90228
+*** Element info: {Using=css selector, value=span > span > span} 
+2015-05-10 20:02:16,788 INFO  [Info] testLogout FAILED 
+2015-05-10 20:02:25,101 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 20:02:25,101 INFO  [Info] testControl Started 
+2015-05-10 20:02:29,372 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-10 20:05:15,418 INFO  [Info] #################################################################################### 
+2015-05-10 20:05:25,820 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 20:05:25,821 INFO  [Info] testLogin Started 
+2015-05-10 20:05:25,823 INFO  [FATAL] Login: java.lang.NullPointerException 
+2015-05-10 20:05:26,034 INFO  [Info] testLogin FAILED 
+2015-05-10 20:05:34,339 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 20:05:34,339 INFO  [Info] testAddDevice Started 
+2015-05-10 20:05:34,341 INFO  [Info] testAddDevice PASSED 
+2015-05-10 20:05:43,348 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 20:05:43,348 INFO  [Info] testDeleteDevice Started 
+2015-05-10 20:05:43,711 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-10 20:05:43,873 INFO  [Info] testDeleteDevice FAILED 
+2015-05-10 20:05:52,361 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 20:05:52,361 INFO  [Info] testLogout Started 
+2015-05-10 20:05:52,526 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"span > span > span"}
+Command duration or timeout: 56 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7818d7e8-059b-4b49-93d2-e50fd5042530
+*** Element info: {Using=css selector, value=span > span > span} 
+2015-05-10 20:05:52,687 INFO  [Info] testLogout FAILED 
+2015-05-10 20:05:59,109 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 20:05:59,109 INFO  [Info] testControl Started 
+2015-05-10 20:06:49,827 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 521bf1dd-f0d1-4965-aedf-826aa43078b6
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-10 20:06:49,923 INFO  [Info] testControl FAILED 
+2015-05-10 20:06:57,562 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 20:06:57,562 INFO  [Info] testRegister Started 
+2015-05-10 20:07:02,183 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-10 21:00:00,720 INFO  [Info] #################################################################################### 
+2015-05-10 21:00:14,453 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:00:14,453 INFO  [Info] testLogin Started 
+2015-05-10 21:00:14,455 INFO  [FATAL] Login: java.lang.NullPointerException 
+2015-05-10 21:00:15,476 INFO  [Info] testLogin FAILED 
+2015-05-10 21:00:23,436 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:00:23,436 INFO  [Info] testAddDevice Started 
+2015-05-10 21:00:23,438 INFO  [Info] testAddDevice PASSED 
+2015-05-10 21:00:32,947 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:00:32,947 INFO  [Info] testDeleteDevice Started 
+2015-05-10 21:00:33,244 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-10 21:00:33,423 INFO  [Info] testDeleteDevice FAILED 
+2015-05-10 21:00:42,990 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:00:42,990 INFO  [Info] testLogout Started 
+2015-05-10 21:00:43,421 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"span > span > span"}
+Command duration or timeout: 93 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bad4ddca-a425-4bb3-911b-1a1d531707f0
+*** Element info: {Using=css selector, value=span > span > span} 
+2015-05-10 21:00:43,522 INFO  [Info] testLogout FAILED 
+2015-05-10 21:00:52,594 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:00:52,594 INFO  [Info] testControl Started 
+2015-05-10 21:01:43,628 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6d269c06-04b6-4c2d-862b-04d0409c6074
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-10 21:01:43,727 INFO  [Info] testControl FAILED 
+2015-05-10 21:01:52,291 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:01:52,291 INFO  [Info] testRegister Started 
+2015-05-10 21:01:57,277 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-10 21:02:20,950 INFO  [Info] #################################################################################### 
+2015-05-10 21:02:32,661 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:02:32,662 INFO  [Info] testLogin Started 
+2015-05-10 21:02:32,663 INFO  [FATAL] Login: java.lang.NullPointerException 
+2015-05-10 21:02:32,857 INFO  [Info] testLogin FAILED 
+2015-05-10 21:02:41,290 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:02:41,291 INFO  [Info] testAddDevice Started 
+2015-05-10 21:02:41,292 INFO  [Info] testAddDevice PASSED 
+2015-05-10 21:02:48,845 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:02:48,846 INFO  [Info] testDeleteDevice Started 
+2015-05-10 21:02:49,120 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-10 21:02:49,288 INFO  [Info] testDeleteDevice FAILED 
+2015-05-10 21:02:57,247 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:02:57,247 INFO  [Info] testLogout Started 
+2015-05-10 21:02:57,407 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"span > span > span"}
+Command duration or timeout: 52 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ce61633-c901-46e6-bfaa-452414578929
+*** Element info: {Using=css selector, value=span > span > span} 
+2015-05-10 21:02:57,553 INFO  [Info] testLogout FAILED 
+2015-05-10 21:03:06,291 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:03:06,291 INFO  [Info] testControl Started 
+2015-05-10 21:03:12,891 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-10 21:05:27,220 INFO  [Info] #################################################################################### 
+2015-05-10 21:05:35,458 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:05:35,459 INFO  [Info] testLogin Started 
+2015-05-10 21:05:57,531 INFO  [Info] testLogin PASSED 
+2015-05-10 21:06:07,039 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:06:07,039 INFO  [Info] testAddDevice Started 
+2015-05-10 21:06:07,040 INFO  [Info] testAddDevice PASSED 
+2015-05-10 21:06:15,621 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:06:15,621 INFO  [Info] testDeleteDevice Started 
+2015-05-10 21:06:16,048 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-10 21:06:16,247 INFO  [Info] testDeleteDevice FAILED 
+2015-05-10 21:06:31,335 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:06:31,335 INFO  [Info] testLogout Started 
+2015-05-10 21:06:32,898 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"span > span > span"}
+Command duration or timeout: 17 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0aa39547-3de9-4261-b36f-e021cc1b39be
+*** Element info: {Using=css selector, value=span > span > span} 
+2015-05-10 21:06:33,019 INFO  [Info] testLogout FAILED 
+2015-05-10 21:06:43,309 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:06:43,309 INFO  [Info] testControl Started 
+2015-05-10 21:07:35,046 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a84827fe-ea6f-4809-9135-05fd9edf52f0
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-10 21:07:35,137 INFO  [Info] testControl FAILED 
+2015-05-10 21:07:43,059 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-10 21:07:43,059 INFO  [Info] testRegister Started 
+2015-05-10 21:07:54,194 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.203.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-10 21:07:56,300 INFO  [Info] testRegister FAILED 
+2015-05-11 19:13:54,670 INFO  [Info] #################################################################################### 
+2015-05-11 19:14:02,732 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:14:02,734 INFO  [Info] testLogin Started 
+2015-05-11 19:14:26,396 INFO  [Info] testLogin PASSED 
+2015-05-11 19:14:33,186 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:14:33,186 INFO  [Info] testAddDevice Started 
+2015-05-11 19:14:33,187 INFO  [Info] testAddDevice PASSED 
+2015-05-11 19:14:39,253 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:14:39,253 INFO  [Info] testDeleteDevice Started 
+2015-05-11 19:14:39,487 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-11 19:14:39,657 INFO  [Info] testDeleteDevice FAILED 
+2015-05-11 19:14:45,604 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:14:45,604 INFO  [Info] testLogout Started 
+2015-05-11 19:14:51,236 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"span > span > span"}
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0df8cfa0-7213-4c54-8ffd-e4f3f76ccfef
+*** Element info: {Using=css selector, value=span > span > span} 
+2015-05-11 19:14:51,383 INFO  [Info] testLogout FAILED 
+2015-05-11 19:14:57,276 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:14:57,276 INFO  [Info] testControl Started 
+2015-05-11 19:15:35,713 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-11 19:22:14,264 INFO  [Info] #################################################################################### 
+2015-05-11 19:22:21,772 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:22:21,773 INFO  [Info] testLogin Started 
+2015-05-11 19:22:34,971 INFO  [Info] testLogin PASSED 
+2015-05-11 19:22:41,152 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:22:41,153 INFO  [Info] testAddDevice Started 
+2015-05-11 19:22:41,156 INFO  [Info] testAddDevice PASSED 
+2015-05-11 19:22:47,280 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:22:47,280 INFO  [Info] testDeleteDevice Started 
+2015-05-11 19:22:47,513 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-11 19:22:47,655 INFO  [Info] testDeleteDevice FAILED 
+2015-05-11 19:22:54,365 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:22:54,365 INFO  [Info] testLogout Started 
+2015-05-11 19:23:16,207 INFO  [Info] testLogout PASSED 
+2015-05-11 19:23:21,986 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:23:21,986 INFO  [Info] testControl Started 
+2015-05-11 19:25:00,687 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 10203a4d-2471-40ef-8215-3eddb609b1ca
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-11 19:25:01,193 INFO  [Info] testControl FAILED 
+2015-05-11 19:25:06,794 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:25:06,794 INFO  [Info] testRegister Started 
+2015-05-11 19:25:24,709 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-11 19:26:10,576 INFO  [Info] testRegister FAILED 
+2015-05-11 19:42:25,666 INFO  [Info] #################################################################################### 
+2015-05-11 19:42:34,513 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:42:34,513 INFO  [Info] testLogin Started 
+2015-05-11 19:42:34,516 INFO  [FATAL] Login: java.lang.NullPointerException 
+2015-05-11 19:42:34,677 INFO  [Info] testLogin FAILED 
+2015-05-11 19:42:40,924 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:42:40,925 INFO  [Info] testAddDevice Started 
+2015-05-11 19:43:30,084 INFO  [FATAL] AddDevice: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"Device_crypted_imei"}
+Command duration or timeout: 3.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 61ae4f05-ae4e-4142-907c-2d9c3d31b05f
+*** Element info: {Using=id, value=Device_crypted_imei} 
+2015-05-11 19:43:32,671 INFO  [Info] testAddDevice FAILED 
+2015-05-11 19:43:39,169 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:43:39,169 INFO  [Info] testDeleteDevice Started 
+2015-05-11 19:43:39,379 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-11 19:43:39,484 INFO  [Info] testDeleteDevice FAILED 
+2015-05-11 19:43:46,078 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:43:46,079 INFO  [Info] testLogout Started 
+2015-05-11 19:43:46,214 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"span > span > span"}
+Command duration or timeout: 43 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1b573156-3391-4d90-9b12-2fa18ff1ebc1
+*** Element info: {Using=css selector, value=span > span > span} 
+2015-05-11 19:43:46,324 INFO  [Info] testLogout FAILED 
+2015-05-11 19:43:52,093 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:43:52,093 INFO  [Info] testControl Started 
+2015-05-11 19:44:28,245 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-11 19:49:03,896 INFO  [Info] #################################################################################### 
+2015-05-11 19:49:11,202 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:49:11,202 INFO  [Info] testLogin Started 
+2015-05-11 19:49:11,204 INFO  [FATAL] Login: java.lang.NullPointerException 
+2015-05-11 19:49:11,357 INFO  [Info] testLogin FAILED 
+2015-05-11 19:49:17,308 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:49:17,308 INFO  [Info] testAddDevice Started 
+2015-05-11 19:49:34,011 INFO  [FATAL] AddDevice: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"Device_crypted_imei"}
+Command duration or timeout: 3.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 88e1576b-b79d-4748-80dd-d7a4e7c521f2
+*** Element info: {Using=id, value=Device_crypted_imei} 
+2015-05-11 19:49:36,684 INFO  [Info] testAddDevice FAILED 
+2015-05-11 19:49:42,938 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:49:42,940 INFO  [Info] testDeleteDevice Started 
+2015-05-11 19:49:43,193 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-11 19:49:43,314 INFO  [Info] testDeleteDevice FAILED 
+2015-05-11 19:49:49,513 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:49:49,513 INFO  [Info] testLogout Started 
+2015-05-11 19:49:49,654 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"span > span > span"}
+Command duration or timeout: 45 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3717c670-4416-488f-b141-793bd7c01a8c
+*** Element info: {Using=css selector, value=span > span > span} 
+2015-05-11 19:49:49,770 INFO  [Info] testLogout FAILED 
+2015-05-11 19:49:55,944 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:49:55,945 INFO  [Info] testControl Started 
+2015-05-11 19:50:46,558 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cdcad29c-cf0c-4877-837d-782c8810dd6c
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-11 19:50:46,691 INFO  [Info] testControl FAILED 
+2015-05-11 19:50:52,775 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:50:52,775 INFO  [Info] testRegister Started 
+2015-05-11 19:51:14,086 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-11 19:52:08,038 INFO  [Info] testRegister FAILED 
+2015-05-11 19:55:10,287 INFO  [Info] #################################################################################### 
+2015-05-11 19:55:18,201 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:55:18,201 INFO  [Info] testLogin Started 
+2015-05-11 19:55:30,586 INFO  [Info] testLogin PASSED 
+2015-05-11 19:55:36,991 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:55:36,991 INFO  [Info] testAddDevice Started 
+2015-05-11 19:55:54,370 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-05-11 19:55:54,370 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-05-11 19:56:01,859 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-11 19:56:02,109 INFO  [Info] testAddDevice FAILED 
+2015-05-11 19:56:08,775 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:56:08,776 INFO  [Info] testDeleteDevice Started 
+2015-05-11 19:56:09,055 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-11 19:56:09,213 INFO  [Info] testDeleteDevice FAILED 
+2015-05-11 19:56:15,037 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:56:15,037 INFO  [Info] testLogout Started 
+2015-05-11 19:56:25,399 INFO  [Info] testLogout PASSED 
+2015-05-11 19:56:31,390 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 19:56:31,390 INFO  [Info] testControl Started 
+2015-05-11 19:57:30,251 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a947082d-c8d8-4940-800e-25b4565c1f35
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-11 20:28:37,533 INFO  [Info] #################################################################################### 
+2015-05-11 20:28:44,880 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:28:44,880 INFO  [Info] testLogin Started 
+2015-05-11 20:28:54,836 INFO  [Info] testLogin PASSED 
+2015-05-11 20:29:00,953 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:29:00,953 INFO  [Info] testAddDevice Started 
+2015-05-11 20:29:20,505 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-05-11 20:29:20,505 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-05-11 20:29:28,188 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-11 20:29:28,756 INFO  [Info] testAddDevice FAILED 
+2015-05-11 20:29:35,035 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:29:35,036 INFO  [Info] testDeleteDevice Started 
+2015-05-11 20:29:35,277 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-11 20:29:35,431 INFO  [Info] testDeleteDevice FAILED 
+2015-05-11 20:29:41,063 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:29:41,064 INFO  [Info] testLogout Started 
+2015-05-11 20:29:56,618 INFO  [Info] testLogout PASSED 
+2015-05-11 20:30:03,287 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:30:03,287 INFO  [Info] testControl Started 
+2015-05-11 20:31:02,796 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 535952fd-6424-4083-96e0-429915926496
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-11 20:31:03,301 INFO  [Info] testControl FAILED 
+2015-05-11 20:31:09,937 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:31:09,937 INFO  [Info] testRegister Started 
+2015-05-11 20:31:14,850 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-11 20:38:38,229 INFO  [Info] #################################################################################### 
+2015-05-11 20:38:45,423 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:38:45,423 INFO  [Info] testLogin Started 
+2015-05-11 20:38:52,805 INFO  [Info] testLogin PASSED 
+2015-05-11 20:38:59,393 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:38:59,393 INFO  [Info] testAddDevice Started 
+2015-05-11 20:39:17,178 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-05-11 20:39:17,178 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-05-11 20:39:24,695 INFO  [FATAL] DeviceDelete: org.openqa.selenium.InvalidSelectorException: The given selector col-md-1 tab_unknown  is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 50 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f0e516fc-2080-4c02-bfac-16f1210d4cdf
+*** Element info: {Using=class name, value=col-md-1 tab_unknown } 
+2015-05-11 20:39:25,233 INFO  [Info] testAddDevice FAILED 
+2015-05-11 20:39:31,721 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:39:31,722 INFO  [Info] testDeleteDevice Started 
+2015-05-11 20:39:32,059 INFO  [FATAL] DeviceDelete: org.openqa.selenium.InvalidSelectorException: The given selector col-md-1 tab_unknown  is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 56 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8e89b852-6f7e-4b02-bf7b-e75a7e6b32f9
+*** Element info: {Using=class name, value=col-md-1 tab_unknown } 
+2015-05-11 20:39:32,223 INFO  [Info] testDeleteDevice FAILED 
+2015-05-11 20:39:37,938 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:39:37,938 INFO  [Info] testLogout Started 
+2015-05-11 20:39:46,312 INFO  [Info] testLogout PASSED 
+2015-05-11 20:39:52,512 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:39:52,512 INFO  [Info] testControl Started 
+2015-05-11 20:39:57,289 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-11 20:46:54,314 INFO  [Info] #################################################################################### 
+2015-05-11 20:47:01,676 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:47:01,677 INFO  [Info] testDeleteDevice Started 
+2015-05-11 20:47:02,092 INFO  [FATAL] DeviceDelete: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.col-md-1.tab_unknown "}
+Command duration or timeout: 59 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 81e4a7ec-0461-4ece-af65-f09429f979af
+*** Element info: {Using=css selector, value=div.col-md-1.tab_unknown } 
+2015-05-11 20:47:02,277 INFO  [Info] testDeleteDevice FAILED 
+2015-05-11 20:48:33,583 INFO  [Info] #################################################################################### 
+2015-05-11 20:48:40,804 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:48:40,805 INFO  [Info] testDeleteDevice Started 
+2015-05-11 20:49:05,330 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-05-11 20:49:05,881 INFO  [Info] testDeleteDevice FAILED 
+2015-05-11 20:57:33,259 INFO  [Info] #################################################################################### 
+2015-05-11 20:57:40,698 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:57:40,699 INFO  [Info] testDeleteDevice Started 
+2015-05-11 20:57:50,460 INFO  [ERROR] Device is unknown and will be deleted 
+2015-05-11 20:57:50,541 INFO  [FATAL] DeviceDelete: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#edit-null']"}
+Command duration or timeout: 71 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 259804d8-5aa4-4c3e-b1b7-7dc4e3c852ce
+*** Element info: {Using=xpath, value=//a[@href='#edit-null']} 
+2015-05-11 20:57:51,134 INFO  [Info] testDeleteDevice FAILED 
+2015-05-11 20:58:59,530 INFO  [Info] #################################################################################### 
+2015-05-11 20:59:06,451 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 20:59:06,451 INFO  [Info] testDeleteDevice Started 
+2015-05-11 20:59:15,320 INFO  [ERROR] Device is unknown and will be deleted 
+2015-05-11 20:59:16,721 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-05-11 20:59:18,958 INFO  [Info] testDeleteDevice FAILED 
+2015-05-11 21:12:19,575 INFO  [Info] #################################################################################### 
+2015-05-11 21:12:27,185 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 21:12:27,185 INFO  [Info] testLogin Started 
+2015-05-11 21:12:35,455 INFO  [Info] testLogin PASSED 
+2015-05-11 21:12:41,591 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 21:12:41,591 INFO  [Info] testAddDevice Started 
+2015-05-11 21:23:00,088 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 600 seconds waiting for visibility of element located by By.className: modal-dialog
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1fda4892-64a0-4d3d-be43-191bfd35e527 
+2015-05-11 21:23:00,666 INFO  [Info] testAddDevice FAILED 
+2015-05-11 21:23:08,309 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 21:23:08,310 INFO  [Info] testDeleteDevice Started 
+2015-05-11 21:23:26,125 INFO  [ERROR] Device is unknown and will be deleted 
+2015-05-11 21:23:27,742 INFO  [ERROR] Your device is offline. This test expected online device 
+2015-05-11 21:23:29,671 INFO  [Info] testDeleteDevice FAILED 
+2015-05-11 21:23:37,657 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 21:23:37,657 INFO  [Info] testLogout Started 
+2015-05-11 21:23:55,586 INFO  [Info] testLogout PASSED 
+2015-05-11 21:24:03,696 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 21:24:03,696 INFO  [Info] testControl Started 
+2015-05-11 21:25:21,972 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4c2e973-0e79-4c24-8f66-296d12dabe7e
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-11 21:25:22,512 INFO  [Info] testControl FAILED 
+2015-05-11 21:25:30,448 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-11 21:25:30,449 INFO  [Info] testRegister Started 
+2015-05-11 21:26:15,546 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.110.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-11 21:27:29,455 INFO  [Info] testRegister FAILED 
+2015-05-12 14:47:20,238 INFO  [Info] #################################################################################### 
+2015-05-12 14:47:30,410 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 14:47:30,411 INFO  [Info] testLogin Started 
+2015-05-12 14:47:34,600 INFO  [Info] testLogin PASSED 
+2015-05-12 14:47:40,531 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 14:47:40,531 INFO  [Info] testAddDevice Started 
+2015-05-12 14:57:55,847 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 600 seconds waiting for visibility of element located by By.className: modal-dialog
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fe69026e-02b0-4498-9eba-e6589d3c8871 
+2015-05-12 14:57:56,409 INFO  [Info] testAddDevice FAILED 
+2015-05-12 14:58:03,584 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 14:58:03,584 INFO  [Info] testDeleteDevice Started 
+2015-05-12 14:58:08,253 INFO  [FATAL] DeviceDelete: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.col-md-1.tab_unknown "}
+Command duration or timeout: 56 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fefba550-4385-490c-869b-4e08c64c6aa5
+*** Element info: {Using=css selector, value=div.col-md-1.tab_unknown } 
+2015-05-12 14:58:08,752 INFO  [Info] testDeleteDevice FAILED 
+2015-05-12 14:58:15,174 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 14:58:15,174 INFO  [Info] testLogout Started 
+2015-05-12 14:58:20,267 INFO  [Info] testLogout PASSED 
+2015-05-12 14:58:26,336 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 14:58:26,336 INFO  [Info] testControl Started 
+2015-05-12 14:58:31,367 INFO  [ERROR] ERROR: You can get the code using Eldes Configuration Tool software, section Management->Passwords/Codes->Master Code/User Codes.
+
+User code: 
+2015-05-12 14:58:33,418 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder disarm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 63 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6de5fa16-4958-4ee6-b59f-05ef8b31d7d8
+*** Element info: {Using=class name, value=armingBtnHolder disarm ng-scope} 
+2015-05-12 14:58:34,101 INFO  [Info] testControl FAILED 
+2015-05-12 14:58:40,293 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 14:58:40,293 INFO  [Info] testRegister Started 
+2015-05-12 14:58:48,396 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-12 14:59:13,835 INFO  [Info] testRegister FAILED 
+2015-05-12 15:03:26,016 INFO  [Info] #################################################################################### 
+2015-05-12 15:03:33,463 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:03:33,463 INFO  [Info] testLogin Started 
+2015-05-12 15:03:37,129 INFO  [Info] testLogin PASSED 
+2015-05-12 15:03:43,663 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:03:43,663 INFO  [Info] testAddDevice Started 
+2015-05-12 15:03:58,455 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-05-12 15:03:58,455 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-05-12 15:04:03,210 INFO  [FATAL] DeviceDelete: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.col-md-1.tab_unknown "}
+Command duration or timeout: 3.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b6a9bceb-f2f8-40d4-afca-e4da89642b5c
+*** Element info: {Using=css selector, value=div.col-md-1.tab_unknown } 
+2015-05-12 15:04:03,841 INFO  [Info] testAddDevice FAILED 
+2015-05-12 15:04:11,125 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:04:11,125 INFO  [Info] testDeleteDevice Started 
+2015-05-12 15:04:17,903 INFO  [FATAL] DeviceDelete: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.col-md-1.tab_unknown "}
+Command duration or timeout: 54 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 802502e8-e66c-415e-9cbd-8bb4215a3c5e
+*** Element info: {Using=css selector, value=div.col-md-1.tab_unknown } 
+2015-05-12 15:04:18,538 INFO  [Info] testDeleteDevice FAILED 
+2015-05-12 15:04:24,999 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:04:24,999 INFO  [Info] testLogout Started 
+2015-05-12 15:04:30,077 INFO  [Info] testLogout PASSED 
+2015-05-12 15:04:36,372 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:04:36,373 INFO  [Info] testControl Started 
+2015-05-12 15:04:52,893 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder disarm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 139 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 78d6d968-6edc-4cb6-ad7b-c6d65670d841
+*** Element info: {Using=class name, value=armingBtnHolder disarm ng-scope} 
+2015-05-12 15:04:53,219 INFO  [Info] testControl FAILED 
+2015-05-12 15:04:59,741 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:04:59,742 INFO  [Info] testRegister Started 
+2015-05-12 15:05:11,020 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-12 15:20:23,433 INFO  [Info] #################################################################################### 
+2015-05-12 15:20:31,156 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:20:31,157 INFO  [Info] testDeleteDevice Started 
+2015-05-12 15:20:36,688 INFO  [FATAL] DeviceDelete: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.col-md-1.tab_unknown "}
+Command duration or timeout: 56 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: baa21d6c-2d28-4a94-8417-792141725d83
+*** Element info: {Using=css selector, value=div.col-md-1.tab_unknown } 
+2015-05-12 15:20:37,351 INFO  [Info] testDeleteDevice FAILED 
+2015-05-12 15:21:19,781 INFO  [Info] #################################################################################### 
+2015-05-12 15:21:27,008 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:21:27,009 INFO  [Info] testDeleteDevice Started 
+2015-05-12 15:21:31,848 INFO  [FATAL] DeviceDelete: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.col-md-1.tab_unknown "}
+Command duration or timeout: 71 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 56a05f86-e4b4-4327-816d-b91148f9b9e4
+*** Element info: {Using=css selector, value=div.col-md-1.tab_unknown } 
+2015-05-12 15:21:32,692 INFO  [Info] testDeleteDevice FAILED 
+2015-05-12 15:26:56,894 INFO  [Info] #################################################################################### 
+2015-05-12 15:27:04,503 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:27:04,504 INFO  [Info] testDeleteDevice Started 
+2015-05-12 15:27:14,213 INFO  [FATAL] DeviceDelete: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.col-md-1.tab_unknown "}
+Command duration or timeout: 57 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b17aa7e0-c022-4a2f-b454-8812daf75e55
+*** Element info: {Using=css selector, value=div.col-md-1.tab_unknown } 
+2015-05-12 15:27:14,619 INFO  [Info] testDeleteDevice FAILED 
+2015-05-12 15:28:32,271 INFO  [Info] #################################################################################### 
+2015-05-12 15:28:40,014 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:28:40,014 INFO  [Info] testDeleteDevice Started 
+2015-05-12 15:28:49,845 INFO  [FATAL] DeviceDelete: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.col-md-1.tab_unknown "}
+Command duration or timeout: 55 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 34f48779-5d35-46bd-a6e6-938d49e697d8
+*** Element info: {Using=css selector, value=div.col-md-1.tab_unknown } 
+2015-05-12 15:28:50,160 INFO  [Info] testDeleteDevice FAILED 
+2015-05-12 15:32:30,917 INFO  [Info] #################################################################################### 
+2015-05-12 15:32:38,481 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:32:38,481 INFO  [Info] testDeleteDevice Started 
+2015-05-12 15:32:49,409 INFO  [Info] testDeleteDevice PASSED 
+2015-05-12 15:38:32,260 INFO  [Info] #################################################################################### 
+2015-05-12 15:38:39,768 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:38:39,769 INFO  [Info] testDeleteDevice Started 
+2015-05-12 15:38:50,053 INFO  [FATAL] DeviceDelete: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.col-md-1.tab_unknown"}
+Command duration or timeout: 32 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4e9846a6-bd24-4702-9c8f-a4b6e10ed568
+*** Element info: {Using=css selector, value=div.col-md-1.tab_unknown} 
+2015-05-12 15:38:50,352 INFO  [Info] testDeleteDevice FAILED 
+2015-05-12 15:47:02,938 INFO  [Info] #################################################################################### 
+2015-05-12 15:47:11,107 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:47:11,108 INFO  [Info] testDeleteDevice Started 
+2015-05-12 15:47:15,242 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-12 15:47:15,849 INFO  [Info] testDeleteDevice FAILED 
+2015-05-12 15:58:37,414 INFO  [Info] #################################################################################### 
+2015-05-12 15:58:45,152 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 15:58:45,152 INFO  [Info] testDeleteDevice Started 
+2015-05-12 15:58:51,705 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-12 15:58:52,305 INFO  [Info] testDeleteDevice FAILED 
+2015-05-12 16:00:19,064 INFO  [Info] #################################################################################### 
+2015-05-12 16:00:27,039 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 16:00:27,040 INFO  [Info] testLogin Started 
+2015-05-12 16:00:31,161 INFO  [Info] testLogin PASSED 
+2015-05-12 16:00:37,260 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 16:00:37,261 INFO  [Info] testAddDevice Started 
+2015-05-12 16:02:12,657 INFO  [Info] AddDevice Passed 
+2015-05-12 16:02:12,657 INFO  [Info] testAddDevice PASSED 
+2015-05-12 16:02:19,492 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 16:02:19,492 INFO  [Info] testDeleteDevice Started 
+2015-05-12 16:02:25,526 INFO  [Info] testDeleteDevice PASSED 
+2015-05-12 16:02:31,969 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 16:02:31,969 INFO  [Info] testLogout Started 
+2015-05-12 16:02:37,300 INFO  [Info] testLogout PASSED 
+2015-05-12 16:02:43,748 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 16:02:43,748 INFO  [Info] testControl Started 
+2015-05-12 16:03:09,019 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7c07b2f0-2e0e-4323-8e0a-fad704b02374
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-05-12 16:03:09,827 INFO  [Info] testControl FAILED 
+2015-05-12 16:03:16,498 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 16:03:16,498 INFO  [Info] testRegister Started 
+2015-05-12 16:03:22,649 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-12 16:03:41,431 INFO  [Info] testRegister FAILED 
+2015-05-12 16:07:49,865 INFO  [Info] #################################################################################### 
+2015-05-12 16:07:57,379 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 16:07:57,382 INFO  [Info] testLogin Started 
+2015-05-12 16:08:01,472 INFO  [Info] testLogin PASSED 
+2015-05-12 16:08:07,111 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 16:08:07,112 INFO  [Info] testDeleteDevice Started 
+2015-05-12 16:08:11,494 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-12 16:08:12,031 INFO  [Info] testDeleteDevice FAILED 
+2015-05-12 16:08:18,240 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 16:08:18,240 INFO  [Info] testAddDevice Started 
+2015-05-12 16:12:14,669 INFO  [Info] AddDevice Passed 
+2015-05-12 16:12:14,670 INFO  [Info] testAddDevice PASSED 
+2015-05-12 16:12:21,599 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 16:12:21,600 INFO  [Info] testLogout Started 
+2015-05-12 16:12:26,958 INFO  [Info] testLogout PASSED 
+2015-05-12 16:12:33,569 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 16:12:33,569 INFO  [Info] testControl Started 
+2015-05-12 16:12:49,525 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder disarm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 51 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 659dac8f-a9ed-49ff-876a-4570d2101b66
+*** Element info: {Using=class name, value=armingBtnHolder disarm ng-scope} 
+2015-05-12 16:12:50,253 INFO  [Info] testControl FAILED 
+2015-05-12 16:12:57,874 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-12 16:12:57,875 INFO  [Info] testRegister Started 
+2015-05-12 16:13:19,617 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"account-chooser-add-account"}
+Command duration or timeout: 12.66 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 85d0ed8b-c85d-4a4b-bd9e-d24004ad8eff
+*** Element info: {Using=id, value=account-chooser-add-account} 
+2015-05-12 16:13:38,756 INFO  [Info] testRegister FAILED 
+2015-05-13 09:32:13,824 INFO  [Info] #################################################################################### 
+2015-05-13 09:32:43,976 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 09:32:43,978 INFO  [Info] testLogin Started 
+2015-05-13 09:32:54,601 INFO  [Info] testLogin PASSED 
+2015-05-13 09:33:02,986 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 09:33:02,986 INFO  [Info] testDeleteDevice Started 
+2015-05-13 09:33:10,974 INFO  [Info] testDeleteDevice PASSED 
+2015-05-13 09:33:21,046 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 09:33:21,046 INFO  [Info] testAddDevice Started 
+2015-05-13 09:35:53,691 INFO  [Info] AddDevice Passed 
+2015-05-13 09:35:53,692 INFO  [Info] testAddDevice PASSED 
+2015-05-13 09:36:09,240 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 09:36:09,240 INFO  [Info] testLogout Started 
+2015-05-13 09:36:17,784 INFO  [Info] testLogout PASSED 
+2015-05-13 09:36:26,720 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 09:36:26,720 INFO  [Info] testControl Started 
+2015-05-13 09:36:43,308 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder disarm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 66 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e9b19133-df5c-4ced-bc86-1b72515d3c0c
+*** Element info: {Using=class name, value=armingBtnHolder disarm ng-scope} 
+2015-05-13 09:36:44,808 INFO  [Info] testControl FAILED 
+2015-05-13 09:36:53,443 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 09:36:53,444 INFO  [Info] testRegister Started 
+2015-05-13 09:37:09,175 INFO  [FATAL] Logout: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-13 09:40:01,774 INFO  [Info] #################################################################################### 
+2015-05-13 09:40:11,322 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 09:40:11,322 INFO  [Info] testControl Started 
+2015-05-13 09:40:26,633 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder disarm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 59 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fafd6a2e-d28a-4817-a698-c53a38a3eaf9
+*** Element info: {Using=class name, value=armingBtnHolder disarm ng-scope} 
+2015-05-13 09:40:27,335 INFO  [Info] testControl FAILED 
+2015-05-13 14:26:42,620 INFO  [Info] #################################################################################### 
+2015-05-13 14:26:50,981 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 14:26:50,981 INFO  [Info] testControl Started 
+2015-05-13 14:27:08,526 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder disarm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 73 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 16740fc9-56a7-4060-b3bb-fd54595912b9
+*** Element info: {Using=class name, value=armingBtnHolder disarm ng-scope} 
+2015-05-13 14:27:09,273 INFO  [Info] testControl FAILED 
+2015-05-13 14:36:38,025 INFO  [Info] #################################################################################### 
+2015-05-13 14:36:46,078 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 14:36:46,078 INFO  [Info] testControl Started 
+2015-05-13 14:37:02,314 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder arm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 74 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ea529410-55ab-4488-a4e5-6f2d6dff6fc5
+*** Element info: {Using=class name, value=armingBtnHolder arm ng-scope} 
+2015-05-13 14:37:02,666 INFO  [Info] testControl FAILED 
+2015-05-13 14:42:29,102 INFO  [Info] #################################################################################### 
+2015-05-13 14:42:49,039 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 14:42:49,040 INFO  [Info] testControl Started 
+2015-05-13 14:43:19,479 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder arm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 272 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a79affc7-d90b-4cd0-94f1-8d7e03758420
+*** Element info: {Using=class name, value=armingBtnHolder arm ng-scope} 
+2015-05-13 14:43:20,830 INFO  [Info] testControl FAILED 
+2015-05-13 14:48:40,692 INFO  [Info] #################################################################################### 
+2015-05-13 14:48:49,941 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 14:48:49,942 INFO  [Info] testControl Started 
+2015-05-13 14:49:05,911 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder arm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 70 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1a987e89-070a-41f7-8ae5-ddadf1278cdd
+*** Element info: {Using=class name, value=armingBtnHolder arm ng-scope} 
+2015-05-13 14:49:06,688 INFO  [Info] testControl FAILED 
+2015-05-13 14:58:14,616 INFO  [Info] #################################################################################### 
+2015-05-13 14:58:21,984 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 14:58:21,984 INFO  [Info] testControl Started 
+2015-05-13 14:58:48,414 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 10.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a6cc33b-dfa5-4b36-bbcd-8b087700ec63
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 14:58:48,757 INFO  [Info] testControl FAILED 
+2015-05-13 15:20:56,805 INFO  [Info] #################################################################################### 
+2015-05-13 15:21:04,054 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 15:21:04,054 INFO  [Info] testControl Started 
+2015-05-13 15:21:30,043 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3d22bab8-0a4c-4dbd-8431-05bcfe10f945
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 15:21:30,415 INFO  [Info] testControl FAILED 
+2015-05-13 15:24:14,860 INFO  [Info] #################################################################################### 
+2015-05-13 15:24:23,231 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 15:24:23,232 INFO  [Info] testControl Started 
+2015-05-13 15:24:50,822 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 10.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 127c5559-4c80-4b82-9406-d3d57687abe8
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 15:24:51,531 INFO  [Info] testControl FAILED 
+2015-05-13 15:27:17,623 INFO  [Info] #################################################################################### 
+2015-05-13 15:27:25,340 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 15:27:25,341 INFO  [Info] testControl Started 
+2015-05-13 15:27:51,921 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 582022e7-67af-4a23-8451-de803a4a19d8
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 15:27:52,248 INFO  [Info] testControl FAILED 
+2015-05-13 15:34:09,621 INFO  [Info] #################################################################################### 
+2015-05-13 15:34:17,229 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 15:34:17,230 INFO  [Info] testControl Started 
+2015-05-13 15:34:43,496 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 10.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cc17bc95-bd4e-4fcb-81f1-b22265222bb8
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 15:34:43,839 INFO  [Info] testControl FAILED 
+2015-05-13 15:35:31,568 INFO  [Info] #################################################################################### 
+2015-05-13 15:35:39,192 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 15:35:39,195 INFO  [Info] testControl Started 
+2015-05-13 15:36:19,951 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector btn btn-lg is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 61 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2afd0648-cd15-4fbf-9f01-052afa62af1e
+*** Element info: {Using=class name, value=btn btn-lg} 
+2015-05-13 15:36:20,302 INFO  [Info] testControl FAILED 
+2015-05-13 15:37:01,624 INFO  [Info] #################################################################################### 
+2015-05-13 15:37:08,803 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 15:37:08,803 INFO  [Info] testControl Started 
+2015-05-13 15:37:24,870 INFO  [Info] testControl PASSED 
+2015-05-13 15:41:43,189 INFO  [Info] #################################################################################### 
+2015-05-13 15:41:50,350 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 15:41:50,351 INFO  [Info] testControl Started 
+2015-05-13 15:42:19,165 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 10.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ba64cf51-af9d-4730-b431-4597275d7c53
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 15:42:19,713 INFO  [Info] testControl FAILED 
+2015-05-13 15:53:24,015 INFO  [Info] #################################################################################### 
+2015-05-13 15:53:31,872 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 15:53:31,873 INFO  [Info] testControl Started 
+2015-05-13 15:53:58,260 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: facd04cc-7138-4d0d-939c-a37be67f97fd
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 15:53:58,621 INFO  [Info] testControl FAILED 
+2015-05-13 15:55:18,023 INFO  [Info] #################################################################################### 
+2015-05-13 15:55:25,407 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 15:55:25,407 INFO  [Info] testControl Started 
+2015-05-13 15:55:41,897 INFO  [Info] testControl PASSED 
+2015-05-13 15:59:54,565 INFO  [Info] #################################################################################### 
+2015-05-13 16:00:02,061 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 16:00:02,061 INFO  [Info] testControl Started 
+2015-05-13 16:00:19,025 INFO  [Info] testControl PASSED 
+2015-05-13 16:02:20,236 INFO  [Info] #################################################################################### 
+2015-05-13 16:02:28,002 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 16:02:28,002 INFO  [Info] testControl Started 
+2015-05-13 16:02:43,956 INFO  [Info] testControl PASSED 
+2015-05-13 16:08:47,368 INFO  [Info] #################################################################################### 
+2015-05-13 16:08:55,264 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 16:08:55,265 INFO  [Info] testControl Started 
+2015-05-13 16:09:16,940 INFO  [Info] testControl PASSED 
+2015-05-13 16:25:46,169 INFO  [Info] #################################################################################### 
+2015-05-13 16:25:53,530 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 16:25:53,530 INFO  [Info] testControl Started 
+2015-05-13 16:26:21,106 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 10.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9df520bc-bb25-4ecf-914a-445337b89e16
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 16:26:21,465 INFO  [Info] testControl FAILED 
+2015-05-13 16:28:44,262 INFO  [Info] #################################################################################### 
+2015-05-13 16:28:51,677 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 16:28:51,678 INFO  [Info] testControl Started 
+2015-05-13 16:29:20,756 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 10.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e91fe43c-dd66-47a4-8b3e-65c2666919d4
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 16:29:21,041 INFO  [Info] testControl FAILED 
+2015-05-13 16:30:06,639 INFO  [Info] #################################################################################### 
+2015-05-13 16:30:13,863 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 16:30:13,863 INFO  [Info] testControl Started 
+2015-05-13 16:30:38,863 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 10.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 55e930d3-d7f8-4543-8f29-d08959fa4349
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 16:30:39,124 INFO  [Info] testControl FAILED 
+2015-05-13 16:45:38,993 INFO  [Info] #################################################################################### 
+2015-05-13 16:45:46,416 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 16:45:46,416 INFO  [Info] testControl Started 
+2015-05-13 16:46:12,672 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 10.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9dfc2a7f-fff2-45bf-968c-53eb05225c2b
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 16:46:13,201 INFO  [Info] testControl FAILED 
+2015-05-13 16:57:41,730 INFO  [Info] #################################################################################### 
+2015-05-13 16:57:48,994 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 16:57:48,994 INFO  [Info] testControl Started 
+2015-05-13 16:58:15,602 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 10.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0e4f3a54-73b0-498b-8034-91cac45db945
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 16:58:15,974 INFO  [Info] testControl FAILED 
+2015-05-13 16:59:17,380 INFO  [Info] #################################################################################### 
+2015-05-13 16:59:25,291 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 16:59:25,291 INFO  [Info] testControl Started 
+2015-05-13 16:59:31,026 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='controlsPanel-3606']/div/div/div[3]/div[1]/div/div/p"}
+Command duration or timeout: 231 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fdff4099-d5a1-4e9b-91c9-36c9b51987e4
+*** Element info: {Using=xpath, value=//*[@id='controlsPanel-3606']/div/div/div[3]/div[1]/div/div/p} 
+2015-05-13 16:59:31,703 INFO  [Info] testControl FAILED 
+2015-05-13 17:00:06,714 INFO  [Info] #################################################################################### 
+2015-05-13 17:00:14,159 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 17:00:14,159 INFO  [Info] testControl Started 
+2015-05-13 17:01:18,852 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 30.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a729191-b205-4315-b4c1-b4517d75cdd4
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 17:01:19,447 INFO  [Info] testControl FAILED 
+2015-05-13 17:01:49,478 INFO  [Info] #################################################################################### 
+2015-05-13 17:01:56,793 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 17:01:56,793 INFO  [Info] testControl Started 
+2015-05-13 17:03:03,360 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 30.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f04cfb60-2bca-4635-a225-abff18e11a9e
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 17:03:03,945 INFO  [Info] testControl FAILED 
+2015-05-13 17:06:25,346 INFO  [Info] #################################################################################### 
+2015-05-13 17:06:32,523 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 17:06:32,523 INFO  [Info] testControl Started 
+2015-05-13 17:08:38,302 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 60.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cd067780-8911-471c-9cdb-a2bc48e87a36
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 17:08:38,623 INFO  [Info] testControl FAILED 
+2015-05-13 17:12:32,721 INFO  [Info] #################################################################################### 
+2015-05-13 17:12:39,862 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 17:12:39,863 INFO  [Info] testControl Started 
+2015-05-13 17:14:46,201 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 60.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 867f65f7-df4d-4497-b7a8-4ea58d448d18
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 17:14:46,566 INFO  [Info] testControl FAILED 
+2015-05-13 17:17:07,656 INFO  [Info] #################################################################################### 
+2015-05-13 17:17:14,887 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 17:17:14,887 INFO  [Info] testControl Started 
+2015-05-13 17:19:21,271 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Arm"}
+Command duration or timeout: 60.24 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bd97ec6e-a79a-49ad-bd3e-5d4878b56b97
+*** Element info: {Using=name, value=Arm} 
+2015-05-13 17:19:21,860 INFO  [Info] testControl FAILED 
+2015-05-13 17:22:45,333 INFO  [Info] #################################################################################### 
+2015-05-13 17:22:53,065 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 17:22:53,066 INFO  [Info] testControl Started 
+2015-05-13 17:24:59,551 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.className: ng-scope modal-open
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ad451ad0-a29c-4c5c-82e2-3a535670cde3 
+2015-05-13 17:24:59,999 INFO  [Info] testControl FAILED 
+2015-05-13 17:25:49,068 INFO  [Info] #################################################################################### 
+2015-05-13 17:25:56,681 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 17:25:56,682 INFO  [Info] testControl Started 
+2015-05-13 17:27:07,963 INFO  [Info] testControl PASSED 
+2015-05-13 17:29:25,692 INFO  [Info] #################################################################################### 
+2015-05-13 17:29:32,908 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 17:29:32,909 INFO  [Info] testControl Started 
+2015-05-13 17:29:53,489 INFO  [Info] testControl PASSED 
+2015-05-13 17:35:36,607 INFO  [Info] #################################################################################### 
+2015-05-13 17:35:43,820 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 17:35:43,821 INFO  [Info] testControl Started 
+2015-05-13 17:37:03,697 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.name: Disarm
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 54438921-c860-4f14-9930-8ef74d25365d 
+2015-05-13 17:37:04,023 INFO  [Info] testControl FAILED 
+2015-05-13 20:34:32,363 INFO  [Info] #################################################################################### 
+2015-05-13 20:34:40,224 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 20:34:40,224 INFO  [Info] testControl Started 
+2015-05-13 20:35:19,327 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"btn btn-lg"}
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 07dd4774-4932-4e36-b937-393d39f5bada
+*** Element info: {Using=name, value=btn btn-lg} 
+2015-05-13 20:35:20,013 INFO  [Info] testControl FAILED 
+2015-05-13 20:37:42,193 INFO  [Info] #################################################################################### 
+2015-05-13 20:37:49,971 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 20:37:49,971 INFO  [Info] testControl Started 
+2015-05-13 20:38:24,544 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"btn btn-lg"}
+Command duration or timeout: 10.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a191bf49-c37a-4c2f-a517-182788892d41
+*** Element info: {Using=name, value=btn btn-lg} 
+2015-05-13 20:38:25,107 INFO  [Info] testControl FAILED 
+2015-05-13 20:41:15,426 INFO  [Info] #################################################################################### 
+2015-05-13 20:41:22,292 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 20:41:22,293 INFO  [Info] testControl Started 
+2015-05-13 20:43:13,819 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"btn btn-lg"}
+Command duration or timeout: 30.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3ce3598-0868-452f-9ce8-1b83b8d1dc12
+*** Element info: {Using=name, value=btn btn-lg} 
+2015-05-13 20:43:14,523 INFO  [Info] testControl FAILED 
+2015-05-13 20:45:00,045 INFO  [Info] #################################################################################### 
+2015-05-13 20:45:07,506 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 20:45:07,506 INFO  [Info] testControl Started 
+2015-05-13 20:45:56,924 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector btn btn-lg is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 58 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 32fd67bf-9b38-4bea-babf-bb38f32cc78c
+*** Element info: {Using=class name, value=btn btn-lg} 
+2015-05-13 20:45:57,442 INFO  [Info] testControl FAILED 
+2015-05-13 20:50:13,547 INFO  [Info] #################################################################################### 
+2015-05-13 20:50:20,610 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 20:50:20,611 INFO  [Info] testControl Started 
+2015-05-13 20:51:33,446 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Select All"}
+Command duration or timeout: 30.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3be35cee-9af5-44cf-a859-9b858808981c
+*** Element info: {Using=name, value=Select All} 
+2015-05-13 20:51:34,047 INFO  [Info] testControl FAILED 
+2015-05-13 21:00:25,666 INFO  [Info] #################################################################################### 
+2015-05-13 21:00:32,819 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:00:32,820 INFO  [Info] testControl Started 
+2015-05-13 21:01:20,385 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector modalBtn ok is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 67 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b21dd1b8-f5a4-438e-8ed5-7528fcdb4913
+*** Element info: {Using=class name, value=modalBtn ok} 
+2015-05-13 21:01:20,768 INFO  [Info] testControl FAILED 
+2015-05-13 21:04:18,435 INFO  [Info] #################################################################################### 
+2015-05-13 21:04:26,036 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:04:26,037 INFO  [Info] testControl Started 
+2015-05-13 21:06:24,650 INFO  [Info] testControl PASSED 
+2015-05-13 21:19:07,252 INFO  [Info] #################################################################################### 
+2015-05-13 21:19:14,730 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:19:14,731 INFO  [Info] testControl Started 
+2015-05-13 21:20:00,906 INFO  [Info] testControl PASSED 
+2015-05-13 21:22:02,754 INFO  [Info] #################################################################################### 
+2015-05-13 21:22:10,249 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:22:10,249 INFO  [Info] testControl Started 
+2015-05-13 21:22:59,946 INFO  [Info] testControl PASSED 
+2015-05-13 21:23:39,831 INFO  [Info] #################################################################################### 
+2015-05-13 21:23:47,100 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:23:47,101 INFO  [Info] testControl Started 
+2015-05-13 21:25:17,836 INFO  [Info] testControl PASSED 
+2015-05-13 21:26:50,782 INFO  [Info] #################################################################################### 
+2015-05-13 21:26:58,506 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:26:58,506 INFO  [Info] testControl Started 
+2015-05-13 21:27:48,081 INFO  [Info] testControl PASSED 
+2015-05-13 21:29:12,920 INFO  [Info] #################################################################################### 
+2015-05-13 21:29:20,432 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:29:20,432 INFO  [Info] testControl Started 
+2015-05-13 21:30:46,385 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.className: modal-dialog
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c8c2fe5d-a331-4962-8209-15d7203634ee 
+2015-05-13 21:30:47,070 INFO  [Info] testControl FAILED 
+2015-05-13 21:38:53,666 INFO  [Info] #################################################################################### 
+2015-05-13 21:39:00,453 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:39:00,453 INFO  [Info] testControl Started 
+2015-05-13 21:39:45,724 INFO  [Info] testControl PASSED 
+2015-05-13 21:40:42,755 INFO  [Info] #################################################################################### 
+2015-05-13 21:40:49,779 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:40:49,780 INFO  [Info] testControl Started 
+2015-05-13 21:42:18,071 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.className: modal-dialog
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: af2cceb4-df3d-449d-be0b-97e813f0ea89 
+2015-05-13 21:42:18,611 INFO  [Info] testControl FAILED 
+2015-05-13 21:43:18,518 INFO  [Info] #################################################################################### 
+2015-05-13 21:43:26,272 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:43:26,273 INFO  [Info] testControl Started 
+2015-05-13 21:44:56,471 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.className: modal-dialog
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a5e74c20-e722-4354-afe6-9b84922eb7e9 
+2015-05-13 21:44:56,996 INFO  [Info] testControl FAILED 
+2015-05-13 21:48:00,474 INFO  [Info] #################################################################################### 
+2015-05-13 21:48:07,767 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:48:07,768 INFO  [Info] testControl Started 
+2015-05-13 21:49:34,619 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.className: modal-dialog
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8dd3cfdf-4675-4b1d-abc1-e4fcd9b4fab9 
+2015-05-13 21:49:35,029 INFO  [Info] testControl FAILED 
+2015-05-13 21:50:28,809 INFO  [Info] #################################################################################### 
+2015-05-13 21:50:35,884 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:50:35,885 INFO  [Info] testControl Started 
+2015-05-13 21:51:05,879 INFO  [Info] testControl PASSED 
+2015-05-13 21:53:24,210 INFO  [Info] #################################################################################### 
+2015-05-13 21:53:31,752 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:53:31,753 INFO  [Info] testControl Started 
+2015-05-13 21:55:00,457 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.className: modal-dialog
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cd535d6d-d3c5-4a09-9ea6-9828a97d8313 
+2015-05-13 21:55:00,772 INFO  [Info] testControl FAILED 
+2015-05-13 21:55:33,953 INFO  [Info] #################################################################################### 
+2015-05-13 21:55:41,316 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:55:41,317 INFO  [Info] testControl Started 
+2015-05-13 21:57:08,560 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.className: modal-dialog
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bed1abb1-72f7-4753-a146-f31779d9d1c2 
+2015-05-13 21:57:08,922 INFO  [Info] testControl FAILED 
+2015-05-13 21:59:46,902 INFO  [Info] #################################################################################### 
+2015-05-13 21:59:54,101 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 21:59:54,101 INFO  [Info] testControl Started 
+2015-05-13 22:00:22,055 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder arm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 66 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5b441eff-2bfd-4098-9c56-8a03fa33b9ff
+*** Element info: {Using=class name, value=armingBtnHolder arm ng-scope} 
+2015-05-13 22:00:22,411 INFO  [Info] testControl FAILED 
+2015-05-13 22:34:32,284 INFO  [Info] #################################################################################### 
+2015-05-13 22:34:40,455 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-13 22:34:40,455 INFO  [Info] testControl Started 
+2015-05-13 22:35:12,754 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder arm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 58 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.164.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 229545d8-95bc-4e5d-a6b9-7a440374d2a0
+*** Element info: {Using=class name, value=armingBtnHolder arm ng-scope} 
+2015-05-13 22:35:13,287 INFO  [Info] testControl FAILED 
+2015-05-14 16:01:21,921 INFO  [Info] #################################################################################### 
+2015-05-14 16:01:33,648 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-14 16:01:33,648 INFO  [Info] testControl Started 
+2015-05-14 16:02:52,929 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder arm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 92 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6d59cd24-e0e9-4989-ba14-c104103254cd
+*** Element info: {Using=class name, value=armingBtnHolder arm ng-scope} 
+2015-05-14 16:02:53,335 INFO  [Info] testControl FAILED 
+2015-05-14 16:16:22,381 INFO  [Info] #################################################################################### 
+2015-05-14 16:16:30,563 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-14 16:16:30,564 INFO  [Info] testControl Started 
+2015-05-14 16:17:15,738 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder arm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 63 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7809863b-39aa-4fce-bfa5-011f21b28ccc
+*** Element info: {Using=class name, value=armingBtnHolder arm ng-scope} 
+2015-05-14 16:17:16,139 INFO  [Info] testControl FAILED 
+2015-05-14 16:44:57,243 INFO  [Info] #################################################################################### 
+2015-05-14 16:45:05,209 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-14 16:45:05,210 INFO  [Info] testControl Started 
+2015-05-14 16:45:25,134 INFO  [Info] testControl PASSED 
+2015-05-14 16:50:45,281 INFO  [Info] #################################################################################### 
+2015-05-14 16:50:53,193 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-14 16:50:53,193 INFO  [Info] testControl Started 
+2015-05-14 16:52:11,197 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.className: modal-dialog
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 95476cb3-d681-49cf-a8c3-351ad5cddba8 
+2015-05-14 16:52:12,084 INFO  [Info] testControl FAILED 
+2015-05-15 13:36:46,658 INFO  [Info] #################################################################################### 
+2015-05-15 13:36:56,474 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 13:36:56,475 INFO  [Info] testControl Started 
+2015-05-15 13:37:18,309 INFO  [Info] testControl PASSED 
+2015-05-15 13:38:46,745 INFO  [Info] #################################################################################### 
+2015-05-15 13:38:53,869 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 13:38:53,869 INFO  [Info] testControl Started 
+2015-05-15 13:40:13,334 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.className: modal-dialog
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 265e14ac-acdb-4b96-9641-5afa4e7d4098 
+2015-05-15 13:40:13,730 INFO  [Info] testControl FAILED 
+2015-05-15 13:41:37,986 INFO  [Info] #################################################################################### 
+2015-05-15 13:41:45,570 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 13:41:45,571 INFO  [Info] testControl Started 
+2015-05-15 13:43:04,500 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.className: modal-dialog
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 43a685aa-72d4-493b-8d8e-6588ce0bd30e 
+2015-05-15 13:43:04,895 INFO  [Info] testControl FAILED 
+2015-05-15 13:46:02,877 INFO  [Info] #################################################################################### 
+2015-05-15 13:46:09,600 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 13:46:09,601 INFO  [Info] testControl Started 
+2015-05-15 13:47:30,420 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for test.java.MyExpectedCondition@1b266842
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 376d8ff4-3329-48f9-b066-b30a8efc3aef 
+2015-05-15 13:47:30,733 INFO  [Info] testControl FAILED 
+2015-05-15 13:53:07,094 INFO  [Info] #################################################################################### 
+2015-05-15 13:53:14,542 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 13:53:14,543 INFO  [Info] testControl Started 
+2015-05-15 13:54:35,097 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for test.java.MyExpectedCondition@1b266842
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 84c467d2-6ca4-493c-8678-e1386f36240b 
+2015-05-15 13:54:35,436 INFO  [Info] testControl FAILED 
+2015-05-15 14:13:03,507 INFO  [Info] #################################################################################### 
+2015-05-15 14:13:11,181 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 14:13:11,181 INFO  [Info] testControl Started 
+2015-05-15 14:13:33,991 INFO  [Info] testControl PASSED 
+2015-05-15 14:22:07,074 INFO  [Info] #################################################################################### 
+2015-05-15 14:22:14,229 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 14:22:14,230 INFO  [Info] testControl Started 
+2015-05-15 14:23:35,760 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for test.java.MyExpectedCondition@6692b6c6
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a79c5199-bb14-4201-8d5b-c025269a3a06 
+2015-05-15 14:23:36,038 INFO  [Info] testControl FAILED 
+2015-05-15 14:31:19,143 INFO  [Info] #################################################################################### 
+2015-05-15 14:31:26,330 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 14:31:26,331 INFO  [Info] testControl Started 
+2015-05-15 14:32:47,871 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for test.java.MyExpectedCondition@6692b6c6
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e58bc984-1e12-41e8-b17c-dbaf35e82d3b 
+2015-05-15 14:32:48,200 INFO  [Info] testControl FAILED 
+2015-05-15 14:37:33,020 INFO  [Info] #################################################################################### 
+2015-05-15 14:37:40,128 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 14:37:40,128 INFO  [Info] testControl Started 
+2015-05-15 14:38:01,528 INFO  [Info] testControl PASSED 
+2015-05-15 14:43:48,556 INFO  [Info] #################################################################################### 
+2015-05-15 14:43:55,609 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 14:43:55,610 INFO  [Info] testControl Started 
+2015-05-15 14:45:16,606 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for test.java.MyExpectedCondition@6692b6c6
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2c1c5174-86e9-4b4a-843c-3bf707c70fb5 
+2015-05-15 14:45:17,310 INFO  [Info] testControl FAILED 
+2015-05-15 14:51:29,723 INFO  [Info] #################################################################################### 
+2015-05-15 14:51:36,438 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 14:51:36,439 INFO  [Info] testControl Started 
+2015-05-15 14:52:57,986 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for test.java.MyExpectedCondition@6692b6c6
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7a56562e-1a2f-4f05-be51-feef551e3b6c 
+2015-05-15 14:52:58,331 INFO  [Info] testControl FAILED 
+2015-05-15 14:54:09,362 INFO  [Info] #################################################################################### 
+2015-05-15 14:54:16,415 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 14:54:16,416 INFO  [Info] testControl Started 
+2015-05-15 14:54:40,511 INFO  [Info] testControl PASSED 
+2015-05-15 14:57:44,247 INFO  [Info] #################################################################################### 
+2015-05-15 14:57:51,446 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 14:57:51,446 INFO  [Info] testControl Started 
+2015-05-15 14:59:12,422 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for test.java.MyExpectedCondition@6692b6c6
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab43dafd-1386-4e41-b689-0e9ce9a4ad5f 
+2015-05-15 14:59:12,718 INFO  [Info] testControl FAILED 
+2015-05-15 15:02:05,425 INFO  [Info] #################################################################################### 
+2015-05-15 15:02:12,413 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 15:02:12,413 INFO  [Info] testControl Started 
+2015-05-15 15:03:32,688 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for test.java.MyExpectedCondition@295cf707
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 88736878-d1d4-41fa-9042-b23f3ac0bd1c 
+2015-05-15 15:03:33,048 INFO  [Info] testControl FAILED 
+2015-05-15 15:11:06,244 INFO  [Info] #################################################################################### 
+2015-05-15 15:11:13,062 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 15:11:13,063 INFO  [Info] testControl Started 
+2015-05-15 15:11:34,047 INFO  [Info] testControl PASSED 
+2015-05-15 15:17:52,652 INFO  [Info] #################################################################################### 
+2015-05-15 15:18:00,149 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 15:18:00,150 INFO  [Info] testControl Started 
+2015-05-15 15:19:20,993 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for test.java.MyExpectedCondition@295cf707
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 47727c81-13a2-4c34-9103-2336b3bfff20 
+2015-05-15 15:19:21,293 INFO  [Info] testControl FAILED 
+2015-05-15 15:19:58,453 INFO  [Info] #################################################################################### 
+2015-05-15 15:20:05,246 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 15:20:05,246 INFO  [Info] testControl Started 
+2015-05-15 15:21:26,401 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for test.java.MyExpectedCondition@295cf707
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c47c05da-a762-41d0-8bdf-6e8fcce9e73b 
+2015-05-15 15:21:27,007 INFO  [Info] testControl FAILED 
+2015-05-15 15:23:43,604 INFO  [Info] #################################################################################### 
+2015-05-15 15:23:50,669 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 15:23:50,669 INFO  [Info] testControl Started 
+2015-05-15 15:24:11,282 INFO  [Info] testControl PASSED 
+2015-05-15 15:26:28,458 INFO  [Info] #################################################################################### 
+2015-05-15 15:26:35,609 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 15:26:35,609 INFO  [Info] testControl Started 
+2015-05-15 15:27:56,179 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for test.java.MyExpectedCondition@295cf707
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: be18b650-93bf-40c4-b5e9-611ae1c9e91c 
+2015-05-15 15:27:56,552 INFO  [Info] testControl FAILED 
+2015-05-15 16:14:24,537 INFO  [Info] #################################################################################### 
+2015-05-15 16:14:31,176 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 16:14:31,177 INFO  [Info] testControl Started 
+2015-05-15 16:14:57,942 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[2]/div/div/form/div[1]/div"}
+Command duration or timeout: 10.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fe5a656a-7660-4d53-ad3d-83d326460bda
+*** Element info: {Using=xpath, value=html/body/div[2]/div/div/form/div[1]/div} 
+2015-05-15 16:14:58,566 INFO  [Info] testControl FAILED 
+2015-05-15 16:16:52,115 INFO  [Info] #################################################################################### 
+2015-05-15 16:16:59,723 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 16:16:59,723 INFO  [Info] testControl Started 
+2015-05-15 16:17:25,611 INFO  [Info] testControl PASSED 
+2015-05-15 16:21:44,564 INFO  [Info] #################################################################################### 
+2015-05-15 16:21:51,093 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 16:21:51,095 INFO  [Info] testControl Started 
+2015-05-15 16:22:18,124 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[2]/div/div/form/div[1]/div"}
+Command duration or timeout: 10.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: eb2ee927-0ae5-4ab6-88e2-6651c94296da
+*** Element info: {Using=xpath, value=html/body/div[2]/div/div/form/div[1]/div} 
+2015-05-15 16:22:18,505 INFO  [Info] testControl FAILED 
+2015-05-15 16:26:26,031 INFO  [Info] #################################################################################### 
+2015-05-15 16:26:33,135 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-15 16:26:33,136 INFO  [Info] testControl Started 
+2015-05-15 16:27:00,438 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[2]/div/div/form/div[1]/div"}
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 22889dfa-9277-450a-b501-e49a19ac07c9
+*** Element info: {Using=xpath, value=html/body/div[2]/div/div/form/div[1]/div} 
+2015-05-15 16:27:00,793 INFO  [Info] testControl FAILED 
+2015-05-16 16:25:20,635 INFO  [Info] #################################################################################### 
+2015-05-16 16:25:32,349 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 16:25:32,350 INFO  [Info] testControl Started 
+2015-05-16 16:25:55,894 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder disarm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 77 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.217.147', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4854fcd2-de78-4c07-90c4-c03342a12ac9
+*** Element info: {Using=class name, value=armingBtnHolder disarm ng-scope} 
+2015-05-16 16:25:56,613 INFO  [Info] testControl FAILED 
+2015-05-16 16:30:09,193 INFO  [Info] #################################################################################### 
+2015-05-16 16:30:17,172 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 16:30:17,173 INFO  [Info] testControl Started 
+2015-05-16 16:30:39,807 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder disarm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 70 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.217.147', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fd958da3-2acb-47c8-a991-6a44fddcea8c
+*** Element info: {Using=class name, value=armingBtnHolder disarm ng-scope} 
+2015-05-16 16:30:40,756 INFO  [Info] testControl FAILED 
+2015-05-16 16:32:40,853 INFO  [Info] #################################################################################### 
+2015-05-16 16:32:47,908 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 16:32:47,908 INFO  [Info] testControl Started 
+2015-05-16 16:33:09,673 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector armingBtnHolder disarm ng-scope is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 53 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.217.147', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1cdf9d88-54ed-4f7f-a7c8-72025cfcdfee
+*** Element info: {Using=class name, value=armingBtnHolder disarm ng-scope} 
+2015-05-16 16:33:10,049 INFO  [Info] testControl FAILED 
+2015-05-16 16:34:20,492 INFO  [Info] #################################################################################### 
+2015-05-16 16:34:28,062 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 16:34:28,063 INFO  [Info] testControl Started 
+2015-05-16 16:35:01,144 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[2]/div/div/form/div[1]/div"}
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.217.147', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e2540c25-b75f-4b8b-83d5-660a071f748d
+*** Element info: {Using=xpath, value=html/body/div[2]/div/div/form/div[1]/div} 
+2015-05-16 16:35:01,818 INFO  [Info] testControl FAILED 
+2015-05-16 16:37:49,804 INFO  [Info] #################################################################################### 
+2015-05-16 16:37:56,535 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 16:37:56,535 INFO  [Info] testControl Started 
+2015-05-16 16:38:37,550 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[2]/div/div/form/div[1]/div"}
+Command duration or timeout: 10.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.217.147', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4658539b-74c8-4814-aebf-b60acfbd383a
+*** Element info: {Using=xpath, value=html/body/div[2]/div/div/form/div[1]/div} 
+2015-05-16 16:38:38,286 INFO  [Info] testControl FAILED 
+2015-05-16 16:49:52,516 INFO  [Info] #################################################################################### 
+2015-05-16 16:49:59,295 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 16:49:59,295 INFO  [Info] testControl Started 
+2015-05-16 16:50:39,914 INFO  [Info] testControl PASSED 
+2015-05-16 16:53:35,206 INFO  [Info] #################################################################################### 
+2015-05-16 16:53:42,445 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 16:53:42,445 INFO  [Info] testControl Started 
+2015-05-16 16:54:14,975 INFO  [Info] testControl PASSED 
+2015-05-16 16:54:56,403 INFO  [Info] #################################################################################### 
+2015-05-16 16:55:03,259 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 16:55:03,259 INFO  [Info] testControl Started 
+2015-05-16 16:55:24,322 INFO  [Info] testControl PASSED 
+2015-05-16 17:06:23,045 INFO  [Info] #################################################################################### 
+2015-05-16 17:06:30,128 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 17:06:30,129 INFO  [Info] testControl Started 
+2015-05-16 17:06:58,725 INFO  [Info] testControl PASSED 

@@ -28,15 +28,16 @@ import org.openqa.selenium.TakesScreenshot;
 //import org.openqa.selenium.WebElement;
 import org.testng.ITestResult;
 import org.apache.log4j.xml.DOMConfigurator;
+import test.java.Login;
 
 
 
 public class NewTest {
   private StringBuffer verificationErrors = new StringBuffer(); 
-
+ 
   
   //-----------Global values---------------------------
-  private String baseUrl = "https://security.eldes.lt";
+  public String baseUrl = "https://security.eldes.lt";
   String devname = "Edvinas Automatic Test";
   String UserName = "edvinasg@gmail.com";
   String UserPass = "edvinaseldes";
@@ -46,14 +47,16 @@ public class NewTest {
   Logger Error = LogManager.getLogger("ERROR");
   Logger Info = LogManager.getLogger("Info");
   private WebDriver driver;
+
   //---------------------------------------------------
+ 
   
   @BeforeTest
   public void BeforeTest() throws Exception {
 	  DOMConfigurator.configure("log4j.xml");
 	  Info.info("####################################################################################");
-
-}
+	
+  }	   
 
   @BeforeMethod
 public void setUp(Method method) throws Exception {
@@ -67,11 +70,14 @@ public void setUp(Method method) throws Exception {
     String testName = method.getName(); 
     System.out.println(testName + " Started");
     Info.info(testName + " Started");
+    
+   
+   
    }
-  
+
   
   public void login() throws Exception {
-	  try
+	  /*try
 	  {
 	    driver.get(baseUrl + "/en/user/login.html");
 	    driver.findElement(By.id("UserLogin_username")).clear();
@@ -99,13 +105,17 @@ public void setUp(Method method) throws Exception {
 	  catch(Exception e)
 	  {
 		 
-	  }
+	  }*/
+	  Login myLogin = new Login(driver);
+	  myLogin.execute();
 	  
 	}
   
 @Test(priority=1)
   public void testLogin() throws Exception {
-  try
+	Login myLogin = new Login(driver);
+	myLogin.test();
+ /* try
   {
 
     driver.get(baseUrl + "/en/user/login.html");
@@ -143,15 +153,16 @@ public void setUp(Method method) throws Exception {
 	  	Fatal.info("Login: " + e);
     	Assert.fail();
 	  	
-    }
+    }*/
   
 }
 
- @Test(priority = 2)
+ @Test(priority = 3)
  public void testAddDevice() throws Exception {
 	 try
 	 {
-		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+
+	  		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	 	String str = null;
 	 	if (driver.getTitle().equals("Cloud Security Login")|| driver.getTitle().equals("") )
 	 		login();
@@ -206,7 +217,7 @@ public void setUp(Method method) throws Exception {
 	    
 }
 
- @Test (priority = 3)
+ @Test (priority = 2)
  public void testDeleteDevice() throws Exception {
 	try
 	{
@@ -224,7 +235,34 @@ public void setUp(Method method) throws Exception {
 		
 		   System.out.println("On " + alldevid_on);
 		   System.out.println("Off " + alldevid_off);
-		   
+		   System.out.println("Pries Unknown");
+		   //Thread.sleep(5000); 
+		  /* if (driver.findElement(By.cssSelector("div.col-md-1.tab_unknown ")).isDisplayed())
+		   {
+			   System.out.println("Unknown viduje");
+			   driver.findElement(By.cssSelector("div.col-md-1.tab_unknown ")).click();
+			   alldevid_on = myID.getOnlineID();
+			   alldevid_off = myID.getOfflineID();
+			   Error.info("Device is unknown and will be deleted");
+			   System.out.println("Device is unknown and will be deleted");
+
+			   
+			   driver.findElement(By.xpath("//a[@href='#edit-"+alldevid_off+"']")).click();
+			   driver.findElement(By.partialLinkText("DELETE")).click();
+			   Alert alert = driver.switchTo().alert();
+			   if (alert.getText().equals("Are you sure you want to delete " +  devname + "? EXPIRY TIME WILL BE LOST!"))
+				   alert.accept();
+			   else
+			   {
+				   System.out.println("ERROR: " + alert.getText());
+				   Error.info("ERROR: " + alert.getText());
+				   Assert.fail();
+			   }
+			   driver.findElement(By.cssSelector("div.col-md-1.tab_active_ss ")).click();
+		   }*/
+		   System.out.println("po Unknown");
+		   System.out.println("On " + alldevid_on);
+		   System.out.println("Off " + alldevid_off);
 		   if (alldevid_off==null && alldevid_on ==null)
 			  {
 				Error.info("ERROR: You can't delete device which doesn't exixts. Device ID not found");
@@ -238,7 +276,7 @@ public void setUp(Method method) throws Exception {
 				  Error.info("Your device is offline. This test expected online device");
 				  Assert.fail();
 			  }
-
+		 
 		   System.out.println("//a[@href='#edit-"+alldevid_on+"']");
 		   
 		   driver.findElement(By.xpath("//a[@href='#edit-"+alldevid_on+"']")).click();
@@ -281,7 +319,6 @@ public void setUp(Method method) throws Exception {
  @Test (priority = 5)
  public void testControl() throws Exception {
 	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	
 	try
 	{
 		 //String a,b;
@@ -289,18 +326,54 @@ public void setUp(Method method) throws Exception {
 			login();
 			FindID myID = new FindID(driver, devname);
 			System.out.println(myID.getID());
-			
+			//Controll Tabas
 			driver.findElement(By.xpath("//a[@href='#control-"+myID.getOnlineID()+"']")).click();
-			System.out.println("Find state: "+driver.findElement(By.xpath("//*[@id='controlsPanel-3606']/div/div/div[3]/div[1]/div/div/p")).getText());
-			
+			System.out.println("Find state: "+driver.findElement(By.xpath("//*[@id='controlsPanel-"+myID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).getText());
+			//Arm Tabas
 			driver.findElement(By.xpath("//*[@id='controlsPanel-"+myID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).click();
-			System.out.println("Paklikino");
-			WebElement arm =driver.findElement(By.className("arm_disarm"));
-			arm.findElement(By.className("armingBtnHolder disarm ng-scope"));
+			System.out.println("1"); 
+			//driver.findElement(By.className("arm_disarm"));
+		//	driver.findElement(By.xpath("//div[@id='controlsPanel-"+myID.getOnlineID()+"']/div/div[2]/div[3]/div[2]/div/div/div")).click();
+			WebDriverWait wait = new WebDriverWait(driver, 60);
+			System.out.println("01");
+			//wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Disarm")));
+			//wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("modal-dialog")));
+			System.out.println("2");
+			By ele1 = By.className("modal-dialog");
+			System.out.println("3");
+			//WebElement  elementas = driver.findElement(By.className("arm_disarm"));
+			//String txt = elementas.findElement(By.className("armingBtnHolder arm ng-scope")).getText();
+			//System.out.println(txt);
+			String state = driver.findElement(By.xpath("//*[@id='controlsPanel-"+myID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).getText();
+			By ele2 = By.xpath("//*[@id='controlsPanel-"+myID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]");
+			System.out.println("4");
+			//By ele3 = By.name(" Arm");
+			
+			MyExpectedCondition mec = new MyExpectedCondition(ele1,ele2,state);
+			wait.until(mec);
+			
+			//wait.until(new MyExpectedCondition(ele1,ele2));
+			//driver.findElement(By.className("armingBtnHolder disarm ng-scope"));
+			System.out.println("5");
+			//Thread.sleep(30000); 
+			if(mec.status==2)
+			{
+			driver.findElement(By.xpath("html/body/div[2]/div/div/form/div[1]/div")).click();
+			driver.findElement(By.xpath("//input[@value='Ok']")).click();
+			}
+			/*arm.findElement(By.name("Arm")).click();
+			System.out.println("2");
+			WebDriverWait wait = new WebDriverWait(driver, 30);
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("modal-dialog")));
+			driver.findElement(By.className("btn btn-lg")).click();
+			driver.findElement(By.className("bmodalBtn ok")).click();
+			//Edvinas Automatic Test | Bypass
+			System.out.println("3");
+		    wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("armingBtnHolder disarm ng-scope")));
 			System.out.println("Armed");
 			//driver.findElement(By.className("arm_disarm"));
 			System.out.println("Finded state: "+driver.findElement(By.xpath("//*[@id='controlsPanel-3606']/div/div/div[3]/div[1]/div/div/p")).getText());
-			
+			*/
 	 }
 	
 	 catch(Exception e)
@@ -311,7 +384,7 @@ public void setUp(Method method) throws Exception {
 } 
  
  
- @Test (priority = 6)
+// @Test (priority = 6)
  public void testRegister() throws Exception {
 	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	

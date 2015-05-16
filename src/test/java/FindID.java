@@ -36,10 +36,7 @@ public class FindID {
     		  {
     			  if(element.getText().equals(devname))
     			  {
-    				  alldevid_on = element.getAttribute("id");
-    				  String[] onlyid;
-    			      onlyid = alldevid_on.split("-");
-    			      alldevid_on = onlyid[1];
+    				  alldevid_on = element.getAttribute("id").split("-")[1];
     			  }
     		  }
    
