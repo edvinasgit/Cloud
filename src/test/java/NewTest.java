@@ -351,7 +351,7 @@ public void setUp(Method method) throws Exception {
 			
 			MyExpectedCondition mec = new MyExpectedCondition(ele1,ele2,state);
 			wait.until(mec);
-			
+			 
 			//wait.until(new MyExpectedCondition(ele1,ele2));
 			//driver.findElement(By.className("armingBtnHolder disarm ng-scope"));
 			System.out.println("5");
