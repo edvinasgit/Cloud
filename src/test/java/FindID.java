@@ -11,11 +11,11 @@ import org.openqa.selenium.WebElement;
 
 
 public class FindID {
-	private WebDriver driver;
-    public String alldevid_on = null;
-    public String alldevid_off = null;
-    public String alldevid = null;
-    public String devname = null;
+	public static WebDriver driver;
+    public static String alldevid_on = null;
+    public static String alldevid_off = null;
+    public static String alldevid = null;
+    public static String devname = null;
 
     // four constructors
     public FindID() {
@@ -29,7 +29,7 @@ public class FindID {
        devname = name;
     }
 
-   public String getOnlineID(){
+   public static String getOnlineID(){
     	 driver.findElements(By.className("device_on"));
     	List<WebElement> alldevices = driver.findElements(By.className("device_on"));
     		  for (WebElement element: alldevices)
@@ -43,7 +43,7 @@ public class FindID {
     	return alldevid_on;
     }
    
-    public String getOfflineID(){
+    public static String getOfflineID(){
     	List<WebElement> alldevices = driver.findElements(By.className("device_off"));
     		  for (WebElement element: alldevices)
     		  {
@@ -59,7 +59,7 @@ public class FindID {
     }
     
     
-	public String getID(){
+	public static String getID(){
     	List<WebElement> alldevices = driver.findElements(By.className("device_on"));
     		  for (WebElement element: alldevices)
     		  {

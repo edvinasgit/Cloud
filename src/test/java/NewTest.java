@@ -229,9 +229,13 @@ public void setUp(Method method) throws Exception {
 	 		login();
 	 	}
 
-		   FindID myID = new FindID(driver, devname);
-		   alldevid_on = myID.getOnlineID();
-		   alldevid_off = myID.getOfflineID();
+		   //FindID myID = new FindID(driver, devname);
+		   
+	 		FindID.driver = driver;
+		   FindID.devname = devname;
+		   
+		   alldevid_on = FindID.getOnlineID();
+		   alldevid_off = FindID.getOfflineID();
 		
 		   System.out.println("On " + alldevid_on);
 		   System.out.println("Off " + alldevid_off);
@@ -319,18 +323,21 @@ public void setUp(Method method) throws Exception {
  @Test (priority = 5)
  public void testControl() throws Exception {
 	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	 System.out.println("pradzia");
 	try
 	{
 		 //String a,b;
 		if (driver.getTitle().equals("Cloud Security Login")|| driver.getTitle().equals("") )
 			login();
-			FindID myID = new FindID(driver, devname);
-			System.out.println(myID.getID());
+		System.out.println("po logino");
+	 	    FindID.driver = driver;
+		    FindID.devname = devname;
+			System.out.println("po findid");
 			//Controll Tabas
-			driver.findElement(By.xpath("//a[@href='#control-"+myID.getOnlineID()+"']")).click();
-			System.out.println("Find state: "+driver.findElement(By.xpath("//*[@id='controlsPanel-"+myID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).getText());
+			driver.findElement(By.xpath("//a[@href='#control-"+FindID.getOnlineID()+"']")).click();
+			System.out.println("Find state: "+driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).getText());
 			//Arm Tabas
-			driver.findElement(By.xpath("//*[@id='controlsPanel-"+myID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).click();
+			driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).click();
 			System.out.println("1"); 
 			//driver.findElement(By.className("arm_disarm"));
 		//	driver.findElement(By.xpath("//div[@id='controlsPanel-"+myID.getOnlineID()+"']/div/div[2]/div[3]/div[2]/div/div/div")).click();
@@ -344,8 +351,8 @@ public void setUp(Method method) throws Exception {
 			//WebElement  elementas = driver.findElement(By.className("arm_disarm"));
 			//String txt = elementas.findElement(By.className("armingBtnHolder arm ng-scope")).getText();
 			//System.out.println(txt);
-			String state = driver.findElement(By.xpath("//*[@id='controlsPanel-"+myID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).getText();
-			By ele2 = By.xpath("//*[@id='controlsPanel-"+myID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]");
+			String state = driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).getText();
+			By ele2 = By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]");
 			System.out.println("4");
 			//By ele3 = By.name(" Arm");
 			

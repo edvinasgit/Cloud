@@ -2916,3 +2916,93 @@ Session ID: 4658539b-74c8-4814-aebf-b60acfbd383a
 2015-05-16 17:06:30,128 INFO  [Info] ---------------------------------------------------------------------------------- 
 2015-05-16 17:06:30,129 INFO  [Info] testControl Started 
 2015-05-16 17:06:58,725 INFO  [Info] testControl PASSED 
+2015-05-16 20:10:44,527 INFO  [Info] #################################################################################### 
+2015-05-16 20:10:55,021 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 20:10:55,021 INFO  [Info] testDeleteDevice Started 
+2015-05-16 20:11:06,635 INFO  [Info] testDeleteDevice PASSED 
+2015-05-16 20:50:59,429 INFO  [Info] #################################################################################### 
+2015-05-16 20:51:08,236 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 20:51:08,236 INFO  [Info] testLogin Started 
+2015-05-16 20:51:19,245 INFO  [Info] testLogin PASSED 
+2015-05-16 20:51:25,556 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 20:51:25,557 INFO  [Info] testDeleteDevice Started 
+2015-05-16 20:51:35,479 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-05-16 20:51:36,246 INFO  [Info] testDeleteDevice FAILED 
+2015-05-16 20:51:42,455 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 20:51:42,455 INFO  [Info] testAddDevice Started 
+2015-05-16 20:52:46,826 INFO  [Info] AddDevice Passed 
+2015-05-16 20:52:46,827 INFO  [Info] testAddDevice PASSED 
+2015-05-16 20:52:53,890 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 20:52:53,890 INFO  [Info] testLogout Started 
+2015-05-16 20:53:06,226 INFO  [Info] testLogout PASSED 
+2015-05-16 20:53:12,656 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 20:53:12,656 INFO  [Info] testControl Started 
+2015-05-16 20:53:32,305 INFO  [FATAL] Logout: org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '86.38.217.147', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-16 20:53:32,674 INFO  [Info] testControl FAILED 
+2015-05-16 20:58:34,715 INFO  [Info] #################################################################################### 
+2015-05-16 20:58:42,933 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-16 20:58:42,934 INFO  [Info] testControl Started 
+2015-05-16 20:59:06,772 INFO  [FATAL] Logout: java.lang.NullPointerException 
+2015-05-16 20:59:07,446 INFO  [Info] testControl FAILED 
+2015-05-17 19:31:16,041 INFO  [Info] #################################################################################### 
+2015-05-17 19:32:07,039 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 19:32:07,041 INFO  [Info] testLogin Started 
+2015-05-17 19:32:26,306 INFO  [Info] testLogin PASSED 
+2015-05-17 19:32:44,177 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 19:32:44,178 INFO  [Info] testDeleteDevice Started 
+2015-05-17 19:32:57,104 INFO  [Info] testDeleteDevice PASSED 
+2015-05-17 19:33:11,578 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 19:33:11,578 INFO  [Info] testAddDevice Started 
+2015-05-17 19:35:48,854 INFO  [Info] AddDevice Passed 
+2015-05-17 19:35:48,855 INFO  [Info] testAddDevice PASSED 
+2015-05-17 19:36:17,108 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 19:36:17,108 INFO  [Info] testLogout Started 
+2015-05-17 19:36:29,636 INFO  [Info] testLogout PASSED 
+2015-05-17 19:36:43,582 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 19:36:43,583 INFO  [Info] testControl Started 
+2015-05-17 19:37:03,644 INFO  [FATAL] Logout: org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '82.140.160.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-05-17 19:37:04,242 INFO  [Info] testControl FAILED 
+2015-05-17 19:49:54,768 INFO  [Info] #################################################################################### 
+2015-05-17 19:50:22,015 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 19:50:22,015 INFO  [Info] testControl Started 
+2015-05-17 19:51:04,702 INFO  [Info] testControl PASSED 
+2015-05-17 19:56:30,993 INFO  [Info] #################################################################################### 
+2015-05-17 19:56:59,280 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 19:56:59,281 INFO  [Info] testLogin Started 
+2015-05-17 19:57:13,084 INFO  [Info] testLogin PASSED 
+2015-05-17 19:57:27,119 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 19:57:27,119 INFO  [Info] testDeleteDevice Started 
+2015-05-17 19:57:38,026 INFO  [Info] testDeleteDevice PASSED 
+2015-05-17 19:57:52,475 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 19:57:52,476 INFO  [Info] testAddDevice Started 
+2015-05-17 20:00:11,260 INFO  [Info] AddDevice Passed 
+2015-05-17 20:00:11,261 INFO  [Info] testAddDevice PASSED 
+2015-05-17 20:00:39,808 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 20:00:39,808 INFO  [Info] testLogout Started 
+2015-05-17 20:00:51,409 INFO  [Info] testLogout PASSED 
+2015-05-17 20:01:05,097 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 20:01:05,097 INFO  [Info] testControl Started 
+2015-05-17 20:01:29,511 INFO  [Info] testControl PASSED 
+2015-05-17 20:05:02,523 INFO  [Info] #################################################################################### 
+2015-05-17 20:05:32,828 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 20:05:32,829 INFO  [Info] testLogin Started 
+2015-05-17 20:05:42,816 INFO  [Info] testLogin PASSED 
+2015-05-17 20:05:56,542 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 20:05:56,543 INFO  [Info] testDeleteDevice Started 
+2015-05-17 20:06:07,321 INFO  [Info] testDeleteDevice PASSED 
+2015-05-17 20:06:21,338 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 20:06:21,339 INFO  [Info] testAddDevice Started 
+2015-05-17 20:07:58,010 INFO  [Info] AddDevice Passed 
+2015-05-17 20:07:58,011 INFO  [Info] testAddDevice PASSED 
+2015-05-17 20:08:23,868 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 20:08:23,868 INFO  [Info] testLogout Started 
+2015-05-17 20:08:34,218 INFO  [Info] testLogout PASSED 
+2015-05-17 20:08:48,150 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 20:08:48,150 INFO  [Info] testControl Started 
+2015-05-17 20:09:19,640 INFO  [Info] testControl PASSED 
