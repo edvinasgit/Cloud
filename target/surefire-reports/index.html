@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,27 +101,7 @@
                     <div class="method-list-content passed suite-test.java.NewTest">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-test.java.NewTest" title="test.java.NewTest" hash-for-method="testAddDevice">testAddDevice</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-test.java.NewTest" title="test.java.NewTest" hash-for-method="testControl">testControl</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-test.java.NewTest" title="test.java.NewTest" hash-for-method="testDeleteDevice">testDeleteDevice</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-test.java.NewTest" title="test.java.NewTest" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-test.java.NewTest" title="test.java.NewTest" hash-for-method="testLogout">testLogout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-test.java.NewTest -->
@@ -144,37 +124,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testAddDevice">
-                  </a> <!-- testAddDevice -->
-                  <span class="method-name">testAddDevice</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testControl">
                   </a> <!-- testControl -->
                   <span class="method-name">testControl</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDeleteDevice">
-                  </a> <!-- testDeleteDevice -->
-                  <span class="method-name">testDeleteDevice</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogin">
-                  </a> <!-- testLogin -->
-                  <span class="method-name">testLogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogout">
-                  </a> <!-- testLogout -->
-                  <span class="method-name">testLogout</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,6 +141,11 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite verbose=&quot;0&quot; name=&quot;test.java.NewTest&quot;&gt;
   &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;method-selectors&gt;
+      &lt;method-selector&gt;
+        &lt;selector-class name=&quot;org.apache.maven.surefire.testng.utils.MethodSelector&quot; priority=&quot;10000&quot;/&gt;
+      &lt;/method-selector&gt;
+    &lt;/method-selectors&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.java.NewTest&quot;/&gt;
     &lt;/classes&gt;
@@ -230,32 +187,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testAddDevice')
+data.setCell(0, 1, 'testControl')
 data.setCell(0, 2, 'test.java.NewTest')
-data.setCell(0, 3, 96671);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testControl')
-data.setCell(1, 2, 'test.java.NewTest')
-data.setCell(1, 3, 31487);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testDeleteDevice')
-data.setCell(2, 2, 'test.java.NewTest')
-data.setCell(2, 3, 10777);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testLogout')
-data.setCell(3, 2, 'test.java.NewTest')
-data.setCell(3, 3, 10349);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testLogin')
-data.setCell(4, 2, 'test.java.NewTest')
-data.setCell(4, 3, 9985);
+data.setCell(0, 3, 40618);
 window.suiteTableData['test.java.NewTest']= { tableData: data, tableDiv: 'times-div-test.java.NewTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
               <div id="times-div-test.java.NewTest">
               </div> <!-- times-div-test.java.NewTest -->
             </div> <!-- times-div -->
@@ -270,9 +211,22 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-test.java.NewTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.java.NewTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testLogin</span>
+                <br/>
+                <span class="ignored-method-name">testDeleteDevice</span>
+                <br/>
+                <span class="ignored-method-name">testLogout</span>
+                <br/>
+                <span class="ignored-method-name">testAddDevice</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-test.java.NewTest" class="panel">
@@ -287,84 +241,20 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(public void test.java.NewTest.testLogin() throws java.lang.Exception)</span>
-                <span class="method-start">310 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testLogin</span>
-                <span class="method-start">30607 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=testLogin status=SUCCESS method=NewTest.testLogin()[pri:0, instance:test.java.NewTe...)</span>
-                <span class="method-start">40594 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">40594 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(public void test.java.NewTest.testDeleteDevice() throws java.lang.Exception)</span>
-                <span class="method-start">41017 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testDeleteDevice</span>
-                <span class="method-start">54321 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=testDeleteDevice status=SUCCESS method=NewTest.testDeleteDevice()[pri:0, instance:t...)</span>
-                <span class="method-start">65098 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">65099 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(public void test.java.NewTest.testAddDevice() throws java.lang.Exception)</span>
-                <span class="method-start">65389 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testAddDevice</span>
-                <span class="method-start">79117 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=testAddDevice status=SUCCESS method=NewTest.testAddDevice()[pri:0, instance:test.ja...)</span>
-                <span class="method-start">175788 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">175789 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(public void test.java.NewTest.testLogout() throws java.lang.Exception)</span>
-                <span class="method-start">176533 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testLogout</span>
-                <span class="method-start">201646 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=testLogout status=SUCCESS method=NewTest.testLogout()[pri:0, instance:test.java.New...)</span>
-                <span class="method-start">211995 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">211996 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
                 <span class="method-name">setUp(public void test.java.NewTest.testControl() throws java.lang.Exception)</span>
-                <span class="method-start">212370 ms</span>
+                <span class="method-start">345 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testControl</span>
-                <span class="method-start">225929 ms</span>
+                <span class="method-start">29205 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenShotOnFailure([TestResult name=testControl status=SUCCESS method=NewTest.testControl()[pri:0, instance:test.java.N...)</span>
-                <span class="method-start">257417 ms</span>
+                <span class="method-start">69824 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">257418 ms</span>
+                <span class="method-start">69824 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

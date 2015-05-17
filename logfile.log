@@ -3006,3 +3006,108 @@ Driver info: driver.version: RemoteWebDriver
 2015-05-17 20:08:48,150 INFO  [Info] ---------------------------------------------------------------------------------- 
 2015-05-17 20:08:48,150 INFO  [Info] testControl Started 
 2015-05-17 20:09:19,640 INFO  [Info] testControl PASSED 
+2015-05-17 20:41:46,893 INFO  [Info] #################################################################################### 
+2015-05-17 20:42:14,745 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 20:42:14,746 INFO  [Info] testControl Started 
+2015-05-17 20:43:08,878 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector Outputo state no-select flatButton is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 59 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '82.140.160.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f822e594-805b-4e42-8dca-d2a1a567d80e
+*** Element info: {Using=class name, value=Outputo state no-select flatButton} 
+2015-05-17 20:43:09,154 INFO  [Info] testControl FAILED 
+2015-05-17 20:44:38,773 INFO  [Info] #################################################################################### 
+2015-05-17 20:45:04,140 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 20:45:04,140 INFO  [Info] testControl Started 
+2015-05-17 20:45:29,558 INFO  [FATAL] Logout: org.openqa.selenium.InvalidSelectorException: The given selector no-select flatButton is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 67 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '82.140.160.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 46ff02e3-20a8-4366-b50f-3e99f11d8df1
+*** Element info: {Using=class name, value=no-select flatButton} 
+2015-05-17 20:45:30,318 INFO  [Info] testControl FAILED 
+2015-05-17 20:51:12,313 INFO  [Info] #################################################################################### 
+2015-05-17 20:51:40,047 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 20:51:40,047 INFO  [Info] testControl Started 
+2015-05-17 20:52:25,588 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@id='controlsPanel-5726']/div/div/div[2]/div/div/div[3]"}
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '82.140.160.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cd4d6ee6-6dd9-44c1-a3ca-620df058851c
+*** Element info: {Using=xpath, value=//div[@id='controlsPanel-5726']/div/div/div[2]/div/div/div[3]} 
+2015-05-17 20:52:25,875 INFO  [Info] testControl FAILED 
+2015-05-17 20:56:31,419 INFO  [Info] #################################################################################### 
+2015-05-17 20:57:00,009 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 20:57:00,010 INFO  [Info] testControl Started 
+2015-05-17 20:57:40,760 INFO  [Info] testControl PASSED 
+2015-05-17 21:13:45,127 INFO  [Info] #################################################################################### 
+2015-05-17 21:14:13,674 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 21:14:13,674 INFO  [Info] testControl Started 
+2015-05-17 21:14:40,218 INFO  [FATAL] Logout: java.lang.NullPointerException 
+2015-05-17 21:14:41,001 INFO  [Info] testControl FAILED 
+2015-05-17 21:31:39,947 INFO  [Info] #################################################################################### 
+2015-05-17 21:32:09,967 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 21:32:09,967 INFO  [Info] testControl Started 
+2015-05-17 21:34:06,235 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for test.java.MyExpectedCondition@3224a577
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '82.140.160.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1ce5757b-01f3-41eb-b581-6fa2bb649407 
+2015-05-17 21:34:06,611 INFO  [Info] testControl FAILED 
+2015-05-17 21:37:13,731 INFO  [Info] #################################################################################### 
+2015-05-17 21:37:42,571 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 21:37:42,572 INFO  [Info] testControl Started 
+2015-05-17 21:39:02,509 INFO  [FATAL] Logout: java.lang.NullPointerException 
+2015-05-17 21:39:03,259 INFO  [Info] testControl FAILED 
+2015-05-17 22:04:10,405 INFO  [Info] #################################################################################### 
+2015-05-17 22:04:51,071 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 22:04:51,072 INFO  [Info] testControl Started 
+2015-05-17 22:06:08,175 INFO  [FATAL] Logout: java.lang.NullPointerException 
+2015-05-17 22:06:08,969 INFO  [Info] testControl FAILED 
+2015-05-17 22:25:49,919 INFO  [Info] #################################################################################### 
+2015-05-17 22:26:25,038 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 22:26:25,038 INFO  [Info] testControl Started 
+2015-05-17 22:28:17,390 INFO  [FATAL] Logout: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '82.140.160.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9fba8c61-e697-4ba6-99e7-0e4648f37d9e 
+2015-05-17 22:28:18,092 INFO  [Info] testControl FAILED 
+2015-05-17 22:42:22,512 INFO  [Info] #################################################################################### 
+2015-05-17 22:42:49,954 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 22:42:49,954 INFO  [Info] testControl Started 
+2015-05-17 22:44:15,389 INFO  [FATAL] Logout: org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for test.java.MyExpectedCondition@7a3793c7
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '82.140.160.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 225c653a-433d-4378-a114-74e0923ea756 
+2015-05-17 22:44:15,711 INFO  [Info] testControl FAILED 
+2015-05-17 22:52:30,534 INFO  [Info] #################################################################################### 
+2015-05-17 22:52:58,248 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 22:52:58,249 INFO  [Info] testControl Started 
+2015-05-17 22:53:46,127 INFO  [FATAL] Logout: java.lang.NullPointerException 
+2015-05-17 22:53:46,565 INFO  [Info] testControl FAILED 
+2015-05-17 22:59:41,120 INFO  [Info] #################################################################################### 
+2015-05-17 23:00:14,942 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 23:00:14,942 INFO  [Info] testControl Started 
+2015-05-17 23:01:13,939 INFO  [Info] testControl PASSED 
+2015-05-17 23:02:06,177 INFO  [Info] #################################################################################### 
+2015-05-17 23:02:35,048 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-17 23:02:35,048 INFO  [Info] testControl Started 
+2015-05-17 23:03:15,667 INFO  [Info] testControl PASSED 

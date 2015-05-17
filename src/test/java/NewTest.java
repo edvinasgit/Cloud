@@ -329,58 +329,49 @@ public void setUp(Method method) throws Exception {
 		 //String a,b;
 		if (driver.getTitle().equals("Cloud Security Login")|| driver.getTitle().equals("") )
 			login();
-		System.out.println("po logino");
+			System.out.println("po logino");
 	 	    FindID.driver = driver;
 		    FindID.devname = devname;
 			System.out.println("po findid");
 			//Controll Tabas
 			driver.findElement(By.xpath("//a[@href='#control-"+FindID.getOnlineID()+"']")).click();
-			System.out.println("Find state: "+driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).getText());
+			//System.out.println("Find state: "+driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).getText());
 			//Arm Tabas
-			driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).click();
+			//driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).click();
 			System.out.println("1"); 
-			//driver.findElement(By.className("arm_disarm"));
-		//	driver.findElement(By.xpath("//div[@id='controlsPanel-"+myID.getOnlineID()+"']/div/div[2]/div[3]/div[2]/div/div/div")).click();
+		
 			WebDriverWait wait = new WebDriverWait(driver, 60);
 			System.out.println("01");
-			//wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Disarm")));
-			//wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("modal-dialog")));
+			
 			System.out.println("2");
 			By ele1 = By.className("modal-dialog");
 			System.out.println("3");
-			//WebElement  elementas = driver.findElement(By.className("arm_disarm"));
-			//String txt = elementas.findElement(By.className("armingBtnHolder arm ng-scope")).getText();
-			//System.out.println(txt);
+			
 			String state = driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).getText();
 			By ele2 = By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]");
 			System.out.println("4");
-			//By ele3 = By.name(" Arm");
+		
 			
-			MyExpectedCondition mec = new MyExpectedCondition(ele1,ele2,state);
+			MyExpectedCondition mec = new MyExpectedCondition(ele1,ele2,state,"Arm","Disarm");
+			driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).click();
 			wait.until(mec);
 			 
-			//wait.until(new MyExpectedCondition(ele1,ele2));
-			//driver.findElement(By.className("armingBtnHolder disarm ng-scope"));
-			System.out.println("5");
+			
 			//Thread.sleep(30000); 
 			if(mec.status==2)
 			{
 			driver.findElement(By.xpath("html/body/div[2]/div/div/form/div[1]/div")).click();
 			driver.findElement(By.xpath("//input[@value='Ok']")).click();
 			}
-			/*arm.findElement(By.name("Arm")).click();
-			System.out.println("2");
-			WebDriverWait wait = new WebDriverWait(driver, 30);
-			wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("modal-dialog")));
-			driver.findElement(By.className("btn btn-lg")).click();
-			driver.findElement(By.className("bmodalBtn ok")).click();
-			//Edvinas Automatic Test | Bypass
-			System.out.println("3");
-		    wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("armingBtnHolder disarm ng-scope")));
-			System.out.println("Armed");
-			//driver.findElement(By.className("arm_disarm"));
-			System.out.println("Finded state: "+driver.findElement(By.xpath("//*[@id='controlsPanel-3606']/div/div/div[3]/div[1]/div/div/p")).getText());
-			*/
+			//System.out.println("Outputo state: "+driver.findElement(By.xpath(".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]")).getText());
+			state = driver.findElement(By.xpath(".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]")).getText();
+			//driver.findElement(By.xpath(".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]")).click();
+			
+			By ele3 = By.xpath(".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]");
+			MyExpectedCondition mec2 = new MyExpectedCondition(null, ele3,state,"on","off" );
+			driver.findElement(By.xpath(".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]")).click();
+			wait.until(mec2);
+			System.out.println("5");
 	 }
 	
 	 catch(Exception e)
