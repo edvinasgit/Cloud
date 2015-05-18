@@ -3111,3 +3111,33 @@ Session ID: 225c653a-433d-4378-a114-74e0923ea756
 2015-05-17 23:02:35,048 INFO  [Info] ---------------------------------------------------------------------------------- 
 2015-05-17 23:02:35,048 INFO  [Info] testControl Started 
 2015-05-17 23:03:15,667 INFO  [Info] testControl PASSED 
+2015-05-18 07:22:43,560 INFO  [Info] #################################################################################### 
+2015-05-18 07:22:59,330 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-18 07:22:59,334 INFO  [Info] testControl Started 
+2015-05-18 07:23:52,087 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]"}
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '89.116.236.114', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3a78c799-9459-40f3-bd1a-385a7c970a26
+*** Element info: {Using=xpath, value=.//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]} 
+2015-05-18 07:23:52,443 INFO  [Info] testControl FAILED 
+2015-05-18 11:30:09,925 INFO  [Info] #################################################################################### 
+2015-05-18 11:30:24,433 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-18 11:30:24,433 INFO  [Info] testControl Started 
+2015-05-18 11:30:57,462 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]"}
+Command duration or timeout: 10.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1b8da017-499b-4ad3-8e7f-7513120b3f18
+*** Element info: {Using=xpath, value=.//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]} 
+2015-05-18 11:30:57,789 INFO  [Info] testControl FAILED 
+2015-05-18 11:42:33,411 INFO  [Info] #################################################################################### 
+2015-05-18 11:42:48,367 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-05-18 11:42:48,367 INFO  [Info] testControl Started 
+2015-05-18 11:43:30,987 INFO  [Info] testControl PASSED 

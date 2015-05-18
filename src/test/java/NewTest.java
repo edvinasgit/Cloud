@@ -364,12 +364,12 @@ public void setUp(Method method) throws Exception {
 			driver.findElement(By.xpath("//input[@value='Ok']")).click();
 			}
 			//System.out.println("Outputo state: "+driver.findElement(By.xpath(".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]")).getText());
-			state = driver.findElement(By.xpath(".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]")).getText();
+			state = driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div[1]/div[2]/div[1]/div/div[2]")).getText();
 			//driver.findElement(By.xpath(".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]")).click();
 			
-			By ele3 = By.xpath(".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]");
+			By ele3 = By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div[1]/div[2]/div[1]/div/div[2]");
 			MyExpectedCondition mec2 = new MyExpectedCondition(null, ele3,state,"on","off" );
-			driver.findElement(By.xpath(".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]")).click();
+			driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div[1]/div[2]/div[1]/div/div[2]")).click();
 			wait.until(mec2);
 			System.out.println("5");
 	 }
