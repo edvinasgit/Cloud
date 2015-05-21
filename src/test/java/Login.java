@@ -26,11 +26,11 @@ import org.testng.ITestResult;
 import org.apache.log4j.xml.DOMConfigurator;
 
 
-
-
-
 public class Login {
 	private WebDriver driver;
+	
+	
+	
 	
 	 //-----------Global values---------------------------
 	  String baseUrl = "https://security.eldes.lt";

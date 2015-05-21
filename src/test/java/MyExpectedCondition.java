@@ -30,25 +30,29 @@ public int status;
 	
 	
 	public Boolean apply(WebDriver input) {
+		System.out.println("State is: " + state);
+		
 		String expectedText;
 		System.out.println("Expected Condition Started");
 		//state = input.findElement(this.element2).getText();
-		System.out.println("Action state: " + input.findElement(this.element2).getText());
+		System.out.println("Action state: " + input.findElement(this.element1).getText());
 		//input.findElement(this.element2).click();
 		System.out.println("Action is going");
 		if(state.equals(textA))
 			expectedText = textB;
 		else expectedText =textA;
+		System.out.println("Expected: " + expectedText );
+		System.out.println("Get text"+input.findElement(this.element1).getText());
 		try
 		{
-		if (input.findElement(this.element2).getText().equals(expectedText))
+		if (input.findElement(this.element1).getText().equals(expectedText))
 		{
 			status = 1;
 			System.out.println("Action Finished");
 			return true;
 		}
 	
-		else if(input.findElement(this.element1).isDisplayed()){
+		else if(input.findElement(this.element2).isDisplayed()){
 					status = 2;
 					System.out.println("Mes ife 2");
 					return true;

@@ -326,7 +326,7 @@ public void setUp(Method method) throws Exception {
 	 System.out.println("pradzia");
 	try
 	{
-		 //String a,b;
+		
 		if (driver.getTitle().equals("Cloud Security Login")|| driver.getTitle().equals("") )
 			login();
 			System.out.println("po logino");
@@ -335,42 +335,32 @@ public void setUp(Method method) throws Exception {
 			System.out.println("po findid");
 			//Controll Tabas
 			driver.findElement(By.xpath("//a[@href='#control-"+FindID.getOnlineID()+"']")).click();
-			//System.out.println("Find state: "+driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).getText());
 			//Arm Tabas
-			//driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).click();
 			System.out.println("1"); 
-		
-			WebDriverWait wait = new WebDriverWait(driver, 60);
-			System.out.println("01");
-			
-			System.out.println("2");
-			By ele1 = By.className("modal-dialog");
+	
+			By ele2 = By.className("modal-dialog");
 			System.out.println("3");
 			
-			String state = driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).getText();
-			By ele2 = By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]");
+			//String state = driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).getText();
+			By ele1 = By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]");
 			System.out.println("4");
 		
 			
-			MyExpectedCondition mec = new MyExpectedCondition(ele1,ele2,state,"Arm","Disarm");
-			driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).click();
-			wait.until(mec);
-			 
-			
-			//Thread.sleep(30000); 
-			if(mec.status==2)
+			ExpectedObject EO = new ExpectedObject(ele1,ele2,"Arm","Disarm");
+			EO.apply(driver);
+			System.out.println("2");
+		
+			if(EO.status==2)
 			{
 			driver.findElement(By.xpath("html/body/div[2]/div/div/form/div[1]/div")).click();
 			driver.findElement(By.xpath("//input[@value='Ok']")).click();
 			}
-			//System.out.println("Outputo state: "+driver.findElement(By.xpath(".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]")).getText());
-			state = driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div[1]/div[2]/div[1]/div/div[2]")).getText();
-			//driver.findElement(By.xpath(".//*[@id='controlsPanel-5726']/div/div[1]/div[2]/div[1]/div/div[2]")).click();
-			
-			By ele3 = By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div[1]/div[2]/div[1]/div/div[2]");
-			MyExpectedCondition mec2 = new MyExpectedCondition(null, ele3,state,"on","off" );
-			driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div[1]/div[2]/div[1]/div/div[2]")).click();
-			wait.until(mec2);
+				
+			By ele3 = By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div[1]/div[2]/div[1]/div");
+			System.out.println("0001");
+			EO = new ExpectedObject(ele3,null,"on","off" );
+			EO.apply(driver);
+		
 			System.out.println("5");
 	 }
 	

@@ -1,6 +1,7 @@
-test\java\NewTest.class
-test\java\AddDevice.class
+test\java\ExpectedObject.class
 test\java\MyCompare.class
 test\java\MyExpectedCondition.class
+test\java\NewTest.class
+test\java\AddDevice.class
 test\java\FindID.class
 test\java\Login.class
