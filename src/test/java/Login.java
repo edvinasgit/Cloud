@@ -27,36 +27,37 @@ import org.apache.log4j.xml.DOMConfigurator;
 
 
 public class Login {
-	private WebDriver driver;
+	//private static WebDriver driver;
 	
 	
 	
 	
 	 //-----------Global values---------------------------
-	  String baseUrl = "https://security.eldes.lt";
-	  String UserName = "edvinasg@gmail.com";
-	  String UserPass = "edvinaseldes";
-	  String BadUserName = "edvinasg@gmail.co";
-	  String BadUserPass = "edvinaseldes";
-	  Logger Fatal = LogManager.getLogger("FATAL");
-	  Logger Debug = LogManager.getLogger("Debug");
-	  Logger Error = LogManager.getLogger("ERROR");
-	  Logger Info = LogManager.getLogger("Info");
+	  static String baseUrl = "https://security.eldes.lt";
+	  static String UserName = "edvinasg@gmail.com";
+	  static String UserPass = "edvinaseldes";
+	  static String BadUserName = "edvinasg@gmail.co";
+	  static String BadUserPass = "edvinas";
+	  
+	  
+	  static Logger Fatal = LogManager.getLogger("FATAL");
+	  static Logger Debug = LogManager.getLogger("Debug");
+	  static Logger Error = LogManager.getLogger("ERROR");
+	  static Logger Info = LogManager.getLogger("Info");
 
 	  //---------------------------------------------------
 	  
-    public Login() {
+    public  Login() {
         
     }
-    public Login(WebDriver drv) {
-       driver = drv;
-    }
+
 	 
 	
 	// execute() when login method is needed without log and Failure possibility
-	  public void execute() throws Exception { 
+	  public static void execute(WebDriver driver) throws Exception { 
 		try
 		{
+				
 			    driver.get(baseUrl + "/en/user/login.html");
 			    driver.findElement(By.id("UserLogin_username")).clear();
 			    driver.findElement(By.id("UserLogin_username")).sendKeys(UserName);
@@ -78,12 +79,35 @@ public class Login {
 			    catch(Exception e){
 			    }
 
-			    }
+		}
 		 catch(Exception e){
 		 }
-		 }
-	 
-  public void test() throws Exception { 
+	}
+	  
+  private static void badUserPassTest(WebDriver driver){
+	 // try
+	  //{
+		  	WebDriverWait wait = new WebDriverWait(driver, 10);
+		  	driver.get(baseUrl + "/en/user/login.html");
+		    driver.findElement(By.id("UserLogin_username")).clear();
+		    driver.findElement(By.id("UserLogin_username")).sendKeys(BadUserName);
+		    driver.findElement(By.id("UserLogin_password")).clear();
+		    driver.findElement(By.id("UserLogin_password")).sendKeys(UserPass);
+		    driver.findElement(By.cssSelector("button.btn.btn-success")).click();
+	    	wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("error-message"))).equals("Username or email is not a valid email addres.");
+	    	/*driver.findElement(By.id("UserLogin_username")).clear();
+		    driver.findElement(By.id("UserLogin_username")).sendKeys(UserName);
+		    driver.findElement(By.id("UserLogin_password")).clear();
+		    driver.findElement(By.id("UserLogin_password")).sendKeys(BadUserPass);
+		    driver.findElement(By.cssSelector("button.btn.btn-success")).click();
+		    wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("error-message"))).equals("Password is incorrect.");
+	    	*/
+	  //}
+	  //catch(Exception e){
+	  //}
+  }
+  
+  public static void test(WebDriver driver) throws Exception { 
 	 try
 	  {
 		   //driver = new FirefoxDriver();
@@ -91,6 +115,7 @@ public class Login {
 		   // driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 		    driver.manage().window().maximize();
 		    System.out.println("Vidinis Login");
+		   // badUserPassTest(driver);
 	    driver.get(baseUrl + "/en/user/login.html");
 	    driver.findElement(By.id("UserLogin_username")).clear();
 	    driver.findElement(By.id("UserLogin_username")).sendKeys(UserName);

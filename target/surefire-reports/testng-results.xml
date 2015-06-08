@@ -2,47 +2,47 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="test.java.NewTest" duration-ms="56788" started-at="2015-05-21T13:30:01Z" finished-at="2015-05-21T13:30:58Z">
+  <suite name="test.java.NewTest" duration-ms="20675" started-at="2015-06-08T14:35:10Z" finished-at="2015-06-08T14:35:31Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="56788" started-at="2015-05-21T13:30:01Z" finished-at="2015-05-21T13:30:58Z">
+    <test name="Command line test" duration-ms="20675" started-at="2015-06-08T14:35:10Z" finished-at="2015-06-08T14:35:31Z">
       <class name="test.java.NewTest">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:test.java.NewTest@6574b225]" name="BeforeTest" is-config="true" duration-ms="261" started-at="2015-05-21T16:30:01Z" finished-at="2015-05-21T16:30:02Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:test.java.NewTest@32e6e9c3]" name="BeforeTest" is-config="true" duration-ms="292" started-at="2015-06-08T17:35:10Z" finished-at="2015-06-08T17:35:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@6574b225]" name="setUp" is-config="true" duration-ms="13963" started-at="2015-05-21T16:30:02Z" finished-at="2015-05-21T16:30:16Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@32e6e9c3]" name="setUp" is-config="true" duration-ms="13406" started-at="2015-06-08T17:35:10Z" finished-at="2015-06-08T17:35:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void test.java.NewTest.testControl() throws java.lang.Exception]]>
+                <![CDATA[public void test.java.NewTest.testLogin() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testControl()[pri:0, instance:test.java.NewTest@6574b225]" name="testControl" duration-ms="42302" started-at="2015-05-21T16:30:16Z" finished-at="2015-05-21T16:30:58Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.java.NewTest@32e6e9c3]" name="testLogin" duration-ms="6703" started-at="2015-06-08T17:35:24Z" finished-at="2015-06-08T17:35:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testControl -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@6574b225]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-05-21T16:30:58Z" finished-at="2015-05-21T16:30:58Z">
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@32e6e9c3]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2015-06-08T17:35:31Z" finished-at="2015-06-08T17:35:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testControl status=SUCCESS method=NewTest.testControl()[pri:0, instance:test.java.NewTest@6574b225] output={null}]]]>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=NewTest.testLogin()[pri:0, instance:test.java.NewTest@32e6e9c3] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void test.java.NewTest.testControl() throws java.lang.Exception]]>
+                <![CDATA[public void test.java.NewTest.testLogin() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@6574b225]" name="tearDown" is-config="true" duration-ms="249" started-at="2015-05-21T16:30:58Z" finished-at="2015-05-21T16:30:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@32e6e9c3]" name="tearDown" is-config="true" duration-ms="258" started-at="2015-06-08T17:35:31Z" finished-at="2015-06-08T17:35:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

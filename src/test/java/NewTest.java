@@ -21,6 +21,7 @@ import java.io.File;
 import java.io.IOException;
 //import java.util.List;
 
+
 import org.apache.commons.io.FileUtils;
 //import org.apache.commons.logging.Log;
 import org.openqa.selenium.OutputType;
@@ -28,7 +29,9 @@ import org.openqa.selenium.TakesScreenshot;
 //import org.openqa.selenium.WebElement;
 import org.testng.ITestResult;
 import org.apache.log4j.xml.DOMConfigurator;
+
 import test.java.Login;
+import tests.Control;
 
 
 
@@ -46,7 +49,7 @@ public class NewTest {
   Logger Debug = LogManager.getLogger("Debug");
   Logger Error = LogManager.getLogger("ERROR");
   Logger Info = LogManager.getLogger("Info");
-  private WebDriver driver;
+  public WebDriver driver;
 
   //---------------------------------------------------
  
@@ -77,83 +80,16 @@ public void setUp(Method method) throws Exception {
 
   
   public void login() throws Exception {
-	  /*try
-	  {
-	    driver.get(baseUrl + "/en/user/login.html");
-	    driver.findElement(By.id("UserLogin_username")).clear();
-	    driver.findElement(By.id("UserLogin_username")).sendKeys(UserName);
-	    driver.findElement(By.id("UserLogin_password")).clear();
-	    driver.findElement(By.id("UserLogin_password")).sendKeys(UserPass);
-	    driver.findElement(By.cssSelector("button.btn.btn-success")).click();
-	    try
-	    {
-	    	String str;
-	    	WebDriverWait wait = new WebDriverWait(driver, 1);
-	    	wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("modal-dialog")));
-	    	str = driver.findElement(By.className("modal-body")).getText();
-	    	driver.findElement(By.cssSelector("input.modalBtn.ok")).click();
-	    	System.out.println("ERROR: " + str); Error.info("ERROR: " + str);
-	    	//File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE); 
-	    	//System.out.println(System.getProperty("user.dir")+"\\ScreenShots\\"+testName+".jpg");
-	    	takeScreenShotOnFailure(null, null);
-	    }
-	    catch(Exception e){
-	    }
-
-	    }
-	 
-	  catch(Exception e)
-	  {
-		 
-	  }*/
-	  Login myLogin = new Login(driver);
-	  myLogin.execute();
+	
+	  Login.execute(driver);
 	  
 	}
   
 @Test(priority=1)
   public void testLogin() throws Exception {
-	Login myLogin = new Login(driver);
-	myLogin.test();
- /* try
-  {
 
-    driver.get(baseUrl + "/en/user/login.html");
-    driver.findElement(By.id("UserLogin_username")).clear();
-    driver.findElement(By.id("UserLogin_username")).sendKeys(UserName);
-    driver.findElement(By.id("UserLogin_password")).clear();
-    driver.findElement(By.id("UserLogin_password")).sendKeys(UserPass);
-    driver.findElement(By.cssSelector("button.btn.btn-success")).click();
-    
-    
-
-    //System.out.println("1)testLogin OK");
-    //Thread.sleep(20000);
-    //System.out.println("Praejo 20s");
-    try
-    {
-    	String str;
-    	WebDriverWait wait = new WebDriverWait(driver, 1);
-    	wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("modal-dialog")));
-    	str = driver.findElement(By.className("modal-body")).getText();
-    	driver.findElement(By.cssSelector("input.modalBtn.ok")).click();
-    	System.out.println("ERROR: " + str); Error.info("ERROR: " + str);
-    	//File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE); 
-		//FileUtils.copyFile(scrFile, new File("D:\\testScreenShot.jpg"));
-		takeScreenShotOnFailure(null, null);
-    }
-    catch(Exception e){
-    }
-    
-    
-  }
+	Login.test(driver);
  
-  catch(Exception e)
-    {
-	  	Fatal.info("Login: " + e);
-    	Assert.fail();
-	  	
-    }*/
   
 }
 
@@ -322,53 +258,9 @@ public void setUp(Method method) throws Exception {
  
  @Test (priority = 5)
  public void testControl() throws Exception {
-	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	 System.out.println("pradzia");
-	try
-	{
-		
-		if (driver.getTitle().equals("Cloud Security Login")|| driver.getTitle().equals("") )
-			login();
-			System.out.println("po logino");
-	 	    FindID.driver = driver;
-		    FindID.devname = devname;
-			System.out.println("po findid");
-			//Controll Tabas
-			driver.findElement(By.xpath("//a[@href='#control-"+FindID.getOnlineID()+"']")).click();
-			//Arm Tabas
-			System.out.println("1"); 
+	 new Control(driver);
+	 Control.execute();
 	
-			By ele2 = By.className("modal-dialog");
-			System.out.println("3");
-			
-			//String state = driver.findElement(By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]")).getText();
-			By ele1 = By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div/div[3]/div[2]/div/div/div[1]");
-			System.out.println("4");
-		
-			
-			ExpectedObject EO = new ExpectedObject(ele1,ele2,"Arm","Disarm");
-			EO.apply(driver);
-			System.out.println("2");
-		
-			if(EO.status==2)
-			{
-			driver.findElement(By.xpath("html/body/div[2]/div/div/form/div[1]/div")).click();
-			driver.findElement(By.xpath("//input[@value='Ok']")).click();
-			}
-				
-			By ele3 = By.xpath("//*[@id='controlsPanel-"+FindID.getOnlineID()+"']/div/div[1]/div[2]/div[1]/div");
-			System.out.println("0001");
-			EO = new ExpectedObject(ele3,null,"on","off" );
-			EO.apply(driver);
-		
-			System.out.println("5");
-	 }
-	
-	 catch(Exception e)
-     {
-	  	Fatal.info("Logout: " + e);
-    	Assert.fail();
-     }
 } 
  
  

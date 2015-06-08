@@ -5,9 +5,9 @@
     <classes>
       <class name="test.java.NewTest">
         <methods>
-          <include name="testControl"/>
           <include name="BeforeTest"/>
           <include name="tearDown"/>
+          <include name="testLogin"/>
           <include name="takeScreenShotOnFailure"/>
           <include name="setUp"/>
         </methods>
