@@ -48,7 +48,7 @@ public class NewTest {
   Logger Fatal = LogManager.getLogger("FATAL");
   Logger Debug = LogManager.getLogger("Debug");
   Logger Error = LogManager.getLogger("ERROR");
-  Logger Info = LogManager.getLogger("Info"); 
+  Logger Info = LogManager.getLogger("Info");  
   public WebDriver driver;
 
   //---------------------------------------------------
