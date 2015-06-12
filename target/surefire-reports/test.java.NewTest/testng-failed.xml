@@ -8,9 +8,7 @@
           <include name="testControl"/>
           <include name="BeforeTest"/>
           <include name="tearDown"/>
-          <include name="testDeleteDevice"/>
           <include name="takeScreenShotOnFailure"/>
-          <include name="testAddDevice"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- test.java.NewTest -->
