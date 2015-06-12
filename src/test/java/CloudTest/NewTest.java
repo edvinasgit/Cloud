@@ -258,7 +258,7 @@ public void setUp(Method method) throws Exception {
  
  @Test (priority = 5)
  public void testControl() throws Exception {
-	 Thread.sleep(40000);
+	 Thread.sleep(120000);
 	 new Control(driver);
 	 Control.execute();
 	
@@ -266,7 +266,7 @@ public void setUp(Method method) throws Exception {
  
  
 // @Test (priority = 6)
- public void testRegister() throws Exception {
+ /*public void testRegister() throws Exception {
 	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	
 	try
@@ -316,7 +316,7 @@ public void setUp(Method method) throws Exception {
 			System.out.println("Armed");
 			//driver.findElement(By.className("arm_disarm"));
 			System.out.println("Finded state: "+driver.findElement(By.xpath("//*[@id='controlsPanel-3606']/div/div/div[3]/div[1]/div/div/p")).getText());
-			*/
+			
 	 }
 	
 	 catch(Exception e)
@@ -324,7 +324,7 @@ public void setUp(Method method) throws Exception {
 	  	Fatal.info("Logout: " + e);
     	Assert.fail();
      }
-} 
+} */
  
  /*public String findID(String alldevid, String alldevid_off) throws Exception {
 	try
