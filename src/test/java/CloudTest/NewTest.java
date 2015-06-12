@@ -258,7 +258,7 @@ public void setUp(Method method) throws Exception {
  
  @Test (priority = 5)
  public void testControl() throws Exception {
-	 Thread.sleep(180000); 
+	 Thread.sleep(300000); 
 	 new Control(driver);
 	 Control.execute();  
 	 
