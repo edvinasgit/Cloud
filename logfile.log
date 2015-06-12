@@ -581,3 +581,64 @@ Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true
 Session ID: c4c62142-8688-4f14-8256-26c9ca0aed52
 *** Element info: {Using=xpath, value=//a[@href='#control-null']} 
 2015-06-11 15:27:09,788 INFO  [Info] testControl FAILED 
+2015-06-11 16:40:00,092 INFO  [Info] #################################################################################### 
+2015-06-11 16:40:14,686 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-11 16:40:14,687 INFO  [Info] testLogin Started 
+2015-06-11 16:40:19,729 INFO  [Info] testLogin PASSED 
+2015-06-11 16:40:32,104 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-11 16:40:32,105 INFO  [Info] testDeleteDevice Started 
+2015-06-11 16:40:38,037 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-06-11 16:40:38,649 INFO  [Info] testDeleteDevice FAILED 
+2015-06-11 16:40:51,995 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-11 16:40:51,995 INFO  [Info] testAddDevice Started 
+2015-06-11 16:51:06,801 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 600 seconds waiting for visibility of element located by By.className: modal-dialog
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5f6ef76e-56e2-4ce7-967b-3d2d72592786 
+2015-06-11 16:51:07,350 INFO  [Info] testAddDevice FAILED 
+2015-06-11 16:51:22,405 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-11 16:51:22,406 INFO  [Info] testLogout Started 
+2015-06-11 16:51:28,068 INFO  [Info] testLogout PASSED 
+2015-06-11 16:51:40,424 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-11 16:51:40,424 INFO  [Info] testControl Started 
+2015-06-11 16:52:33,418 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e5b6d4f6-df15-4bd0-a2cf-085e4f418aec
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-06-11 16:52:33,894 INFO  [Info] testControl FAILED 
+2015-06-12 09:03:04,649 INFO  [Info] #################################################################################### 
+2015-06-12 09:03:20,129 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-12 09:03:20,129 INFO  [Info] testLogin Started 
+2015-06-12 09:03:26,117 INFO  [Info] testLogin PASSED 
+2015-06-12 09:03:39,650 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-12 09:03:39,650 INFO  [Info] testDeleteDevice Started 
+2015-06-12 09:03:45,123 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-06-12 09:03:45,621 INFO  [Info] testDeleteDevice FAILED 
+2015-06-12 09:03:58,931 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-12 09:03:58,931 INFO  [Info] testAddDevice Started 
+2015-06-12 09:04:15,196 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-06-12 09:04:15,196 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-06-12 09:04:19,907 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-06-12 09:04:20,135 INFO  [Info] testAddDevice FAILED 
+2015-06-12 09:04:34,249 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-12 09:04:34,249 INFO  [Info] testLogout Started 
+2015-06-12 09:04:39,586 INFO  [Info] testLogout PASSED 
+2015-06-12 09:04:52,815 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-12 09:04:52,815 INFO  [Info] testControl Started 
+2015-06-12 09:05:47,493 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@href='#control-null']"}
+Command duration or timeout: 10.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 52e3b60f-1001-4751-9098-625e60f4b89f
+*** Element info: {Using=xpath, value=//a[@href='#control-null']} 
+2015-06-12 09:05:47,976 INFO  [Info] testControl FAILED 

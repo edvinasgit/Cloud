@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="3" name="test.java.NewTest" time="93.686" errors="0" skipped="0">
+<testsuite tests="5" failures="3" name="test.java.NewTest" time="92.453" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_31\jre\bin"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_31\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install -U"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="user.language.format" value="lt"/>
@@ -65,29 +65,29 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="test.java.NewTest" name="testLogin" time="6.072"/>
-  <testcase classname="test.java.NewTest" name="testDeleteDevice" time="6.54">
+  <testcase classname="test.java.NewTest" name="testLogin" time="5.979"/>
+  <testcase classname="test.java.NewTest" name="testDeleteDevice" time="5.482">
     <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)
-	at test.java.NewTest.testDeleteDevice(NewTest.java:217)
+	at test.java.NewTest.testDeleteDevice(NewTest.java:210)
 </failure>
     <system-out>testLogin PASSED
 testDeleteDevice Started
 On null
-Off 6282
+Off null
 Pries Unknown
 po Unknown
 On null
-Off 6282
-Your Device is offline. This test expected online device
+Off null
+ERROR: You can&apos;t delete device which doesn&apos;t exixts. Device ID not found
 </system-out>
   </testcase>
-  <testcase classname="test.java.NewTest" name="testAddDevice" time="17.543">
+  <testcase classname="test.java.NewTest" name="testAddDevice" time="20.979">
     <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)
-	at test.java.NewTest.testDeleteDevice(NewTest.java:217)
+	at test.java.NewTest.testDeleteDevice(NewTest.java:210)
 	at test.java.NewTest.testAddDevice(NewTest.java:143)
 </failure>
     <system-out>C:\Users\Edvinas\workspace\CloudTest\ScreenShots\testDeleteDevice.jpg
@@ -96,16 +96,16 @@ testAddDevice Started
 ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support
 Device will be deleted automaticaly and test will be repeated
 On null
-Off 6282
+Off null
 Pries Unknown
 po Unknown
 On null
-Off 6282
-Your Device is offline. This test expected online device
+Off null
+ERROR: You can&apos;t delete device which doesn&apos;t exixts. Device ID not found
 </system-out>
   </testcase>
-  <testcase classname="test.java.NewTest" name="testLogout" time="7.122"/>
-  <testcase classname="test.java.NewTest" name="testControl" time="56.409">
+  <testcase classname="test.java.NewTest" name="testLogout" time="5.327"/>
+  <testcase classname="test.java.NewTest" name="testControl" time="54.686">
     <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)

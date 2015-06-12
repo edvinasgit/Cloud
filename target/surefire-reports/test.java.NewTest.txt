@@ -1,21 +1,21 @@
 -------------------------------------------------------------------------------
 Test set: test.java.NewTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 165.054 sec <<< FAILURE!
-testDeleteDevice(test.java.NewTest)  Time elapsed: 6.54 sec  <<< FAILURE!
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 164.683 sec <<< FAILURE!
+testDeleteDevice(test.java.NewTest)  Time elapsed: 5.482 sec  <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)
-	at test.java.NewTest.testDeleteDevice(NewTest.java:217)
+	at test.java.NewTest.testDeleteDevice(NewTest.java:210)
 
-testAddDevice(test.java.NewTest)  Time elapsed: 17.543 sec  <<< FAILURE!
+testAddDevice(test.java.NewTest)  Time elapsed: 20.979 sec  <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)
-	at test.java.NewTest.testDeleteDevice(NewTest.java:217)
+	at test.java.NewTest.testDeleteDevice(NewTest.java:210)
 	at test.java.NewTest.testAddDevice(NewTest.java:143)
 
-testControl(test.java.NewTest)  Time elapsed: 56.409 sec  <<< FAILURE!
+testControl(test.java.NewTest)  Time elapsed: 54.686 sec  <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)
