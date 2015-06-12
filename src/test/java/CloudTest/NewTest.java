@@ -1,4 +1,4 @@
-package test.java;
+package test.java.CloudTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeTest;
@@ -30,8 +30,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestResult;
 import org.apache.log4j.xml.DOMConfigurator;
 
-import test.java.Login;
-import tests.Control;
+import test.java.CloudTest.Login;
+import test.java.CloudTest.tests.Control;
 
 
 
@@ -97,7 +97,7 @@ public void setUp(Method method) throws Exception {
  public void testAddDevice() throws Exception {
 	 try
 	 {
-
+		 
 	  		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	 	String str = null;
 	 	if (driver.getTitle().equals("Cloud Security Login")|| driver.getTitle().equals("") )
@@ -106,7 +106,7 @@ public void setUp(Method method) throws Exception {
 	    driver.get(baseUrl + "/device/create");
 	    driver.findElement(By.id("Device_crypted_imei")).clear();
 	    driver.findElement(By.id("Device_crypted_imei")).sendKeys(IMEI);
-
+	    System.out.println("Naujasis IMEI");
 		driver.findElement(By.id("DeviceProfile_name")).clear();
 		driver.findElement(By.id("DeviceProfile_name")).sendKeys(devname);
 		driver.findElement(By.id("DeviceProfile_phone")).clear();
@@ -258,7 +258,7 @@ public void setUp(Method method) throws Exception {
  
  @Test (priority = 5)
  public void testControl() throws Exception {
-	 Thread.sleep(30000);
+	 Thread.sleep(40000);
 	 new Control(driver);
 	 Control.execute();
 	

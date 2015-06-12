@@ -1,13 +1,13 @@
-package tests;
+package test.java.CloudTest.tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import java.util.concurrent.TimeUnit;
 import org.testng.Assert;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import test.java.ExpectedObject;
-import test.java.FindID;
-import test.java.Login;
+import test.java.CloudTest.ExpectedObject;
+import test.java.CloudTest.FindID;
+import test.java.CloudTest.Login;
 	
 public class Control {
 	public static WebDriver driver;

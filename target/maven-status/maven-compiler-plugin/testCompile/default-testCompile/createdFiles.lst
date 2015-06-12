@@ -1,8 +1,8 @@
-test\java\ExpectedObject.class
-tests\Control.class
-test\java\MyCompare.class
-test\java\MyExpectedCondition.class
-test\java\NewTest.class
-test\java\AddDevice.class
-test\java\FindID.class
-test\java\Login.class
+test\java\CloudTest\MyExpectedCondition.class
+test\java\CloudTest\tests\Control.class
+test\java\CloudTest\MyCompare.class
+test\java\CloudTest\AddDevice.class
+test\java\CloudTest\ExpectedObject.class
+test\java\CloudTest\FindID.class
+test\java\CloudTest\NewTest.class
+test\java\CloudTest\Login.class

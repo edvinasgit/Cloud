@@ -2,167 +2,62 @@
 <testng-results skipped="0" failed="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="test.java.NewTest" duration-ms="372599" started-at="2015-06-12T08:12:31Z" finished-at="2015-06-12T08:18:44Z">
+  <suite name="test.java.CloudTest.NewTest" duration-ms="256089" started-at="2015-06-12T11:05:24Z" finished-at="2015-06-12T11:09:40Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="372599" started-at="2015-06-12T08:12:31Z" finished-at="2015-06-12T08:18:44Z">
-      <class name="test.java.NewTest">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:test.java.NewTest@69d9c55]" name="BeforeTest" is-config="true" duration-ms="300" started-at="2015-06-12T11:12:31Z" finished-at="2015-06-12T11:12:31Z">
+    <test name="Command line test" duration-ms="256089" started-at="2015-06-12T11:05:24Z" finished-at="2015-06-12T11:09:40Z">
+      <class name="test.java.CloudTest.NewTest">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="BeforeTest" is-config="true" duration-ms="345" started-at="2015-06-12T14:05:24Z" finished-at="2015-06-12T14:05:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="13724" started-at="2015-06-12T11:12:31Z" finished-at="2015-06-12T11:12:45Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="18542" started-at="2015-06-12T14:05:24Z" finished-at="2015-06-12T14:05:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void test.java.NewTest.testLogin() throws java.lang.Exception]]>
+                <![CDATA[public void test.java.CloudTest.NewTest.testLogin() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.java.NewTest@69d9c55]" name="testLogin" duration-ms="6680" started-at="2015-06-12T11:12:45Z" finished-at="2015-06-12T11:12:52Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="testLogin" duration-ms="3913" started-at="2015-06-12T14:05:43Z" finished-at="2015-06-12T14:05:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="249" started-at="2015-06-12T11:12:52Z" finished-at="2015-06-12T11:12:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-06-12T11:12:52Z" finished-at="2015-06-12T11:12:52Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2015-06-12T14:05:47Z" finished-at="2015-06-12T14:05:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLogin status=SUCCESS method=NewTest.testLogin()[pri:0, instance:test.java.NewTest@69d9c55] output={null}]]]>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=NewTest.testLogin()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void test.java.NewTest.testLogin() throws java.lang.Exception]]>
+                <![CDATA[public void test.java.CloudTest.NewTest.testLogin() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="14936" started-at="2015-06-12T11:12:52Z" finished-at="2015-06-12T11:13:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void test.java.NewTest.testDeleteDevice() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDeleteDevice()[pri:0, instance:test.java.NewTest@69d9c55]" name="testDeleteDevice" duration-ms="7457" started-at="2015-06-12T11:13:07Z" finished-at="2015-06-12T11:13:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteDevice -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2015-06-12T11:13:14Z" finished-at="2015-06-12T11:13:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testDeleteDevice status=SUCCESS method=NewTest.testDeleteDevice()[pri:0, instance:test.java.NewTest@69d9c55] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void test.java.NewTest.testDeleteDevice() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="283" started-at="2015-06-12T11:13:14Z" finished-at="2015-06-12T11:13:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="223" started-at="2015-06-12T14:05:47Z" finished-at="2015-06-12T14:05:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="13093" started-at="2015-06-12T11:13:15Z" finished-at="2015-06-12T11:13:28Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="13419" started-at="2015-06-12T14:05:47Z" finished-at="2015-06-12T14:06:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void test.java.NewTest.testAddDevice() throws java.lang.Exception]]>
+                <![CDATA[public void test.java.CloudTest.NewTest.testDeleteDevice() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAddDevice()[pri:0, instance:test.java.NewTest@69d9c55]" name="testAddDevice" duration-ms="135560" started-at="2015-06-12T11:13:28Z" finished-at="2015-06-12T11:15:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddDevice -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2015-06-12T11:15:43Z" finished-at="2015-06-12T11:15:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testAddDevice status=SUCCESS method=NewTest.testAddDevice()[pri:0, instance:test.java.NewTest@69d9c55] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void test.java.NewTest.testAddDevice() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="320" started-at="2015-06-12T11:15:43Z" finished-at="2015-06-12T11:15:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="13598" started-at="2015-06-12T11:15:44Z" finished-at="2015-06-12T11:15:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void test.java.NewTest.testLogout() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogout()[pri:0, instance:test.java.NewTest@69d9c55]" name="testLogout" duration-ms="8852" started-at="2015-06-12T11:15:57Z" finished-at="2015-06-12T11:16:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="291" started-at="2015-06-12T11:16:06Z" finished-at="2015-06-12T11:16:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-06-12T11:16:06Z" finished-at="2015-06-12T11:16:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testLogout status=SUCCESS method=NewTest.testLogout()[pri:0, instance:test.java.NewTest@69d9c55] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void test.java.NewTest.testLogout() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="13287" started-at="2015-06-12T11:16:06Z" finished-at="2015-06-12T11:16:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void test.java.NewTest.testControl() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testControl()[pri:0, instance:test.java.NewTest@69d9c55]" name="testControl" duration-ms="143358" started-at="2015-06-12T11:16:20Z" finished-at="2015-06-12T11:18:43Z">
+        <test-method status="FAIL" signature="testDeleteDevice()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="testDeleteDevice" duration-ms="3794" started-at="2015-06-12T14:06:00Z" finished-at="2015-06-12T14:06:04Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -171,9 +66,7 @@
               <![CDATA[java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)
-	at tests.Control.armDisarm(Control.java:129)
-	at tests.Control.execute(Control.java:52)
-	at test.java.NewTest.testControl(NewTest.java:263)
+	at test.java.CloudTest.NewTest.testDeleteDevice(NewTest.java:210)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -212,28 +105,133 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testControl -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="338" started-at="2015-06-12T11:18:43Z" finished-at="2015-06-12T11:18:43Z">
+        </test-method> <!-- testDeleteDevice -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="523" started-at="2015-06-12T14:06:04Z" finished-at="2015-06-12T14:06:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testControl status=FAILURE method=NewTest.testControl()[pri:0, instance:test.java.NewTest@69d9c55] output={null}]]]>
+                <![CDATA[[TestResult name=testDeleteDevice status=FAILURE method=NewTest.testDeleteDevice()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void test.java.NewTest.testControl() throws java.lang.Exception]]>
+                <![CDATA[public void test.java.CloudTest.NewTest.testDeleteDevice() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="238" started-at="2015-06-12T11:18:43Z" finished-at="2015-06-12T11:18:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="254" started-at="2015-06-12T14:06:05Z" finished-at="2015-06-12T14:06:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.java.NewTest -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="12090" started-at="2015-06-12T14:06:05Z" finished-at="2015-06-12T14:06:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.CloudTest.NewTest.testAddDevice() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddDevice()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="testAddDevice" duration-ms="70056" started-at="2015-06-12T14:06:17Z" finished-at="2015-06-12T14:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddDevice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="262" started-at="2015-06-12T14:07:27Z" finished-at="2015-06-12T14:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-06-12T14:07:27Z" finished-at="2015-06-12T14:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddDevice status=SUCCESS method=NewTest.testAddDevice()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.CloudTest.NewTest.testAddDevice() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="12700" started-at="2015-06-12T14:07:27Z" finished-at="2015-06-12T14:07:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.CloudTest.NewTest.testLogout() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="testLogout" duration-ms="5911" started-at="2015-06-12T14:07:40Z" finished-at="2015-06-12T14:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-06-12T14:07:46Z" finished-at="2015-06-12T14:07:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogout status=SUCCESS method=NewTest.testLogout()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.CloudTest.NewTest.testLogout() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="314" started-at="2015-06-12T14:07:46Z" finished-at="2015-06-12T14:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="12078" started-at="2015-06-12T14:07:46Z" finished-at="2015-06-12T14:07:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.CloudTest.NewTest.testControl() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testControl()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="testControl" duration-ms="101392" started-at="2015-06-12T14:07:58Z" finished-at="2015-06-12T14:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testControl -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2015-06-12T14:09:40Z" finished-at="2015-06-12T14:09:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testControl status=SUCCESS method=NewTest.testControl()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.CloudTest.NewTest.testControl() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.CloudTest.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="253" started-at="2015-06-12T14:09:40Z" finished-at="2015-06-12T14:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.CloudTest.NewTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- test.java.NewTest -->
+  </suite> <!-- test.java.CloudTest.NewTest -->
 </testng-results>

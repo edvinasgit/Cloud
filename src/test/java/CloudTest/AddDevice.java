@@ -1,4 +1,4 @@
-package test.java;
+package test.java.CloudTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeTest;
@@ -19,7 +19,7 @@ import org.apache.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
-import test.java.NewTest;
+import test.java.CloudTest.NewTest;
 //import java.util.List;
 
 
