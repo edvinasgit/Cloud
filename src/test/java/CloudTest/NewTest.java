@@ -260,9 +260,10 @@ public void setUp(Method method) throws Exception {
  public void testControl() throws Exception {
 	 Thread.sleep(150000); 
 	 new Control(driver);
-	 Control.execute();
+	 Control.execute();  
 	
 } 
+ 
  
  
 // @Test (priority = 6)
