@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="3" name="test.java.NewTest" time="92.453" errors="0" skipped="0">
+<testsuite tests="5" failures="3" name="test.java.NewTest" time="680.561" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_31\jre\bin"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_31\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install -U"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="user.language.format" value="lt"/>
@@ -65,8 +65,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="test.java.NewTest" name="testLogin" time="5.979"/>
-  <testcase classname="test.java.NewTest" name="testDeleteDevice" time="5.482">
+  <testcase classname="test.java.NewTest" name="testLogin" time="4.71"/>
+  <testcase classname="test.java.NewTest" name="testDeleteDevice" time="4.463">
     <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)
@@ -83,39 +83,74 @@ Off null
 ERROR: You can&apos;t delete device which doesn&apos;t exixts. Device ID not found
 </system-out>
   </testcase>
-  <testcase classname="test.java.NewTest" name="testAddDevice" time="20.979">
+  <testcase classname="test.java.NewTest" name="testAddDevice" time="612.616">
     <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)
-	at test.java.NewTest.testDeleteDevice(NewTest.java:210)
-	at test.java.NewTest.testAddDevice(NewTest.java:143)
+	at test.java.NewTest.testAddDevice(NewTest.java:150)
 </failure>
     <system-out>C:\Users\Edvinas\workspace\CloudTest\ScreenShots\testDeleteDevice.jpg
 testDeleteDevice FAILED
 testAddDevice Started
-ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support
-Device will be deleted automaticaly and test will be repeated
-On null
-Off null
-Pries Unknown
-po Unknown
-On null
-Off null
-ERROR: You can&apos;t delete device which doesn&apos;t exixts. Device ID not found
+Adding device
 </system-out>
   </testcase>
-  <testcase classname="test.java.NewTest" name="testLogout" time="5.327"/>
-  <testcase classname="test.java.NewTest" name="testControl" time="54.686">
+  <testcase classname="test.java.NewTest" name="testLogout" time="7.108"/>
+  <testcase classname="test.java.NewTest" name="testControl" time="51.664">
     <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)
-	at tests.Control.execute(Control.java:77)
+	at tests.Control.outputControl(Control.java:147)
+	at tests.Control.execute(Control.java:64)
 	at test.java.NewTest.testControl(NewTest.java:263)
 </failure>
     <system-out>testLogout PASSED
 testControl Started
 pradzia
+ERROR: You can get the code using Eldes Configuration Tool software, section Management-&gt;Passwords/Codes-&gt;Master Code/User Codes.
+
+User code:
 klikinam
+Start Arminam
+klikinam arm
+State is: Arm
+Expected Condition Started
+Action state: Arm
+Action is going
+Expected: Disarm
+Get textArm
+Mes ife 2
+Waitinam mec
+Arminam End
+return false
+bypassinam
+Mes Bypasse
+arminam
+Start Arminam
+klikinam arm
+State is: Arm
+Expected Condition Started
+Action state: Arm
+Action is going
+Expected: Disarm
+Get textArm
+Mes ife 2
+Waitinam mec
+Arminam End
+return false
+Start Arminam
+klikinam arm
+State is: Arm
+Expected Condition Started
+Action state: Arm
+Action is going
+Expected: Disarm
+Get textArm
+Mes ife 2
+Waitinam mec
+Arminam End
+return false
+0001
 </system-out>
   </testcase>
 </testsuite>

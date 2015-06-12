@@ -51,7 +51,7 @@ public class AddDevice {
 	  Logger Info = LogManager.getLogger("Info");
 	  private WebDriver driver;
 	  //---------------------------------------------------
-	 public void execute() throws Exception {
+	 public void execute() throws Exception { 
 		 try
 		 {
 			driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);

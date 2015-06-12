@@ -157,8 +157,7 @@
                   </a> <!-- testAddDevice -->
                   <span class="method-name">testAddDevice</span>
                   <div class="stack-trace">java.lang.AssertionError: null
-	at test.java.NewTest.testDeleteDevice(NewTest.java:210)
-	at test.java.NewTest.testAddDevice(NewTest.java:143)
+	at test.java.NewTest.testAddDevice(NewTest.java:150)
 ... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -169,7 +168,8 @@
                   </a> <!-- testControl -->
                   <span class="method-name">testControl</span>
                   <div class="stack-trace">java.lang.AssertionError: null
-	at tests.Control.execute(Control.java:77)
+	at tests.Control.outputControl(Control.java:147)
+	at tests.Control.execute(Control.java:64)
 	at test.java.NewTest.testControl(NewTest.java:263)
 ... Removed 35 stack frames
 </div> <!-- stack-trace -->
@@ -263,30 +263,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testControl')
+data.setCell(0, 1, 'testAddDevice')
 data.setCell(0, 2, 'test.java.NewTest')
-data.setCell(0, 3, 54679);
+data.setCell(0, 3, 612616);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testAddDevice')
+data.setCell(1, 1, 'testControl')
 data.setCell(1, 2, 'test.java.NewTest')
-data.setCell(1, 3, 20976);
+data.setCell(1, 3, 51653);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testLogin')
+data.setCell(2, 1, 'testLogout')
 data.setCell(2, 2, 'test.java.NewTest')
-data.setCell(2, 3, 5987);
+data.setCell(2, 3, 7107);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testDeleteDevice')
+data.setCell(3, 1, 'testLogin')
 data.setCell(3, 2, 'test.java.NewTest')
-data.setCell(3, 3, 5475);
+data.setCell(3, 3, 4713);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testLogout')
+data.setCell(4, 1, 'testDeleteDevice')
 data.setCell(4, 2, 'test.java.NewTest')
-data.setCell(4, 3, 5336);
+data.setCell(4, 3, 4453);
 window.suiteTableData['test.java.NewTest']= { tableData: data, tableDiv: 'times-div-test.java.NewTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
               <div id="times-div-test.java.NewTest">
               </div> <!-- times-div-test.java.NewTest -->
             </div> <!-- times-div -->
@@ -319,89 +319,89 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void test.java.NewTest.testLogin() throws java.lang.Exception)</span>
-                <span class="method-start">253 ms</span>
+                <span class="method-start">329 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogin</span>
-                <span class="method-start">15725 ms</span>
+                <span class="method-start">15891 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenShotOnFailure([TestResult name=testLogin status=SUCCESS method=NewTest.testLogin()[pri:0, instance:test.java.NewTe...)</span>
-                <span class="method-start">21713 ms</span>
+                <span class="method-start">20605 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21713 ms</span>
+                <span class="method-start">20605 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void test.java.NewTest.testDeleteDevice() throws java.lang.Exception)</span>
-                <span class="method-start">21975 ms</span>
+                <span class="method-start">20894 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testDeleteDevice</span>
-                <span class="method-start">35247 ms</span>
+                <span class="method-start">33766 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenShotOnFailure([TestResult name=testDeleteDevice status=FAILURE method=NewTest.testDeleteDevice()[pri:0, instance:t...)</span>
-                <span class="method-start">40724 ms</span>
+                <span class="method-start">38222 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41217 ms</span>
+                <span class="method-start">38839 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void test.java.NewTest.testAddDevice() throws java.lang.Exception)</span>
-                <span class="method-start">41428 ms</span>
+                <span class="method-start">39055 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testAddDevice</span>
-                <span class="method-start">54527 ms</span>
+                <span class="method-start">52268 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenShotOnFailure([TestResult name=testAddDevice status=FAILURE method=NewTest.testAddDevice()[pri:0, instance:test.ja...)</span>
-                <span class="method-start">75505 ms</span>
+                <span class="method-start">664885 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">75731 ms</span>
+                <span class="method-start">665501 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void test.java.NewTest.testLogout() throws java.lang.Exception)</span>
-                <span class="method-start">75994 ms</span>
+                <span class="method-start">665756 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogout</span>
-                <span class="method-start">89845 ms</span>
+                <span class="method-start">679399 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenShotOnFailure([TestResult name=testLogout status=SUCCESS method=NewTest.testLogout()[pri:0, instance:test.java.New...)</span>
-                <span class="method-start">95181 ms</span>
+                <span class="method-start">686506 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">95182 ms</span>
+                <span class="method-start">686507 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void test.java.NewTest.testControl() throws java.lang.Exception)</span>
-                <span class="method-start">95453 ms</span>
+                <span class="method-start">686762 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testControl</span>
-                <span class="method-start">108411 ms</span>
+                <span class="method-start">699925 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenShotOnFailure([TestResult name=testControl status=FAILURE method=NewTest.testControl()[pri:0, instance:test.java.N...)</span>
-                <span class="method-start">163091 ms</span>
+                <span class="method-start">751580 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">163572 ms</span>
+                <span class="method-start">752193 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

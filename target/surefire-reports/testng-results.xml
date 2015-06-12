@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="3" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="test.java.NewTest" duration-ms="163855" started-at="2015-06-12T06:03:04Z" finished-at="2015-06-12T06:05:48Z">
+  <suite name="test.java.NewTest" duration-ms="752451" started-at="2015-06-12T06:20:36Z" finished-at="2015-06-12T06:33:08Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="163855" started-at="2015-06-12T06:03:04Z" finished-at="2015-06-12T06:05:48Z">
+    <test name="Command line test" duration-ms="752451" started-at="2015-06-12T06:20:36Z" finished-at="2015-06-12T06:33:08Z">
       <class name="test.java.NewTest">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:test.java.NewTest@69d9c55]" name="BeforeTest" is-config="true" duration-ms="245" started-at="2015-06-12T09:03:04Z" finished-at="2015-06-12T09:03:04Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:test.java.NewTest@69d9c55]" name="BeforeTest" is-config="true" duration-ms="317" started-at="2015-06-12T09:20:36Z" finished-at="2015-06-12T09:20:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="15472" started-at="2015-06-12T09:03:04Z" finished-at="2015-06-12T09:03:20Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="15562" started-at="2015-06-12T09:20:36Z" finished-at="2015-06-12T09:20:52Z">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.java.NewTest@69d9c55]" name="testLogin" duration-ms="5987" started-at="2015-06-12T09:03:20Z" finished-at="2015-06-12T09:03:26Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.java.NewTest@69d9c55]" name="testLogin" duration-ms="4713" started-at="2015-06-12T09:20:52Z" finished-at="2015-06-12T09:20:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="261" started-at="2015-06-12T09:03:26Z" finished-at="2015-06-12T09:03:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-06-12T09:03:26Z" finished-at="2015-06-12T09:03:26Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-06-12T09:20:56Z" finished-at="2015-06-12T09:20:56Z">
           <params>
             <param index="0">
               <value>
@@ -46,7 +42,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="13272" started-at="2015-06-12T09:03:26Z" finished-at="2015-06-12T09:03:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="288" started-at="2015-06-12T09:20:56Z" finished-at="2015-06-12T09:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="12872" started-at="2015-06-12T09:20:57Z" finished-at="2015-06-12T09:21:10Z">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testDeleteDevice()[pri:0, instance:test.java.NewTest@69d9c55]" name="testDeleteDevice" duration-ms="5475" started-at="2015-06-12T09:03:39Z" finished-at="2015-06-12T09:03:45Z">
+        <test-method status="FAIL" signature="testDeleteDevice()[pri:0, instance:test.java.NewTest@69d9c55]" name="testDeleteDevice" duration-ms="4453" started-at="2015-06-12T09:21:10Z" finished-at="2015-06-12T09:21:14Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -106,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteDevice -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="493" started-at="2015-06-12T09:03:45Z" finished-at="2015-06-12T09:03:45Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="617" started-at="2015-06-12T09:21:14Z" finished-at="2015-06-12T09:21:15Z">
           <params>
             <param index="0">
               <value>
@@ -122,11 +122,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="210" started-at="2015-06-12T09:03:45Z" finished-at="2015-06-12T09:03:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="215" started-at="2015-06-12T09:21:15Z" finished-at="2015-06-12T09:21:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="13099" started-at="2015-06-12T09:03:45Z" finished-at="2015-06-12T09:03:58Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="13213" started-at="2015-06-12T09:21:15Z" finished-at="2015-06-12T09:21:28Z">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testAddDevice()[pri:0, instance:test.java.NewTest@69d9c55]" name="testAddDevice" duration-ms="20976" started-at="2015-06-12T09:03:58Z" finished-at="2015-06-12T09:04:19Z">
+        <test-method status="FAIL" signature="testAddDevice()[pri:0, instance:test.java.NewTest@69d9c55]" name="testAddDevice" duration-ms="612616" started-at="2015-06-12T09:21:28Z" finished-at="2015-06-12T09:31:41Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -146,8 +146,7 @@
               <![CDATA[java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)
-	at test.java.NewTest.testDeleteDevice(NewTest.java:210)
-	at test.java.NewTest.testAddDevice(NewTest.java:143)
+	at test.java.NewTest.testAddDevice(NewTest.java:150)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -187,7 +186,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddDevice -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="226" started-at="2015-06-12T09:04:19Z" finished-at="2015-06-12T09:04:20Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="616" started-at="2015-06-12T09:31:41Z" finished-at="2015-06-12T09:31:41Z">
           <params>
             <param index="0">
               <value>
@@ -203,11 +202,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="263" started-at="2015-06-12T09:04:20Z" finished-at="2015-06-12T09:04:20Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="254" started-at="2015-06-12T09:31:41Z" finished-at="2015-06-12T09:31:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="13851" started-at="2015-06-12T09:04:20Z" finished-at="2015-06-12T09:04:34Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="13643" started-at="2015-06-12T09:31:42Z" finished-at="2015-06-12T09:31:55Z">
           <params>
             <param index="0">
               <value>
@@ -218,11 +217,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogout()[pri:0, instance:test.java.NewTest@69d9c55]" name="testLogout" duration-ms="5336" started-at="2015-06-12T09:04:34Z" finished-at="2015-06-12T09:04:39Z">
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:test.java.NewTest@69d9c55]" name="testLogout" duration-ms="7107" started-at="2015-06-12T09:31:55Z" finished-at="2015-06-12T09:32:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2015-06-12T09:04:39Z" finished-at="2015-06-12T09:04:39Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2015-06-12T09:32:02Z" finished-at="2015-06-12T09:32:02Z">
           <params>
             <param index="0">
               <value>
@@ -238,11 +237,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="270" started-at="2015-06-12T09:04:39Z" finished-at="2015-06-12T09:04:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="255" started-at="2015-06-12T09:32:02Z" finished-at="2015-06-12T09:32:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="12958" started-at="2015-06-12T09:04:39Z" finished-at="2015-06-12T09:04:52Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="setUp" is-config="true" duration-ms="13163" started-at="2015-06-12T09:32:03Z" finished-at="2015-06-12T09:32:16Z">
           <params>
             <param index="0">
               <value>
@@ -253,7 +252,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testControl()[pri:0, instance:test.java.NewTest@69d9c55]" name="testControl" duration-ms="54679" started-at="2015-06-12T09:04:52Z" finished-at="2015-06-12T09:05:47Z">
+        <test-method status="FAIL" signature="testControl()[pri:0, instance:test.java.NewTest@69d9c55]" name="testControl" duration-ms="51653" started-at="2015-06-12T09:32:16Z" finished-at="2015-06-12T09:33:07Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -262,7 +261,8 @@
               <![CDATA[java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)
-	at tests.Control.execute(Control.java:77)
+	at tests.Control.outputControl(Control.java:147)
+	at tests.Control.execute(Control.java:64)
 	at test.java.NewTest.testControl(NewTest.java:263)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -303,7 +303,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testControl -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="481" started-at="2015-06-12T09:05:47Z" finished-at="2015-06-12T09:05:47Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.NewTest@69d9c55]" name="takeScreenShotOnFailure" is-config="true" duration-ms="613" started-at="2015-06-12T09:33:07Z" finished-at="2015-06-12T09:33:08Z">
           <params>
             <param index="0">
               <value>
@@ -319,7 +319,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="279" started-at="2015-06-12T09:05:47Z" finished-at="2015-06-12T09:05:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.NewTest@69d9c55]" name="tearDown" is-config="true" duration-ms="254" started-at="2015-06-12T09:33:08Z" finished-at="2015-06-12T09:33:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
