@@ -265,7 +265,7 @@ public void setUp(Method method) throws Exception {
 } 
  
  
- 
+   
 // @Test (priority = 6)
  /*public void testRegister() throws Exception {
 	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
