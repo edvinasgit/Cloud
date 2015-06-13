@@ -1,0 +1,9 @@
+test\java\CloudTest\MyExpectedCondition.class
+test\java\CloudTest\tests\Control.class
+test\java\CloudTest\MyCompare.class
+test\java\CloudTest\DevTest.class
+test\java\CloudTest\AddDevice.class
+test\java\CloudTest\ExpectedObject.class
+test\java\CloudTest\FindID.class
+test\java\CloudTest\NewTest.class
+test\java\CloudTest\Login.class
