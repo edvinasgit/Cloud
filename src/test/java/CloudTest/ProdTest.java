@@ -35,7 +35,7 @@ import test.java.CloudTest.tests.Control;
 
 
 
-public class NewTest {
+public class ProdTest {
   private StringBuffer verificationErrors = new StringBuffer(); 
  
   
@@ -54,14 +54,14 @@ public class NewTest {
   //---------------------------------------------------
  
   
-  @BeforeTest (groups = { "Dev", "Prod" })
+  @BeforeTest (groups = { "Dev1" })
   public void BeforeTest() throws Exception {
 	  DOMConfigurator.configure("log4j.xml");
 	  Info.info("####################################################################################");
 	
   }	   
 
-  @BeforeMethod (groups = { "Dev", "Prod" })
+  @BeforeMethod (groups = { "Dev1" })
 public void setUp(Method method) throws Exception {
 	
 
@@ -85,22 +85,15 @@ public void setUp(Method method) throws Exception {
 	  
 	}
   
-@Test(priority=1, groups = { "Prod" })
+@Test(priority=1, groups = { "Prod1" })
   public void testLogin() throws Exception {
 
-	new Login(driver, "https://cloud.eldes.lt", "Edvinasg@gmail.com", "edvinaseldes");
 	Login.test(driver);
  
+  
 }
 
-@Test(priority=1, groups = { "Dev"})
-public void testLoginDev() throws Exception {
-	
-	new Login(driver, "https://dev.eldes.lt", "Edvinasg@gmail.com", "nissan88");
-	Login.test(driver);
-
-}
- @Test(priority=2, groups = { "Dev", "Prod" })
+ //@Test(priority = 3)
  public void testAddDevice() throws Exception {
 	 try
 	 {
@@ -160,7 +153,7 @@ public void testLoginDev() throws Exception {
 	    
 }
 
- @Test (priority=3, groups = { "Dev", "Prod" })
+// @Test (priority = 2)
  public void testDeleteDevice() throws Exception {
 	try
 	{
@@ -246,7 +239,7 @@ public void testLoginDev() throws Exception {
 	}
 }
 
- @Test (priority=4, groups = { "Dev", "Prod" })
+ @Test (priority = 2, groups = { "Dev1" })
  public void testLogout() throws Exception {
 	try
 	{
@@ -263,9 +256,9 @@ public void testLoginDev() throws Exception {
      }
 }
  
- @Test (priority=5, groups = { "Dev", "Prod" })
+ @Test (priority = 3, groups = { "Dev1" })
  public void testControl() throws Exception {
-	 Thread.sleep(270000); 
+	// Thread.sleep(270000); 
 	 new Control(driver);
 	 Control.execute();  
 	  
@@ -334,9 +327,57 @@ public void testLoginDev() throws Exception {
      }
 } */
  
+ /*public String findID(String alldevid, String alldevid_off) throws Exception {
+	try
+	{
+	  //alldevid = null;
+	  //alldevid_off = null;
 
+		  List<WebElement> alldevices = driver.findElements(By.className("device_on"));
+		  for (WebElement element: alldevices)
+		  {
+			  System.out.println(element.getText());
+			  if(element.getText().equals("Edvinas Automatic Test"))
+			  {
+				  alldevid = element.getAttribute("id");
+			      System.out.println("Visi elementai: " + element.getText() + alldevid);
+			  }
+		  }
+		   
+		  if (alldevid==null)
+		  {  
+			  List<WebElement> alldevices_off = driver.findElements(By.className("device_off"));
+			  for (WebElement element_off: alldevices_off)
+			  	{
+				  System.out.println(element_off.getText());
+				  if(element_off.getText().equals("Edvinas Automatic Test"))
+				  {
+					  alldevid_off = element_off.getAttribute("id");
+					  System.out.println("Your Device is offline. This test expected online device");
+					  Error.info("Your device is offline. This test expected online device");
+				  }
+
+			  	}
+		  }
+		  if (alldevid_off==null && alldevid ==null)
+		  {
+			Error.info("ERROR: You can't delete device which doesn't exixts. Device ID not found");
+			System.out.println("ERROR: You can't delete device which doesn't exixts. Device ID not found");
+		  }
  
- @AfterMethod (groups = { "Dev", "Prod" })
+	 }
+	catch(Exception e)
+	{
+		Fatal.info("DeviceDelete: " + e);
+    	Assert.fail();
+	}
+	String stringas = "On " + alldevid + "Off "+ alldevid_off;
+	return stringas;
+	
+} 
+ */
+ 
+ @AfterMethod (groups = { "Dev1" })
  public void takeScreenShotOnFailure(ITestResult testResult, Method method) throws IOException 
  { 
 	 String testName = method.getName(); 
@@ -361,10 +402,12 @@ public void testLoginDev() throws Exception {
  		  Info.info(testName + " SKIPED");
  		    
  	  }
- 	        
+ 	    
+ 	    
+ 	    
  }
  
-@AfterMethod (groups = { "Dev", "Prod" })
+@AfterMethod (groups = { "Dev1" })
 public void tearDown() throws Exception {
     driver.quit();
     String verificationErrorString = verificationErrors.toString();
@@ -375,6 +418,44 @@ public void tearDown() throws Exception {
     
   }
 
+//private void failed(){
+	
+//}
+
+
+/*  private boolean isElementPresent(By by) {
+    try {
+      driver.findElement(by);
+      return true;
+    } catch (NoSuchElementException e) {
+      return false;
+    }
+  }
+
+  private boolean isAlertPresent() {
+    try {
+      driver.switchTo().alert();
+      return true;
+    } catch (NoAlertPresentException e) {
+      return false;
+    }
+  }
+
+  private String closeAlertAndGetItsText() {
+    try {
+      Alert alert = driver.switchTo().alert();
+      String alertText = alert.getText();
+      if (acceptNextAlert) {
+        alert.accept();
+      } else {
+        alert.dismiss();
+      }
+      return alertText;
+    } finally {
+      acceptNextAlert = true;
+    }
+  }
+  */
 }
 
 

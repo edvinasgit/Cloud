@@ -27,17 +27,14 @@ import org.apache.log4j.xml.DOMConfigurator;
 
 
 public class Login {
-	//private static WebDriver driver;
-	
-	
-	
 	
 	 //-----------Global values---------------------------
-	  static String baseUrl = "https://security.eldes.lt";
-	  static String UserName = "edvinasg@gmail.com";
-	  static String UserPass = "edvinaseldes";
-	  static String BadUserName = "edvinasg@gmail.co";
-	  static String BadUserPass = "edvinas";
+	public static String baseUrl; //= "https://security.eldes.lt";
+	public static String UserName; //= "edvinasg@gmail.com";
+	public static String UserPass; //= "edvinaseldes";
+	public static String BadUserName;// = "edvinasg@gmail.co";
+	public static String BadUserPass; //= "edvinas";
+	public static WebDriver driver;
 	  
 	  
 	  static Logger Fatal = LogManager.getLogger("FATAL");
@@ -45,11 +42,19 @@ public class Login {
 	  static Logger Error = LogManager.getLogger("ERROR");
 	  static Logger Info = LogManager.getLogger("Info");
 
+
 	  //---------------------------------------------------
 	  
-    public  Login() {
-        
-    }
+	 public Login(WebDriver driver1, String baseUrl1, String UserName1, String UserPass1) {
+		 baseUrl = baseUrl1;
+		 UserName = UserName1;
+		 UserPass = UserPass1;
+		 driver = driver1;
+		 
+
+	}
+	//private static WebDriver driver;
+	
 
 	 
 	
@@ -122,7 +127,8 @@ public class Login {
 	    driver.findElement(By.id("UserLogin_password")).clear();
 	    driver.findElement(By.id("UserLogin_password")).sendKeys(UserPass);
 	    driver.findElement(By.cssSelector("button.btn.btn-success")).click();
-	    
+	   	WebDriverWait wait2 = new WebDriverWait(driver, 5);
+    	wait2.until(ExpectedConditions.visibilityOfElementLocated(By.className("container")));
 	    
 
 	    //System.out.println("1)testLogin OK");

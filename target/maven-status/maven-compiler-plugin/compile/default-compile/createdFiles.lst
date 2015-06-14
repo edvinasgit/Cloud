@@ -7,3 +7,4 @@ test\java\CloudTest\ExpectedObject.class
 test\java\CloudTest\FindID.class
 test\java\CloudTest\NewTest.class
 test\java\CloudTest\Login.class
+test\java\CloudTest\ProdTest.class

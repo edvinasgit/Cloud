@@ -23,7 +23,8 @@
                 <configuration>
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    
+						<suiteXmlFile>testng2.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
