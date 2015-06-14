@@ -526,3 +526,35 @@ Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true
 Session ID: ed24f8a3-63de-4c6a-94a8-ed90be674ef3
 *** Element info: {Using=xpath, value=//a[@href='#control-null']} 
 2015-06-14 18:38:40,592 INFO  [Info] testControl FAILED 
+2015-06-14 21:56:46,471 INFO  [Info] #################################################################################### 
+2015-06-14 21:57:29,608 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 21:57:29,610 INFO  [Info] testLogin Started 
+2015-06-14 21:57:44,984 INFO  [Info] testLogin PASSED 
+2015-06-14 21:58:06,192 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 21:58:06,192 INFO  [Info] testAddDevice Started 
+2015-06-14 21:58:25,115 INFO  [FATAL] AddDevice: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"Device_crypted_imei"}
+Command duration or timeout: 3.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '217.9.255.113', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 14832c42-2443-4f19-a2ed-994a9b166b34
+*** Element info: {Using=id, value=Device_crypted_imei} 
+2015-06-14 21:58:28,324 INFO  [Info] testAddDevice FAILED 
+2015-06-14 21:58:56,645 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 21:58:56,645 INFO  [Info] testDeleteDevice Started 
+2015-06-14 21:59:03,747 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-06-14 21:59:07,223 INFO  [Info] testDeleteDevice FAILED 
+2015-06-14 21:59:22,598 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 21:59:22,598 INFO  [Info] testLogout Started 
+2015-06-14 21:59:29,352 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"span > span > span"}
+Command duration or timeout: 70 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '217.9.255.113', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 071fd656-1a32-4cad-99ca-3111a130c301
+*** Element info: {Using=css selector, value=span > span > span} 
+2015-06-14 21:59:32,790 INFO  [Info] testLogout FAILED 

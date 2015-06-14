@@ -88,7 +88,7 @@ public void setUp(Method method) throws Exception {
 @Test(priority=1, groups = { "Prod" })
   public void testLogin() throws Exception {
 
-	new Login(driver, "https://cloud.eldes.lt", "Edvinasg@gmail.com", "edvinaseldes");
+	new Login(driver, "https://cloud.eldes.lt", "edvinasg@gmail.com", "edvinaseldes");
 	Login.test(driver);
  
 }
@@ -96,7 +96,7 @@ public void setUp(Method method) throws Exception {
 @Test(priority=1, groups = { "Dev"})
 public void testLoginDev() throws Exception {
 	
-	new Login(driver, "https://dev.eldes.lt", "Edvinasg@gmail.com", "nissan88");
+	new Login(driver, "https://dev.eldes.lt", "edvinasg@gmail.com", "nissan88");
 	Login.test(driver);
 
 }
