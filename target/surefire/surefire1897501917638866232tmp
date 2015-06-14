@@ -1,5 +1,5 @@
 #surefire
-#Sun Jun 14 21:56:43 EEST 2015
+#Sun Jun 14 22:14:06 EEST 2015
 groups=Prod
 tc.2=test.java.CloudTest.ProdTest
 tc.1=test.java.CloudTest.NewTest

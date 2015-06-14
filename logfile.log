@@ -558,3 +558,47 @@ Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true
 Session ID: 071fd656-1a32-4cad-99ca-3111a130c301
 *** Element info: {Using=css selector, value=span > span > span} 
 2015-06-14 21:59:32,790 INFO  [Info] testLogout FAILED 
+2015-06-14 21:59:49,258 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 21:59:49,258 INFO  [Info] testControl Started 
+2015-06-14 22:06:26,120 INFO  [Info] #################################################################################### 
+2015-06-14 22:06:56,267 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:06:56,268 INFO  [Info] testLogin Started 
+2015-06-14 22:07:18,278 INFO  [Info] testLogin PASSED 
+2015-06-14 22:07:32,472 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:07:32,472 INFO  [Info] testAddDevice Started 
+2015-06-14 22:07:54,170 INFO  [FATAL] AddDevice: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"Device_crypted_imei"}
+Command duration or timeout: 3.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '217.9.255.113', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 82aabd6c-5498-4b6a-9a20-b5685556353f
+*** Element info: {Using=id, value=Device_crypted_imei} 
+2015-06-14 22:07:57,024 INFO  [Info] testAddDevice FAILED 
+2015-06-14 22:08:23,098 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:08:23,098 INFO  [Info] testDeleteDevice Started 
+2015-06-14 22:08:31,778 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-06-14 22:08:34,959 INFO  [Info] testDeleteDevice FAILED 
+2015-06-14 22:08:51,144 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:08:51,145 INFO  [Info] testLogout Started 
+2015-06-14 22:09:03,486 INFO  [FATAL] Logout: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"span > span > span"}
+Command duration or timeout: 60 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '217.9.255.113', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 11f129d0-4d6a-4c33-bc44-417697435e03
+*** Element info: {Using=css selector, value=span > span > span} 
+2015-06-14 22:09:06,075 INFO  [Info] testLogout FAILED 
+2015-06-14 22:09:33,402 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:09:33,403 INFO  [Info] testControl Started 
+2015-06-14 22:14:07,750 INFO  [Info] #################################################################################### 
+2015-06-14 22:14:34,016 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:14:34,018 INFO  [Info] testLogin Started 
+2015-06-14 22:14:56,297 INFO  [Info] testLogin PASSED 
+2015-06-14 22:15:12,184 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:15:12,184 INFO  [Info] testAddDevice Started 
+2015-06-14 22:15:47,360 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
+2015-06-14 22:15:47,360 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
