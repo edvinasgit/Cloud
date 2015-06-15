@@ -265,7 +265,7 @@ public void testLoginDev() throws Exception {
  
  @Test (priority=5, groups = { "Dev", "Prod" })
  public void testControl() throws Exception {
-	 Thread.sleep(270000); 
+	 Thread.sleep(300000); 
 	 new Control(driver);
 	 Control.execute();  
 	  

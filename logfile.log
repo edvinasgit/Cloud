@@ -602,3 +602,48 @@ Session ID: 11f129d0-4d6a-4c33-bc44-417697435e03
 2015-06-14 22:15:12,184 INFO  [Info] testAddDevice Started 
 2015-06-14 22:15:47,360 INFO  [ERROR] ERROR: Device with this Security ID already exist. Check may be you already have added it, if not please contact administrator for support 
 2015-06-14 22:15:47,360 INFO  [Info] Device will be deleted automaticaly and test will be repeated 
+2015-06-14 22:17:18,453 INFO  [Info] AddDevice Passed 
+2015-06-14 22:17:18,454 INFO  [Info] testAddDevice PASSED 
+2015-06-14 22:17:46,272 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:17:46,272 INFO  [Info] testDeleteDevice Started 
+2015-06-14 22:18:03,286 INFO  [Info] testDeleteDevice PASSED 
+2015-06-14 22:18:17,754 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:18:17,754 INFO  [Info] testLogout Started 
+2015-06-14 22:18:31,939 INFO  [Info] testLogout PASSED 
+2015-06-14 22:18:59,547 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:18:59,548 INFO  [Info] testControl Started 
+2015-06-14 22:27:13,516 INFO  [Info] #################################################################################### 
+2015-06-14 22:27:40,249 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:27:40,251 INFO  [Info] testLogin Started 
+2015-06-14 22:27:51,522 INFO  [Info] testLogin PASSED 
+2015-06-14 22:28:05,633 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:28:05,634 INFO  [Info] testDeleteDevice Started 
+2015-06-14 22:28:14,620 INFO  [ERROR] ERROR: You can't delete device which doesn't exixts. Device ID not found 
+2015-06-14 22:28:15,280 INFO  [Info] testDeleteDevice FAILED 
+2015-06-14 22:28:28,937 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:28:28,937 INFO  [Info] testAddDevice Started 
+2015-06-14 22:30:12,979 INFO  [Info] AddDevice Passed 
+2015-06-14 22:30:12,980 INFO  [Info] testAddDevice PASSED 
+2015-06-14 22:30:38,815 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:30:38,816 INFO  [Info] testLogout Started 
+2015-06-14 22:30:47,844 INFO  [Info] testLogout PASSED 
+2015-06-14 22:31:00,772 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-14 22:31:00,773 INFO  [Info] testControl Started 
+2015-06-14 22:35:41,611 INFO  [ERROR] ERROR: You can get the code using Eldes Configuration Tool software, section Management->Passwords/Codes->User Codes.
+
+User code: 
+2015-06-14 22:35:42,271 INFO  [Info] 	Arm Started 
+2015-06-14 22:35:43,884 INFO  [Info] 	Bypass Started 
+2015-06-14 22:35:44,271 INFO  [Info] 	Bypass PASSED 
+2015-06-14 22:35:45,613 INFO  [Info] 	Disarm Started 
+2015-06-14 22:35:46,713 INFO  [Info] 	OutputControl ON Started 
+2015-06-14 22:36:16,895 INFO  [FATAL] OutputControl: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='controlsPanel-6524']/div/div[1]/div[2]/div[1]/div"}
+Command duration or timeout: 30.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '217.9.255.113', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 69499136-d74d-4b1c-a10c-add6eff9ed57
+*** Element info: {Using=xpath, value=//*[@id='controlsPanel-6524']/div/div[1]/div[2]/div[1]/div} 
+2015-06-14 22:36:17,379 INFO  [Info] testControl FAILED 

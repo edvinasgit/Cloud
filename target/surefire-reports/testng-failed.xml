@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" verbose="0" name="Failed suite [TestSuite2]" parallel="tests">
+  <test name="ProdTest(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="Prod"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.java.CloudTest.NewTest">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="tearDown"/>
+          <include name="testControl"/>
+          <include name="setUp"/>
+          <include name="BeforeTest"/>
+          <include name="testDeleteDevice"/>
+        </methods>
+      </class> <!-- test.java.CloudTest.NewTest -->
+    </classes>
+  </test> <!-- ProdTest(failed) -->
+</suite> <!-- Failed suite [TestSuite2] -->
