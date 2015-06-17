@@ -22,6 +22,7 @@ import java.io.IOException;
 //import java.util.List;
 
 
+
 import org.apache.commons.io.FileUtils;
 //import org.apache.commons.logging.Log;
 import org.openqa.selenium.OutputType;
@@ -137,6 +138,9 @@ public void testLoginDev() throws Exception {
 		    driver.findElement(By.id("pinSubmit")).click();
 		    Info.info("AddDevice Passed");
 		    System.out.println("Pin Code entered");
+		    WebDriverWait wait2 = new WebDriverWait(driver, 90);
+		    wait2.until(ExpectedConditions.visibilityOfElementLocated((By.className("device_on"))));
+		    System.out.println("Device Added");
 	    	
 	    }      
 	    else
@@ -246,7 +250,7 @@ public void testLoginDev() throws Exception {
 	}
 }
 
- @Test (priority=4, groups = { "Dev", "Prod" })
+ @Test (priority=5, groups = { "Dev", "Prod" })
  public void testLogout() throws Exception {
 	try
 	{
@@ -263,9 +267,9 @@ public void testLoginDev() throws Exception {
      }
 }
  
- @Test (priority=5, groups = { "Dev", "Prod" })
+ @Test (priority=4, groups = { "Dev", "Prod" })
  public void testControl() throws Exception {
-	 Thread.sleep(300000); 
+	 //Thread.sleep(300000); 
 	 new Control(driver);
 	 Control.execute();  
 	  

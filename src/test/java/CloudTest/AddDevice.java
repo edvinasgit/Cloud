@@ -86,6 +86,9 @@ public class AddDevice {
 			    driver.findElement(By.id("pinSubmit")).click();
 			    Info.info("AddDevice Passed");
 			    System.out.println("Pin Code entered");
+			    WebDriverWait wait2 = new WebDriverWait(driver, 120);
+			    wait2.until(ExpectedConditions.visibilityOfElementLocated((By.className("device_on"))));
+			    System.out.println("Device Added");
 		    	
 		    }      
 		    else

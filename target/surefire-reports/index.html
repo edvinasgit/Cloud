@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,12 +101,7 @@
                     <div class="method-list-content failed suite-TestSuite2">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite2" title="test.java.CloudTest.NewTest" hash-for-method="testControl">testControl</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite2" title="test.java.CloudTest.NewTest" hash-for-method="testDeleteDevice">testDeleteDevice</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite2" title="test.java.CloudTest.NewTest" hash-for-method="testAddDevice">testAddDevice</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-TestSuite2 -->
@@ -120,7 +115,12 @@
                     <div class="method-list-content passed suite-TestSuite2">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite2" title="test.java.CloudTest.NewTest" hash-for-method="testAddDevice">testAddDevice</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite2" title="test.java.CloudTest.NewTest" hash-for-method="testControl">testControl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite2" title="test.java.CloudTest.NewTest" hash-for-method="testDeleteDevice">testDeleteDevice</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -153,28 +153,11 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testControl">
-                  </a> <!-- testControl -->
-                  <span class="method-name">testControl</span>
+                  <a name="testAddDevice">
+                  </a> <!-- testAddDevice -->
+                  <span class="method-name">testAddDevice</span>
                   <div class="stack-trace">java.lang.AssertionError: null
-	at test.java.CloudTest.tests.Control.outputControl(Control.java:147)
-	at test.java.CloudTest.tests.Control.execute(Control.java:64)
-	at test.java.CloudTest.NewTest.testControl(NewTest.java:270)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 18 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDeleteDevice">
-                  </a> <!-- testDeleteDevice -->
-                  <span class="method-name">testDeleteDevice</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at test.java.CloudTest.NewTest.testDeleteDevice(NewTest.java:217)
+	at test.java.CloudTest.NewTest.testAddDevice(NewTest.java:161)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
@@ -193,9 +176,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testAddDevice">
-                  </a> <!-- testAddDevice -->
-                  <span class="method-name">testAddDevice</span>
+                  <a name="testControl">
+                  </a> <!-- testControl -->
+                  <span class="method-name">testControl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteDevice">
+                  </a> <!-- testDeleteDevice -->
+                  <span class="method-name">testDeleteDevice</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -323,30 +313,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testControl')
+data.setCell(0, 1, 'testAddDevice')
 data.setCell(0, 2, 'test.java.CloudTest.NewTest')
-data.setCell(0, 3, 316122);
+data.setCell(0, 3, 249235);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testAddDevice')
+data.setCell(1, 1, 'testControl')
 data.setCell(1, 2, 'test.java.CloudTest.NewTest')
-data.setCell(1, 3, 104042);
+data.setCell(1, 3, 90182);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testLogin')
+data.setCell(2, 1, 'testLogout')
 data.setCell(2, 2, 'test.java.CloudTest.NewTest')
-data.setCell(2, 3, 11270);
+data.setCell(2, 3, 30589);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testLogout')
+data.setCell(3, 1, 'testLogin')
 data.setCell(3, 2, 'test.java.CloudTest.NewTest')
-data.setCell(3, 3, 9027);
+data.setCell(3, 3, 10534);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testDeleteDevice')
 data.setCell(4, 2, 'test.java.CloudTest.NewTest')
-data.setCell(4, 3, 8989);
+data.setCell(4, 3, 9277);
 window.suiteTableData['TestSuite2']= { tableData: data, tableDiv: 'times-div-TestSuite2'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
               <div id="times-div-TestSuite2">
               </div> <!-- times-div-TestSuite2 -->
             </div> <!-- times-div -->
@@ -386,87 +376,85 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void test.java.CloudTest.NewTest.testLogin() throws java.lang.Exception)</span>
-                <span class="method-start">308 ms</span>
+                <span class="method-start">258 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogin</span>
-                <span class="method-start">27032 ms</span>
+                <span class="method-start">27017 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenShotOnFailure([TestResult name=testLogin status=SUCCESS method=NewTest.testLogin()[pri:0, instance:test.java.Cloud...)</span>
-                <span class="method-start">38303 ms</span>
+                <span class="method-start">37551 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">38303 ms</span>
+                <span class="method-start">37552 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void test.java.CloudTest.NewTest.testDeleteDevice() throws java.lang.Exception)</span>
-                <span class="method-start">38614 ms</span>
+                <span class="method-start">37820 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testDeleteDevice</span>
-                <span class="method-start">52415 ms</span>
+                <span class="method-start">50114 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=testDeleteDevice status=FAILURE method=NewTest.testDeleteDevice()[pri:0, instance:t...)</span>
-                <span class="method-start">61411 ms</span>
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=testDeleteDevice status=SUCCESS method=NewTest.testDeleteDevice()[pri:0, instance:t...)</span>
+                <span class="method-start">59391 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">62061 ms</span>
+                <span class="method-start">59391 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void test.java.CloudTest.NewTest.testAddDevice() throws java.lang.Exception)</span>
-                <span class="method-start">62341 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testAddDevice</span>
-                <span class="method-start">75718 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=testAddDevice status=SUCCESS method=NewTest.testAddDevice()[pri:0, instance:test.ja...)</span>
-                <span class="method-start">179761 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">179761 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(public void test.java.CloudTest.NewTest.testLogout() throws java.lang.Exception)</span>
-                <span class="method-start">180097 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testLogout</span>
-                <span class="method-start">205597 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=testLogout status=SUCCESS method=NewTest.testLogout()[pri:0, instance:test.java.Clo...)</span>
-                <span class="method-start">214624 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">214625 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(public void test.java.CloudTest.NewTest.testControl() throws java.lang.Exception)</span>
-                <span class="method-start">214912 ms</span>
+                <span class="method-start">59678 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testControl</span>
-                <span class="method-start">227554 ms</span>
+                <span class="method-name">testAddDevice</span>
+                <span class="method-start">72537 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=testControl status=FAILURE method=NewTest.testControl()[pri:0, instance:test.java.C...)</span>
-                <span class="method-start">543678 ms</span>
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=testAddDevice status=FAILURE method=NewTest.testAddDevice()[pri:0, instance:test.ja...)</span>
+                <span class="method-start">321777 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">544160 ms</span>
+                <span class="method-start">325478 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.java.CloudTest.NewTest.testControl() throws java.lang.Exception)</span>
+                <span class="method-start">325855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testControl</span>
+                <span class="method-start">352472 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=testControl status=SUCCESS method=NewTest.testControl()[pri:0, instance:test.java.C...)</span>
+                <span class="method-start">442655 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">442655 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.java.CloudTest.NewTest.testLogout() throws java.lang.Exception)</span>
+                <span class="method-start">442940 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogout</span>
+                <span class="method-start">468907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=testLogout status=SUCCESS method=NewTest.testLogout()[pri:0, instance:test.java.Clo...)</span>
+                <span class="method-start">499497 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">499497 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

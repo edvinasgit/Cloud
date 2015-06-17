@@ -647,3 +647,210 @@ Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true
 Session ID: 69499136-d74d-4b1c-a10c-add6eff9ed57
 *** Element info: {Using=xpath, value=//*[@id='controlsPanel-6524']/div/div[1]/div[2]/div[1]/div} 
 2015-06-14 22:36:17,379 INFO  [Info] testControl FAILED 
+2015-06-17 17:28:23,051 INFO  [Info] #################################################################################### 
+2015-06-17 17:28:46,316 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 17:28:46,317 INFO  [Info] testLogin Started 
+2015-06-17 17:28:51,888 INFO  [Info] testLogin PASSED 
+2015-06-17 17:29:04,289 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 17:29:04,289 INFO  [Info] testDeleteDevice Started 
+2015-06-17 17:29:09,678 INFO  [Info] testDeleteDevice PASSED 
+2015-06-17 17:29:21,815 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 17:29:21,815 INFO  [Info] testAddDevice Started 
+2015-06-17 17:31:32,410 INFO  [Info] AddDevice Passed 
+2015-06-17 17:31:32,410 INFO  [Info] testAddDevice PASSED 
+2015-06-17 17:31:45,274 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 17:31:45,274 INFO  [Info] testControl Started 
+2015-06-17 17:31:49,712 INFO  [Info] 	Arm Started 
+2015-06-17 17:33:50,848 INFO  [FATAL] Arm/Disarm: org.openqa.selenium.TimeoutException: Timed out after 120 seconds waiting for test.java.CloudTest.MyExpectedCondition@333ae6d5
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 282f08cb-6d2c-4a47-a2d6-831860ca8f11 
+2015-06-17 17:33:51,143 INFO  [Info] testControl FAILED 
+2015-06-17 17:34:05,152 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 17:34:05,153 INFO  [Info] testLogout Started 
+2015-06-17 17:34:10,430 INFO  [Info] testLogout PASSED 
+2015-06-17 17:43:00,249 INFO  [Info] #################################################################################### 
+2015-06-17 17:43:15,643 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 17:43:15,644 INFO  [Info] testLogin Started 
+2015-06-17 17:43:20,454 INFO  [Info] testLogin PASSED 
+2015-06-17 17:43:32,361 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 17:43:32,362 INFO  [Info] testDeleteDevice Started 
+2015-06-17 17:43:37,572 INFO  [Info] testDeleteDevice PASSED 
+2015-06-17 17:43:50,280 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 17:43:50,280 INFO  [Info] testAddDevice Started 
+2015-06-17 17:46:01,004 INFO  [Info] AddDevice Passed 
+2015-06-17 17:46:01,005 INFO  [Info] testAddDevice PASSED 
+2015-06-17 17:46:15,255 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 17:46:15,255 INFO  [Info] testControl Started 
+2015-06-17 17:46:19,675 INFO  [Info] 	Arm Started 
+2015-06-17 17:47:11,026 INFO  [FATAL] Arm/Disarm: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver 
+2015-06-17 17:49:51,364 INFO  [Info] #################################################################################### 
+2015-06-17 17:50:05,623 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 17:50:05,624 INFO  [Info] testLogin Started 
+2015-06-17 17:50:11,098 INFO  [Info] testLogin PASSED 
+2015-06-17 17:50:24,078 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 17:50:24,079 INFO  [Info] testDeleteDevice Started 
+2015-06-17 17:50:29,343 INFO  [Info] testDeleteDevice PASSED 
+2015-06-17 17:50:41,555 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 17:50:41,555 INFO  [Info] testAddDevice Started 
+2015-06-17 17:53:06,601 INFO  [Info] AddDevice Passed 
+2015-06-17 17:53:06,602 INFO  [Info] testAddDevice PASSED 
+2015-06-17 17:53:21,289 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 17:53:21,289 INFO  [Info] testControl Started 
+2015-06-17 17:53:26,608 INFO  [Info] 	Arm Started 
+2015-06-17 18:06:45,121 INFO  [Info] #################################################################################### 
+2015-06-17 18:07:00,308 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 18:07:00,309 INFO  [Info] testLogin Started 
+2015-06-17 18:07:05,147 INFO  [Info] testLogin PASSED 
+2015-06-17 18:07:16,865 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 18:07:16,866 INFO  [Info] testDeleteDevice Started 
+2015-06-17 18:07:21,840 INFO  [Info] testDeleteDevice PASSED 
+2015-06-17 18:07:34,231 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 18:07:34,231 INFO  [Info] testAddDevice Started 
+2015-06-17 18:08:57,147 INFO  [Info] AddDevice Passed 
+2015-06-17 18:10:26,415 INFO  [Info] testAddDevice PASSED 
+2015-06-17 18:10:39,370 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 18:10:39,370 INFO  [Info] testControl Started 
+2015-06-17 18:10:43,664 INFO  [Info] 	Arm Started 
+2015-06-17 18:11:01,926 INFO  [Info] 	Arm/Disarm PASSED 
+2015-06-17 18:11:02,426 INFO  [Info] 	Disarm Started 
+2015-06-17 18:11:08,180 INFO  [Info] 	OutputControl ON Started 
+2015-06-17 18:11:26,595 INFO  [Info] 	OutputControl PASSED 
+2015-06-17 18:11:27,095 INFO  [Info] 	OutputControl OFF Started 
+2015-06-17 18:11:29,472 INFO  [Info] 	OutputControl PASSED 
+2015-06-17 18:11:29,473 INFO  [Info] testControl PASSED 
+2015-06-17 18:11:41,705 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 18:11:41,705 INFO  [Info] testLogout Started 
+2015-06-17 18:11:46,409 INFO  [Info] testLogout PASSED 
+2015-06-17 18:13:59,856 INFO  [Info] #################################################################################### 
+2015-06-17 18:14:13,566 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 18:14:13,567 INFO  [Info] testLogin Started 
+2015-06-17 18:14:18,618 INFO  [Info] testLogin PASSED 
+2015-06-17 18:14:30,864 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 18:14:30,865 INFO  [Info] testDeleteDevice Started 
+2015-06-17 18:14:36,065 INFO  [Info] testDeleteDevice PASSED 
+2015-06-17 18:14:48,434 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 18:14:48,434 INFO  [Info] testAddDevice Started 
+2015-06-17 18:17:37,736 INFO  [Info] AddDevice Passed 
+2015-06-17 18:19:08,789 INFO  [Info] testAddDevice PASSED 
+2015-06-17 18:19:23,333 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 18:19:23,333 INFO  [Info] testControl Started 
+2015-06-17 18:19:27,668 INFO  [Info] 	Arm Started 
+2015-06-17 18:19:33,353 INFO  [Info] 	Bypass Started 
+2015-06-17 18:19:33,700 INFO  [Info] 	Bypass PASSED 
+2015-06-17 18:19:37,604 INFO  [Info] 	Arm/Disarm PASSED 
+2015-06-17 18:19:38,104 INFO  [Info] 	Disarm Started 
+2015-06-17 18:20:09,128 INFO  [FATAL] Arm/Disarm: org.openqa.selenium.StaleElementReferenceException: Element is no longer attached to the DOM
+Command duration or timeout: 57 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '192.168.137.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d4d2ff0e-15a7-4a2f-b8f8-ce5759c4e765 
+2015-06-17 18:20:09,490 INFO  [Info] testControl FAILED 
+2015-06-17 18:20:21,682 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 18:20:21,682 INFO  [Info] testLogout Started 
+2015-06-17 18:20:25,898 INFO  [Info] testLogout PASSED 
+2015-06-17 20:04:15,279 INFO  [Info] #################################################################################### 
+2015-06-17 20:04:41,564 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:04:41,565 INFO  [Info] testLogin Started 
+2015-06-17 20:04:51,174 INFO  [Info] testLogin PASSED 
+2015-06-17 20:05:03,677 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:05:03,677 INFO  [Info] testDeleteDevice Started 
+2015-06-17 20:05:14,523 INFO  [Info] testDeleteDevice PASSED 
+2015-06-17 20:05:27,549 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:05:27,549 INFO  [Info] testAddDevice Started 
+2015-06-17 20:08:26,851 INFO  [Info] AddDevice Passed 
+2015-06-17 20:09:20,632 INFO  [Info] testAddDevice PASSED 
+2015-06-17 20:09:44,819 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:09:44,819 INFO  [Info] testControl Started 
+2015-06-17 20:09:57,870 INFO  [Info] 	Arm Started 
+2015-06-17 20:10:02,654 INFO  [Info] 	Bypass Started 
+2015-06-17 20:10:03,091 INFO  [Info] 	Bypass PASSED 
+2015-06-17 20:10:10,190 INFO  [Info] 	Arm/Disarm PASSED 
+2015-06-17 20:10:10,691 INFO  [Info] 	Disarm Started 
+2015-06-17 20:10:41,210 INFO  [Info] 	Arm/Disarm PASSED 
+2015-06-17 20:10:41,710 INFO  [Info] 	OutputControl ON Started 
+2015-06-17 20:10:51,025 INFO  [FATAL] OutputControl: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 5.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '82.140.180.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1ead23f-6429-4097-8227-04d517b6bdec 
+2015-06-17 20:10:51,602 INFO  [Info] testControl FAILED 
+2015-06-17 20:11:16,443 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:11:16,444 INFO  [Info] testLogout Started 
+2015-06-17 20:11:25,751 INFO  [Info] testLogout PASSED 
+2015-06-17 20:23:10,361 INFO  [Info] #################################################################################### 
+2015-06-17 20:23:38,146 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:23:38,147 INFO  [Info] testLogin Started 
+2015-06-17 20:23:52,295 INFO  [Info] testLogin PASSED 
+2015-06-17 20:24:05,244 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:24:05,244 INFO  [Info] testDeleteDevice Started 
+2015-06-17 20:24:18,725 INFO  [Info] testDeleteDevice PASSED 
+2015-06-17 20:24:31,968 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:24:31,968 INFO  [Info] testAddDevice Started 
+2015-06-17 20:25:56,891 INFO  [Info] AddDevice Passed 
+2015-06-17 20:27:29,318 INFO  [Info] testAddDevice PASSED 
+2015-06-17 20:27:55,026 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:27:55,026 INFO  [Info] testControl Started 
+2015-06-17 20:28:08,765 INFO  [Info] 	Arm Started 
+2015-06-17 20:28:13,031 INFO  [Info] 	Bypass Started 
+2015-06-17 20:28:13,410 INFO  [Info] 	Bypass PASSED 
+2015-06-17 20:28:20,677 INFO  [Info] 	Arm/Disarm PASSED 
+2015-06-17 20:28:21,177 INFO  [Info] 	Disarm Started 
+2015-06-17 20:28:51,827 INFO  [Info] 	Arm/Disarm PASSED 
+2015-06-17 20:28:52,327 INFO  [Info] 	OutputControl ON Started 
+2015-06-17 20:29:03,792 INFO  [FATAL] OutputControl: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 5.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '82.140.180.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b9d5706f-481d-4665-88b0-e1739e21dfbc 
+2015-06-17 20:29:04,090 INFO  [Info] testControl FAILED 
+2015-06-17 20:29:28,501 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:29:28,502 INFO  [Info] testLogout Started 
+2015-06-17 20:29:38,815 INFO  [Info] testLogout PASSED 
+2015-06-17 20:34:16,893 INFO  [Info] #################################################################################### 
+2015-06-17 20:34:43,663 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:34:43,664 INFO  [Info] testLogin Started 
+2015-06-17 20:34:54,199 INFO  [Info] testLogin PASSED 
+2015-06-17 20:35:06,760 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:35:06,761 INFO  [Info] testDeleteDevice Started 
+2015-06-17 20:35:16,038 INFO  [Info] testDeleteDevice PASSED 
+2015-06-17 20:35:29,184 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:35:29,184 INFO  [Info] testAddDevice Started 
+2015-06-17 20:38:06,365 INFO  [Info] AddDevice Passed 
+2015-06-17 20:39:38,416 INFO  [FATAL] AddDevice: org.openqa.selenium.TimeoutException: Timed out after 90 seconds waiting for visibility of element located by By.className: device_on
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kompas', ip: '82.140.180.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0d9b9760-f687-4cbc-aae2-737f01be9579 
+2015-06-17 20:39:42,125 INFO  [Info] testAddDevice FAILED 
+2015-06-17 20:40:09,118 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:40:09,119 INFO  [Info] testControl Started 
+2015-06-17 20:40:29,911 INFO  [Info] 	Arm Started 
+2015-06-17 20:40:34,122 INFO  [Info] 	Bypass Started 
+2015-06-17 20:40:34,523 INFO  [Info] 	Bypass PASSED 
+2015-06-17 20:40:59,624 INFO  [Info] 	Arm/Disarm PASSED 
+2015-06-17 20:41:00,125 INFO  [Info] 	Disarm Started 
+2015-06-17 20:41:30,655 INFO  [Info] 	Arm/Disarm PASSED 
+2015-06-17 20:41:31,155 INFO  [Info] 	OutputControl ON Started 
+2015-06-17 20:41:35,176 INFO  [Info] 	OutputControl PASSED 
+2015-06-17 20:41:35,676 INFO  [Info] 	OutputControl OFF Started 
+2015-06-17 20:41:39,301 INFO  [Info] 	OutputControl PASSED 
+2015-06-17 20:41:39,302 INFO  [Info] testControl PASSED 
+2015-06-17 20:42:05,554 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-17 20:42:05,554 INFO  [Info] testLogout Started 
+2015-06-17 20:42:36,144 INFO  [Info] testLogout PASSED 

@@ -1,18 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 545.4 sec <<< FAILURE! - in TestSuite
-testDeleteDevice(test.java.CloudTest.NewTest)  Time elapsed: 9.007 sec  <<< FAILURE!
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 500.781 sec <<< FAILURE! - in TestSuite
+testAddDevice(test.java.CloudTest.NewTest)  Time elapsed: 249.24 sec  <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)
-	at test.java.CloudTest.NewTest.testDeleteDevice(NewTest.java:217)
-
-testControl(test.java.CloudTest.NewTest)  Time elapsed: 316.126 sec  <<< FAILURE!
-java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.fail(Assert.java:101)
-	at test.java.CloudTest.tests.Control.outputControl(Control.java:147)
-	at test.java.CloudTest.tests.Control.execute(Control.java:64)
-	at test.java.CloudTest.NewTest.testControl(NewTest.java:270)
+	at test.java.CloudTest.NewTest.testAddDevice(NewTest.java:161)
 

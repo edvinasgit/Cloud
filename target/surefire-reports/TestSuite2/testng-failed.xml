@@ -12,10 +12,9 @@
         <methods>
           <include name="takeScreenShotOnFailure"/>
           <include name="tearDown"/>
-          <include name="testControl"/>
           <include name="setUp"/>
+          <include name="testAddDevice"/>
           <include name="BeforeTest"/>
-          <include name="testDeleteDevice"/>
         </methods>
       </class> <!-- test.java.CloudTest.NewTest -->
     </classes>
