@@ -54,18 +54,18 @@ public class Control {
 						 
 						System.out.println("bypassinam");
 						bypass();
-						Thread.sleep(500);
+						Thread.sleep(1000);
 						System.out.println("arminam");
 						armDisarm();
 					}
-					Thread.sleep(500);
+					Thread.sleep(1000);
 					Info.info("	Disarm Started");
 					armDisarm();
 					System.out.println("0001");
-					Thread.sleep(500);
+					Thread.sleep(2000);
 					 Info.info("	OutputControl ON Started");
 					outputControl();
-					Thread.sleep(500);
+					Thread.sleep(1000);
 					 Info.info("	OutputControl OFF Started");
 					outputControl();
 						
@@ -136,7 +136,7 @@ public class Control {
 	  }
 	  
 	  private static void outputControl() throws Exception {
-		  driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
+		  driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 		  try
 		  {
 			 
