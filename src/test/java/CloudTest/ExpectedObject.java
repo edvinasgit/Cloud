@@ -32,9 +32,9 @@ public int status;
 	public Boolean apply(WebDriver input) {
 		state = input.findElement(element1).getText();
 		MyExpectedCondition mec = new MyExpectedCondition(element1,element2,state,textA,textB);
-		WebDriverWait wait = new WebDriverWait(input, 120);
 		input.findElement(element1).click();
 		 System.out.println("klikinam arm");
+		WebDriverWait wait = new WebDriverWait(input, 120);
 		wait.until(mec);
 		System.out.println("Waitinam mec");
 		status = mec.status;

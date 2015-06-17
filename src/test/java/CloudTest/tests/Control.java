@@ -34,7 +34,7 @@ public class Control {
 	  
 	  public static void execute() throws Exception {
 		  
-		  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		  driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 	  
 
 		  
