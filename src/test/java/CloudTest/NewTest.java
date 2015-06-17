@@ -38,7 +38,7 @@ import test.java.CloudTest.tests.Control;
 
 public class NewTest {
   private StringBuffer verificationErrors = new StringBuffer(); 
- 
+  
   
   //-----------Global values---------------------------
   public String baseUrl = "https://security.eldes.lt";
