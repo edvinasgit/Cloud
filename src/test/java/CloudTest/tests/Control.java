@@ -136,7 +136,7 @@ public class Control {
 	  }
 	  
 	  private static void outputControl() throws Exception {
-		  driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		  driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
 		  try
 		  {
 			 
