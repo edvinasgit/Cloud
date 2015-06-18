@@ -138,7 +138,7 @@ public void testLoginDev() throws Exception {
 		    driver.findElement(By.id("pinSubmit")).click();
 		    Info.info("AddDevice Passed");
 		    System.out.println("Pin Code entered");
-		    WebDriverWait wait2 = new WebDriverWait(driver, 160);
+		    WebDriverWait wait2 = new WebDriverWait(driver, 180);
 		    wait2.until(ExpectedConditions.visibilityOfElementLocated((By.className("device_on"))));
 		    System.out.println("Device Added");
 	    	

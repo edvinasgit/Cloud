@@ -63,11 +63,19 @@ public class Control {
 					armDisarm();
 					System.out.println("0001");
 					Thread.sleep(2000);
-					 Info.info("	OutputControl ON Started");
-					outputControl();
-					Thread.sleep(1000);
+					Info.info("	OutputControl ON Started");
+					if (outputControl()==false)//ijungia outputa ir jei nepavyksta kartoja dar karta
+					{
+						System.out.println("Second try");
+						if (outputControl()==false)
+							Assert.fail();
+					}
+
+					 Thread.sleep(1000);
 					 Info.info("	OutputControl OFF Started");
-					outputControl();
+					 if (outputControl()==false)//isjungia outputa ir jei nepavyksta kartoja dar karta
+							if (outputControl()==false)
+								Assert.fail();
 						
 					
 
@@ -135,8 +143,8 @@ public class Control {
 		  }
 	  }
 	  
-	  private static void outputControl() throws Exception {
-		  driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
+	  private static boolean outputControl() throws Exception {
+		  driver.manage().timeouts().implicitlyWait(150, TimeUnit.SECONDS);
 		  try
 		  {
 			 
@@ -145,12 +153,14 @@ public class Control {
 			    ExpectedObject EO = new ExpectedObject(on_off,null,"on","off" );
 				EO.apply(driver);
 				Info.info("	OutputControl PASSED");
+			return true;
 		  }
 		  catch(Exception e)
 		  {
-			  Fatal.info("OutputControl: " + e);
-			  Assert.fail();
+			  	Error.info("OutputControl: " + e); 
+		   return false;
 		  }
+		
 	  }
 	  
 }

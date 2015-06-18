@@ -854,3 +854,30 @@ Session ID: 0d9b9760-f687-4cbc-aae2-737f01be9579
 2015-06-17 20:42:05,554 INFO  [Info] ---------------------------------------------------------------------------------- 
 2015-06-17 20:42:05,554 INFO  [Info] testLogout Started 
 2015-06-17 20:42:36,144 INFO  [Info] testLogout PASSED 
+2015-06-18 14:24:38,889 INFO  [Info] #################################################################################### 
+2015-06-18 14:24:54,548 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-18 14:24:54,549 INFO  [Info] testLogin Started 
+2015-06-18 14:25:00,237 INFO  [Info] testLogin PASSED 
+2015-06-18 14:25:12,776 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-18 14:25:12,778 INFO  [Info] testDeleteDevice Started 
+2015-06-18 14:25:18,028 INFO  [Info] testDeleteDevice PASSED 
+2015-06-18 14:25:30,320 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-18 14:25:30,320 INFO  [Info] testAddDevice Started 
+2015-06-18 14:26:26,029 INFO  [Info] AddDevice Passed 
+2015-06-18 14:27:19,626 INFO  [Info] testAddDevice PASSED 
+2015-06-18 14:27:34,051 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-18 14:27:34,051 INFO  [Info] testControl Started 
+2015-06-18 14:27:43,640 INFO  [Info] 	Arm Started 
+2015-06-18 14:27:48,210 INFO  [Info] 	Bypass Started 
+2015-06-18 14:27:48,555 INFO  [Info] 	Bypass PASSED 
+2015-06-18 14:28:14,097 INFO  [Info] 	Arm/Disarm PASSED 
+2015-06-18 14:28:15,098 INFO  [Info] 	Disarm Started 
+2015-06-18 14:28:21,684 INFO  [Info] 	Arm/Disarm PASSED 
+2015-06-18 14:28:23,684 INFO  [Info] 	OutputControl ON Started 
+2015-06-18 14:28:27,040 INFO  [Info] 	OutputControl PASSED 
+2015-06-18 14:28:28,041 INFO  [Info] 	OutputControl OFF Started 
+2015-06-18 14:28:30,469 INFO  [Info] 	OutputControl PASSED 
+2015-06-18 14:28:30,470 INFO  [Info] testControl PASSED 
+2015-06-18 14:28:42,944 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-06-18 14:28:42,944 INFO  [Info] testLogout Started 
+2015-06-18 14:28:48,180 INFO  [Info] testLogout PASSED 

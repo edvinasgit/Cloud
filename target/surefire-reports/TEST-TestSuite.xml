@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="389.824" tests="5" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="181.845" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_31\jre\bin"/>
@@ -65,21 +65,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testLogin" classname="test.java.CloudTest.NewTest" time="10.536"/>
-  <testcase name="testDeleteDevice" classname="test.java.CloudTest.NewTest" time="9.278"/>
-  <testcase name="testAddDevice" classname="test.java.CloudTest.NewTest" time="249.24">
-    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.fail(Assert.java:101)
-	at test.java.CloudTest.NewTest.testAddDevice(NewTest.java:161)
-</failure>
-    <system-out><![CDATA[testDeleteDevice PASSED
-testAddDevice Started
-Naujasis IMEI
-Adding device
-Pin Code entered
-]]></system-out>
-  </testcase>
-  <testcase name="testControl" classname="test.java.CloudTest.NewTest" time="90.182"/>
-  <testcase name="testLogout" classname="test.java.CloudTest.NewTest" time="30.588"/>
+  <testcase name="testLogin" classname="test.java.CloudTest.NewTest" time="5.689"/>
+  <testcase name="testDeleteDevice" classname="test.java.CloudTest.NewTest" time="5.245"/>
+  <testcase name="testAddDevice" classname="test.java.CloudTest.NewTest" time="109.301"/>
+  <testcase name="testControl" classname="test.java.CloudTest.NewTest" time="56.419"/>
+  <testcase name="testLogout" classname="test.java.CloudTest.NewTest" time="5.191"/>
 </testsuite>
