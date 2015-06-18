@@ -46,7 +46,6 @@ public class Control {
 					Login.execute(driver);
 					myID = FindID.getOnlineID();
 				    By controller = By.xpath("//a[@href='#control-"+myID+"']");
-				    driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 				    System.out.println("klikinam");
 					driver.findElement(controller).click();
 					Info.info("	Arm Started");
@@ -111,6 +110,7 @@ public class Control {
 	  }
 	  
 	  private static boolean armDisarm() throws Exception {
+		    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		  try
 		  {
 			 
