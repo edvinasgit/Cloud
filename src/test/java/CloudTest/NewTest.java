@@ -55,14 +55,14 @@ public class NewTest {
   //---------------------------------------------------
  
   
-  @BeforeTest (groups = { "Dev", "Prod" })
+  @BeforeTest (alwaysRun = true)
   public void BeforeTest() throws Exception {
 	  DOMConfigurator.configure("log4j.xml");
 	  Info.info("####################################################################################");
 	
   }	   
 
-  @BeforeMethod (groups = { "Dev", "Prod" })
+  @BeforeMethod (alwaysRun = true)
 public void setUp(Method method) throws Exception {
 	
 
@@ -340,7 +340,7 @@ public void testLoginDev() throws Exception {
  
 
  
- @AfterMethod (groups = { "Dev", "Prod" })
+ @AfterMethod (alwaysRun = true)
  public void takeScreenShotOnFailure(ITestResult testResult, Method method) throws IOException 
  { 
 	 String testName = method.getName(); 
@@ -368,7 +368,7 @@ public void testLoginDev() throws Exception {
  	        
  }
  
-@AfterMethod (groups = { "Dev", "Prod" })
+@AfterMethod (alwaysRun = true)
 public void tearDown() throws Exception {
     driver.quit();
     String verificationErrorString = verificationErrors.toString();
