@@ -30,13 +30,15 @@ public int status;
 	
 	
 	public Boolean apply(WebDriver input) {
+		WebDriverWait wait2 = new WebDriverWait(input, 20);
+		wait2.until(ExpectedConditions.presenceOfElementLocated(element1));
 		state = input.findElement(element1).getText();
 		MyExpectedCondition mec = new MyExpectedCondition(element1,element2,state,textA,textB);
 		WebDriverWait wait = new WebDriverWait(input, 180);
-		WebDriverWait wait2 = new WebDriverWait(input, 20);
+		
 		wait2.until(ExpectedConditions.presenceOfElementLocated(element1));
 	        input.findElement(element1).click();
-
+	     
 		System.out.println("klikinam arm");
 		
 		wait.until(mec);

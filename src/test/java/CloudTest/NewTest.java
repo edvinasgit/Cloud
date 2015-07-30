@@ -62,12 +62,12 @@ public class NewTest {
 	
   }	   
 
-  @BeforeMethod (alwaysRun = true)
-public void setUp(Method method) throws Exception {
+  @BeforeMethod ( groups = { "Prod" })
+public void setUpProd(Method method) throws Exception {
 	
 
     driver = new FirefoxDriver();
-    //baseUrl = "https://security.eldes.lt";
+    baseUrl = "https://security.eldes.lt";
    // driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
     driver.manage().window().maximize();
     Info.info("----------------------------------------------------------------------------------");
@@ -78,7 +78,42 @@ public void setUp(Method method) throws Exception {
    
    
    }
+  @BeforeMethod ( groups = { "Dev" })
+public void setUpDev(Method method) throws Exception {
+	
 
+    driver = new FirefoxDriver();
+    baseUrl = "https://dev.eldes.lt";
+   // driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+    driver.manage().window().maximize();
+    Info.info("----------------------------------------------------------------------------------");
+    String testName = method.getName(); 
+    System.out.println(testName + " Started");
+    Info.info(testName + " Started");
+    
+   
+   
+   }
+  @BeforeMethod
+public void setUp(Method method) throws Exception {
+	
+
+    driver = new FirefoxDriver();
+  
+    baseUrl = "https://security.eldes.lt";
+   
+   // driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+    driver.manage().window().maximize();
+    new Login(driver, baseUrl, "edvinasg@gmail.com", "edvinaseldes");
+    System.out.println("setUp");
+    Info.info("----------------------------------------------------------------------------------");
+    String testName = method.getName(); 
+    System.out.println(testName + " Started");
+    Info.info(testName + " Started");
+    
+   
+   
+   }
   
   public void login() throws Exception {
 	
@@ -89,7 +124,7 @@ public void setUp(Method method) throws Exception {
 @Test(priority=1, groups = { "Prod" })
   public void testLogin() throws Exception {
 
-	new Login(driver, "https://security.eldes.lt", "edvinasg@gmail.com", "edvinaseldes");
+	new Login(driver, baseUrl, "edvinasg@gmail.com", "edvinaseldes");
 	Login.test(driver);
  
 }
@@ -97,7 +132,7 @@ public void setUp(Method method) throws Exception {
 @Test(priority=1, groups = { "Dev"})
 public void testLoginDev() throws Exception {
 	
-	new Login(driver, "https://dev.eldes.lt", "edvinasg@gmail.com", "nissan88");
+	new Login(driver, baseUrl, "edvinasg@gmail.com", "nissan88");
 	Login.test(driver);
 
 }
