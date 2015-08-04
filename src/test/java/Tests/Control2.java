@@ -176,11 +176,11 @@ public class Control2 {
 	}
 	
 	//COPMARE------------------------------------------------------------------------------------
-	private static boolean compare(By on_off, String expectedText) throws Exception {
+	private static boolean compare(By element, String expectedText) throws Exception {
 		try
 		{
-			WebDriverWait wait = new WebDriverWait(driver, 30);
-			wait.until(ExpectedConditions.textToBePresentInElementLocated(on_off, expectedText));
+			WebDriverWait wait = new WebDriverWait(driver, 60);
+			wait.until(ExpectedConditions.textToBePresentInElementLocated(element, expectedText));
 			return true;
 		}
 		catch(Exception e)
