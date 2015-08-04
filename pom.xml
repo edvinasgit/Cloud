@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>CloudTest</groupId>
-  <artifactId>CloudTest</artifactId>
+  <groupId>CloudTest2</groupId>
+  <artifactId>CloudTest2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -24,7 +24,7 @@
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
                     
-						<suiteXmlFile>testng2.xml</suiteXmlFile>
+						<suiteXmlFile>testng1.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
