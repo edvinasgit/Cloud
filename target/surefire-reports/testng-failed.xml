@@ -11,6 +11,8 @@
       <class name="Suites.IntegrationTest_1">
         <methods>
           <include name="tearDown"/>
+          <include name="testDeleteDevice"/>
+          <include name="testAddDevice"/>
           <include name="BeforeTest"/>
           <include name="testControl"/>
           <include name="setUpProd"/>

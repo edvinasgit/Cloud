@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite2" duration-ms="474004" started-at="2015-08-02T19:18:33Z" finished-at="2015-08-02T19:26:27Z">
+  <suite name="TestSuite2" duration-ms="445518" started-at="2015-08-04T13:57:38Z" finished-at="2015-08-04T14:05:04Z">
     <groups>
       <group name="Prod">
         <method signature="IntegrationTest_1.testAddDevice()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="testAddDevice" class="Suites.IntegrationTest_1"/>
@@ -18,13 +18,13 @@
         <method signature="IntegrationTest_1.testLogout()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="testLogout" class="Suites.IntegrationTest_1"/>
       </group> <!-- Dev -->
     </groups>
-    <test name="ProdTest" duration-ms="474004" started-at="2015-08-02T19:18:33Z" finished-at="2015-08-02T19:26:27Z">
+    <test name="ProdTest" duration-ms="445518" started-at="2015-08-04T13:57:38Z" finished-at="2015-08-04T14:05:04Z">
       <class name="Suites.IntegrationTest_1">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="BeforeTest" is-config="true" duration-ms="224" started-at="2015-08-02T22:18:33Z" finished-at="2015-08-02T22:18:34Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="BeforeTest" is-config="true" duration-ms="228" started-at="2015-08-04T16:57:38Z" finished-at="2015-08-04T16:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="setUpProd(java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="setUpProd" is-config="true" duration-ms="27863" started-at="2015-08-02T22:18:34Z" finished-at="2015-08-02T22:19:01Z">
+        <test-method status="PASS" signature="setUpProd(java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="setUpProd" is-config="true" duration-ms="14931" started-at="2015-08-04T16:57:39Z" finished-at="2015-08-04T16:57:54Z">
           <params>
             <param index="0">
               <value>
@@ -35,11 +35,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpProd -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="testLogin" duration-ms="13547" started-at="2015-08-02T22:19:01Z" finished-at="2015-08-02T22:19:15Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="testLogin" duration-ms="5574" started-at="2015-08-04T16:57:54Z" finished-at="2015-08-04T16:57:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-08-02T22:19:15Z" finished-at="2015-08-02T22:19:15Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-08-04T16:57:59Z" finished-at="2015-08-04T16:57:59Z">
           <params>
             <param index="0">
               <value>
@@ -55,11 +55,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="tearDown" is-config="true" duration-ms="241" started-at="2015-08-02T22:19:15Z" finished-at="2015-08-02T22:19:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="tearDown" is-config="true" duration-ms="336" started-at="2015-08-04T16:57:59Z" finished-at="2015-08-04T16:58:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUpProd(java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="setUpProd" is-config="true" duration-ms="13673" started-at="2015-08-02T22:19:15Z" finished-at="2015-08-02T22:19:29Z">
+        <test-method status="PASS" signature="setUpProd(java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="setUpProd" is-config="true" duration-ms="13297" started-at="2015-08-04T16:58:00Z" finished-at="2015-08-04T16:58:13Z">
           <params>
             <param index="0">
               <value>
@@ -70,11 +70,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpProd -->
-        <test-method status="PASS" signature="testDeleteDevice()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="testDeleteDevice" duration-ms="20856" started-at="2015-08-02T22:19:29Z" finished-at="2015-08-02T22:19:50Z">
+        <test-method status="PASS" signature="testDeleteDevice()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="testDeleteDevice" duration-ms="7028" started-at="2015-08-04T16:58:13Z" finished-at="2015-08-04T16:58:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteDevice -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-08-02T22:19:50Z" finished-at="2015-08-02T22:19:50Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2015-08-04T16:58:20Z" finished-at="2015-08-04T16:58:20Z">
           <params>
             <param index="0">
               <value>
@@ -90,11 +90,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="tearDown" is-config="true" duration-ms="286" started-at="2015-08-02T22:19:50Z" finished-at="2015-08-02T22:19:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="tearDown" is-config="true" duration-ms="299" started-at="2015-08-04T16:58:20Z" finished-at="2015-08-04T16:58:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUpProd(java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="setUpProd" is-config="true" duration-ms="25339" started-at="2015-08-02T22:19:50Z" finished-at="2015-08-02T22:20:15Z">
+        <test-method status="PASS" signature="setUpProd(java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="setUpProd" is-config="true" duration-ms="21579" started-at="2015-08-04T16:58:20Z" finished-at="2015-08-04T16:58:42Z">
           <params>
             <param index="0">
               <value>
@@ -105,11 +105,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpProd -->
-        <test-method status="PASS" signature="testAddDevice()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="testAddDevice" duration-ms="179933" started-at="2015-08-02T22:20:15Z" finished-at="2015-08-02T22:23:15Z">
+        <test-method status="PASS" signature="testAddDevice()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="testAddDevice" duration-ms="208714" started-at="2015-08-04T16:58:42Z" finished-at="2015-08-04T17:02:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddDevice -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="takeScreenShotOnFailure" is-config="true" duration-ms="4" started-at="2015-08-02T22:23:15Z" finished-at="2015-08-02T22:23:15Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2015-08-04T17:02:10Z" finished-at="2015-08-04T17:02:10Z">
           <params>
             <param index="0">
               <value>
@@ -125,11 +125,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="tearDown" is-config="true" duration-ms="264" started-at="2015-08-02T22:23:15Z" finished-at="2015-08-02T22:23:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="tearDown" is-config="true" duration-ms="239" started-at="2015-08-04T17:02:10Z" finished-at="2015-08-04T17:02:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUpProd(java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="setUpProd" is-config="true" duration-ms="27057" started-at="2015-08-02T22:23:16Z" finished-at="2015-08-02T22:23:43Z">
+        <test-method status="PASS" signature="setUpProd(java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="setUpProd" is-config="true" duration-ms="15287" started-at="2015-08-04T17:02:11Z" finished-at="2015-08-04T17:02:26Z">
           <params>
             <param index="0">
               <value>
@@ -140,15 +140,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpProd -->
-        <test-method status="PASS" signature="testControl()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="testControl" duration-ms="95545" started-at="2015-08-02T22:23:43Z" finished-at="2015-08-02T22:25:18Z">
+        <test-method status="PASS" signature="testControl()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="testControl" duration-ms="135656" started-at="2015-08-04T17:02:26Z" finished-at="2015-08-04T17:04:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testControl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="tearDown" is-config="true" duration-ms="227" started-at="2015-08-02T22:25:18Z" finished-at="2015-08-02T22:25:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-08-02T22:25:18Z" finished-at="2015-08-02T22:25:18Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2015-08-04T17:04:42Z" finished-at="2015-08-04T17:04:42Z">
           <params>
             <param index="0">
               <value>
@@ -164,7 +160,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="setUpProd(java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="setUpProd" is-config="true" duration-ms="27076" started-at="2015-08-02T22:25:18Z" finished-at="2015-08-02T22:25:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="tearDown" is-config="true" duration-ms="221" started-at="2015-08-04T17:04:42Z" finished-at="2015-08-04T17:04:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpProd(java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="setUpProd" is-config="true" duration-ms="14427" started-at="2015-08-04T17:04:42Z" finished-at="2015-08-04T17:04:56Z">
           <params>
             <param index="0">
               <value>
@@ -175,15 +175,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpProd -->
-        <test-method status="PASS" signature="testLogout()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="testLogout" duration-ms="41593" started-at="2015-08-02T22:25:46Z" finished-at="2015-08-02T22:26:27Z">
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="testLogout" duration-ms="7438" started-at="2015-08-04T17:04:56Z" finished-at="2015-08-04T17:05:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="tearDown" is-config="true" duration-ms="257" started-at="2015-08-02T22:26:27Z" finished-at="2015-08-02T22:26:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-08-02T22:26:27Z" finished-at="2015-08-02T22:26:27Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-08-04T17:05:04Z" finished-at="2015-08-04T17:05:04Z">
           <params>
             <param index="0">
               <value>
@@ -199,6 +195,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Suites.IntegrationTest_1@3d8c7aca]" name="tearDown" is-config="true" duration-ms="240" started-at="2015-08-04T17:05:04Z" finished-at="2015-08-04T17:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- Suites.IntegrationTest_1 -->
     </test> <!-- ProdTest -->
   </suite> <!-- TestSuite2 -->

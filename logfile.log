@@ -33,3 +33,114 @@
 2015-08-02 22:25:18,747 INFO  [Info] testControl				PASSED 
 2015-08-02 22:25:46,051 INFO  [Info] ---------------------------------------------------------------------------------- 
 2015-08-02 22:26:27,645 INFO  [Info] testLogout				PASSED 
+2015-08-04 15:47:23,384 INFO  [Info] #################################################################################### 
+2015-08-04 15:47:23,385 INFO  [Info] 						Status 
+2015-08-04 15:47:41,843 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 15:48:04,282 INFO  [Info] testLogin				PASSED 
+2015-08-04 15:48:18,150 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 15:48:23,426 INFO  [Info] testDeleteDevice				PASSED 
+2015-08-04 15:48:36,067 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 15:51:19,756 INFO  [Info] Pin Code Passed 
+2015-08-04 15:54:21,669 INFO  [Info] testAddDevice				FAILED 
+2015-08-04 15:54:35,377 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 15:55:28,355 INFO  [Info] testControl				FAILED 
+2015-08-04 15:55:41,018 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 15:55:46,249 INFO  [Info] testLogout				PASSED 
+2015-08-04 16:07:38,088 INFO  [Info] #################################################################################### 
+2015-08-04 16:07:38,089 INFO  [Info] 						Status 
+2015-08-04 16:07:52,719 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:07:58,536 INFO  [Info] testLogin				PASSED 
+2015-08-04 16:08:12,854 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:08:18,748 INFO  [Info] testDeleteDevice				PASSED 
+2015-08-04 16:08:32,109 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:09:47,792 INFO  [Info] Pin Code Passed 
+2015-08-04 16:10:40,917 INFO  [Info] testAddDevice				PASSED 
+2015-08-04 16:10:57,010 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:11:37,702 INFO  [Info] Bypass				Passed 
+2015-08-04 16:12:18,743 INFO  [Info] testControl				FAILED 
+2015-08-04 16:12:32,340 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:12:37,961 INFO  [Info] testLogout				PASSED 
+2015-08-04 16:15:17,657 INFO  [Info] #################################################################################### 
+2015-08-04 16:15:17,658 INFO  [Info] 						Status 
+2015-08-04 16:15:33,132 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:15:39,794 INFO  [Info] testLogin				PASSED 
+2015-08-04 16:15:53,617 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:16:00,020 INFO  [Info] testDeleteDevice				PASSED 
+2015-08-04 16:16:13,866 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:18:37,032 INFO  [Info] Pin Code Passed 
+2015-08-04 16:20:07,087 INFO  [Info] testAddDevice				PASSED 
+2015-08-04 16:20:22,980 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:21:10,916 INFO  [Info] Arm/Disarm				PASSED 
+2015-08-04 16:22:03,261 INFO  [Info] testControl				FAILED 
+2015-08-04 16:22:16,785 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:22:22,262 INFO  [Info] testLogout				PASSED 
+2015-08-04 16:31:36,190 INFO  [Info] #################################################################################### 
+2015-08-04 16:31:36,191 INFO  [Info] 						Status 
+2015-08-04 16:31:51,875 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:31:58,260 INFO  [Info] testLogin				PASSED 
+2015-08-04 16:32:10,770 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:32:16,221 INFO  [Info] testDeleteDevice				PASSED 
+2015-08-04 16:32:29,005 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:33:30,242 INFO  [Info] Pin Code Passed 
+2015-08-04 16:35:01,591 INFO  [Info] testAddDevice				PASSED 
+2015-08-04 16:35:15,374 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:36:26,805 INFO  [Info] Bypass				Passed 
+2015-08-04 16:36:59,548 INFO  [Info] Arm/Disarm				PASSED 
+2015-08-04 16:37:03,792 INFO  [Info] testLogout SKIPED 
+2015-08-04 16:37:16,943 INFO  [Info] #################################################################################### 
+2015-08-04 16:37:16,943 INFO  [Info] 						Status 
+2015-08-04 16:37:33,143 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:37:41,011 INFO  [Info] testLogin				PASSED 
+2015-08-04 16:37:55,866 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:38:01,545 INFO  [Info] testDeleteDevice				PASSED 
+2015-08-04 16:38:19,187 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:39:05,341 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-04 16:39:05,341 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-04 16:39:05,342 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-04 16:39:05,342 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-04 16:39:05,342 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-04 16:39:05,342 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-04 16:39:05,374 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-04 16:39:05,374 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-04 16:39:05,380 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-04 16:39:05,380 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-04 16:39:05,381 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-04 16:39:05,381 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-04 16:39:05,392 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-04 16:39:05,392 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-04 16:39:05,392 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-04 16:39:05,392 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-04 16:39:05,393 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-04 16:39:05,393 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-04 16:39:05,570 INFO  [Info] testControl SKIPED 
+2015-08-04 16:39:05,571 INFO  [Info] testLogout SKIPED 
+2015-08-04 16:55:11,981 INFO  [Info] #################################################################################### 
+2015-08-04 16:55:11,982 INFO  [Info] 						Status 
+2015-08-04 16:55:28,666 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:55:33,767 INFO  [Info] testLogin				PASSED 
+2015-08-04 16:55:47,511 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:55:53,677 INFO  [Info] testDeleteDevice				FAILED 
+2015-08-04 16:56:07,175 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:56:40,556 INFO  [Info] testAddDevice				FAILED 
+2015-08-04 16:56:53,264 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:57:39,181 INFO  [Info] #################################################################################### 
+2015-08-04 16:57:39,181 INFO  [Info] 						Status 
+2015-08-04 16:57:54,119 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:57:59,696 INFO  [Info] testLogin				PASSED 
+2015-08-04 16:58:13,330 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:58:14,095 INFO  [Info] testControl				FAILED 
+2015-08-04 16:58:20,360 INFO  [Info] testDeleteDevice				PASSED 
+2015-08-04 16:58:27,615 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 16:58:35,756 INFO  [Info] testLogout				PASSED 
+2015-08-04 16:58:42,238 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 17:01:15,089 INFO  [Info] Pin Code Passed 
+2015-08-04 17:02:10,954 INFO  [Info] testAddDevice				PASSED 
+2015-08-04 17:02:26,481 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 17:03:09,967 INFO  [Info] Arm/Disarm				PASSED 
+2015-08-04 17:04:12,075 INFO  [Info] Bypass				Passed 
+2015-08-04 17:04:28,721 INFO  [Info] Arm/Disarm				PASSED 
+2015-08-04 17:04:35,761 INFO  [Info] Control ON/OFF				PASSED 
+2015-08-04 17:04:42,138 INFO  [Info] Control ON/OFF				PASSED 
+2015-08-04 17:04:42,140 INFO  [Info] testControl				PASSED 
+2015-08-04 17:04:56,790 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-04 17:05:04,229 INFO  [Info] testLogout				PASSED 

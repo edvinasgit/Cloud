@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="351.49" tests="5" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="364.423" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_31\jre\bin"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Edvinas\workspace\CloudTest2"/>
+    <property name="user.dir" value="C:\Users\Edvinas\workspace\CloudTest"/>
     <property name="java.runtime.version" value="1.8.0_31-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_31\jre\lib\endorsed"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\Edvinas\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5814850689421882809.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Edvinas\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1762155594933173663.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1257"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_31\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_31/bin/server;C:/Program Files/Java/jre1.8.0_31/bin;C:/Program Files/Java/jre1.8.0_31/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Users\Edvinas\workspace\apache-maven-3.3.1\bin;D:\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -54,7 +54,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_31\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_31\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_31\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_31\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_31\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_31\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_31\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_31\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_31\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\Edvinas\workspace\CloudTest2\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Edvinas\workspace\CloudTest\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -62,9 +62,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testLogin" classname="Suites.IntegrationTest_1" time="13.553"/>
-  <testcase name="testDeleteDevice" classname="Suites.IntegrationTest_1" time="20.86"/>
-  <testcase name="testAddDevice" classname="Suites.IntegrationTest_1" time="179.939"/>
-  <testcase name="testControl" classname="Suites.IntegrationTest_1" time="95.547"/>
-  <testcase name="testLogout" classname="Suites.IntegrationTest_1" time="41.591"/>
+  <testcase name="testLogin" classname="Suites.IntegrationTest_1" time="5.596"/>
+  <testcase name="testDeleteDevice" classname="Suites.IntegrationTest_1" time="7.024"/>
+  <testcase name="testAddDevice" classname="Suites.IntegrationTest_1" time="208.714"/>
+  <testcase name="testControl" classname="Suites.IntegrationTest_1" time="135.657"/>
+  <testcase name="testLogout" classname="Suites.IntegrationTest_1" time="7.432"/>
 </testsuite>
