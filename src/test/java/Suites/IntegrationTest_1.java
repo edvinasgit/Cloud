@@ -121,7 +121,7 @@ public class IntegrationTest_1 {
 	}
 
 	//AddDevice-------------------------------------------------------------------------------	
-	@Test(priority=3, groups = { "Dev", "Prod" })
+	@Test(priority=4, groups = { "Dev", "Prod" })
 	public void testAddDevice() throws Exception {
 		AddDevice.execute(driver);
 
@@ -129,7 +129,7 @@ public class IntegrationTest_1 {
 
 	//DeleteDevice-------------------------------------------------------------------------------
 
-	@Test (priority=2, groups = { "Dev", "Prod" })
+	@Test (priority=3, groups = { "Dev", "Prod" })
 	public void testDeleteDevice() throws Exception {
 		DeleteDevice.execute(driver);
 
@@ -142,7 +142,7 @@ public class IntegrationTest_1 {
 	}
 
 	//Control---------------------------------------------------------------------------------------
-	@Test (priority=4, groups = { "Dev", "Prod" })
+	@Test (priority=2, groups = { "Dev", "Prod" })
 	public void testControl() throws Exception {
 		//Thread.sleep(300000); 
 		new Control2(driver);
