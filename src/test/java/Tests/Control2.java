@@ -52,10 +52,10 @@ public class Control2 {
 			Thread.sleep(1000);
 			System.out.println("	Disarm Started");
 			armDisarm();
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			System.out.println("	OutputControl ON Started");
 			outputControl();
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			System.out.println("	OutputControl OFF Started");
 			outputControl();
 		}
@@ -185,6 +185,7 @@ public class Control2 {
 		}
 		catch(Exception e)
 		{
+			System.out.println("Fatal  OutputControl: " + e);
 			return false;
 		}
 	}

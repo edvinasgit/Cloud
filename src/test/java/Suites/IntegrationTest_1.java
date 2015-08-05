@@ -41,9 +41,10 @@ public class IntegrationTest_1 {
 	//-----------Global values--------------------------------------------------------------------
 	public String baseUrl = "https://security.eldes.lt";
 	String devname = "Edvinas Automatic Test";
-	String UserName = "edvinasg@gmail.com";
-	String UserPass = "edvinaseldes";
-	String IMEI = "F102CD45A924F668EEFE5FAE38805F8F";
+	String UserName = "pedroandiro@gmail.com";
+	String UserPass = "pedroandiro";
+	//String IMEI = "F102CD45A924F668EEFE5FAE38805F8F"; OLD
+	String IMEI = "8D02 ECD2 898C AA1E 69A9 F3B4 9B44 488D";
 	Logger Fatal = LogManager.getLogger("FATAL");
 	Logger Debug = LogManager.getLogger("Debug");
 	Logger Error = LogManager.getLogger("ERROR");
@@ -87,7 +88,7 @@ public class IntegrationTest_1 {
 		driver = new FirefoxDriver();
 		baseUrl = "https://security.eldes.lt";
 		driver.manage().window().maximize();
-		new Login(driver, baseUrl, "edvinasg@gmail.com", "edvinaseldes");
+		//new Login(driver, baseUrl, "edvinasg@gmail.com", "edvinaseldes");
 		System.out.println("setUp");
 		Info.info("----------------------------------------------------------------------------------");
 		String testName = method.getName(); 
