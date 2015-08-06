@@ -140,7 +140,7 @@ public class Control2 {
 	
 	//OUTPUT-CONTROL------------------------------------------------------------------------------------
 	private static boolean outputControl() throws Exception {
-		driver.manage().timeouts().implicitlyWait(150, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		try
 		{
 			String textA ="on";
@@ -179,7 +179,7 @@ public class Control2 {
 	private static boolean compare(By element, String expectedText) throws Exception {
 		try
 		{
-			WebDriverWait wait = new WebDriverWait(driver, 60);
+			WebDriverWait wait = new WebDriverWait(driver, 120);
 			wait.until(ExpectedConditions.textToBePresentInElementLocated(element, expectedText));
 			return true;
 		}

@@ -88,7 +88,7 @@ public class IntegrationTest_1 {
 		driver = new FirefoxDriver();
 		baseUrl = "https://security.eldes.lt";
 		driver.manage().window().maximize();
-		//new Login(driver, baseUrl, "edvinasg@gmail.com", "edvinaseldes");
+		new Login(driver, baseUrl, "pedroandiro@gmail.com", "pedroandiro");
 		System.out.println("setUp");
 		Info.info("----------------------------------------------------------------------------------");
 		String testName = method.getName(); 
@@ -108,7 +108,7 @@ public class IntegrationTest_1 {
 
 	@Test(priority=1, groups = { "Prod" })
 	public void testLogin() throws Exception {
-		new Login(driver, baseUrl, "edvinasg@gmail.com", "edvinaseldes");
+		new Login(driver, baseUrl, "pedroandiro@gmail.com", "edvinaseldes");
 		Login.test(driver);
 
 	}
