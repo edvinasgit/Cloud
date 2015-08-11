@@ -20,9 +20,9 @@ public class AddDevice {
 	//-----------Global values---------------------------
 	public static String baseUrl = "https://security.eldes.lt";
 	public static String devname = "Edvinas Automatic Test";
-	public static String UserName = "edvinasg@gmail.com";
-	public static String UserPass = "edvinaseldes";
-	static String IMEI = "F102CD45A924F668EEFE5FAE38805F8F";
+	//public static String UserName = "edvinasg@gmail.com";
+	//public static String UserPass = "edvinaseldes";
+	static String IMEI = "8D02ECD2898CAA1E69A9F3B49B44488D";
 
 	static Logger Fatal = LogManager.getLogger("FATAL");
 	static Logger Debug = LogManager.getLogger("Debug");

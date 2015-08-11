@@ -20,10 +20,10 @@ import Utility.FindID;
 public class DeleteDevice {
 
 	//-----------Global values---------------------------
-		public static String baseUrl = "https://security.eldes.lt";
+		//public static String baseUrl = "https://security.eldes.lt";
 		public static String devname = "Edvinas Automatic Test";
-		public static String UserName = "edvinasg@gmail.com";
-		public static String UserPass = "edvinaseldes";
+		//public static String UserName = "edvinasg@gmail.com";
+		//public static String UserPass = "edvinaseldes";
 		static String IMEI = "F102CD45A924F668EEFE5FAE38805F8F";
 
 		static Logger Fatal = LogManager.getLogger("FATAL");

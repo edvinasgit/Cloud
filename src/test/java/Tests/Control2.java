@@ -26,7 +26,7 @@ public class Control2 {
 	}
 
 	//-----------Global values---------------------------
-	private String baseUrl = "https://security.eldes.lt";
+	//private String baseUrl = "https://security.eldes.lt";
 	static String devname = "Edvinas Automatic Test";
 	static Logger Fatal = LogManager.getLogger("FATAL");
 	static Logger Debug = LogManager.getLogger("Debug");

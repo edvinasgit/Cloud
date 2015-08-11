@@ -44,7 +44,7 @@ public class IntegrationTest_1 {
 	String UserName = "pedroandiro@gmail.com";
 	String UserPass = "pedroandiro";
 	//String IMEI = "F102CD45A924F668EEFE5FAE38805F8F"; OLD
-	String IMEI = "8D02 ECD2 898C AA1E 69A9 F3B4 9B44 488D";
+	String IMEI = "8D02ECD2898CAA1E69A9F3B49B44488D";
 	Logger Fatal = LogManager.getLogger("FATAL");
 	Logger Debug = LogManager.getLogger("Debug");
 	Logger Error = LogManager.getLogger("ERROR");
@@ -108,7 +108,7 @@ public class IntegrationTest_1 {
 
 	@Test(priority=1, groups = { "Prod" })
 	public void testLogin() throws Exception {
-		new Login(driver, baseUrl, "pedroandiro@gmail.com", "edvinaseldes");
+		new Login(driver, baseUrl, "pedroandiro@gmail.com", "pedroandiro");
 		Login.test(driver);
 
 	}
