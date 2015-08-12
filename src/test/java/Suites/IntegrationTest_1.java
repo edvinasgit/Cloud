@@ -77,6 +77,7 @@ public class IntegrationTest_1 {
 		driver = new FirefoxDriver();
 		baseUrl = "https://dev.eldes.lt";
 		driver.manage().window().maximize();
+		new Login(driver, baseUrl, "pedroandiro@gmail.com", "pedroandiro");
 		Info.info("----------------------------------------------------------------------------------");
 		String testName = method.getName(); 
 		System.out.println(testName + " Started");
