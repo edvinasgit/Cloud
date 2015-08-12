@@ -116,7 +116,7 @@ public class IntegrationTest_1 {
 	@Test(priority=1, groups = { "Dev"})
 	public void testLoginDev() throws Exception {
 
-		new Login(driver, baseUrl, "edvinasg@gmail.com", "nissan88");
+		new Login(driver, baseUrl, "pedroandiro@gmail.com", "pedroandiro");
 		Login.test(driver);
 
 	}

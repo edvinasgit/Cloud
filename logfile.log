@@ -116,3 +116,63 @@
 2015-08-11 17:35:22,341 INFO  [Info] testAddDevice				PASSED 
 2015-08-11 17:35:36,320 INFO  [Info] ---------------------------------------------------------------------------------- 
 2015-08-11 17:35:44,148 INFO  [Info] testLogout				PASSED 
+2015-08-12 17:09:24,485 INFO  [Info] #################################################################################### 
+2015-08-12 17:09:24,506 INFO  [Info] 						Status 
+2015-08-12 17:09:41,619 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:09:48,475 INFO  [Info] testLogin				PASSED 
+2015-08-12 17:10:01,523 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:10:25,804 INFO  [Info] testControl				FAILED 
+2015-08-12 17:10:38,772 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:10:44,475 INFO  [Info] testDeleteDevice				FAILED 
+2015-08-12 17:10:58,243 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:10:58,328 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-12 17:10:58,329 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-12 17:10:58,329 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-12 17:10:58,329 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-12 17:10:58,330 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-12 17:10:58,330 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-12 17:10:58,334 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-12 17:10:58,334 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-12 17:10:58,335 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-12 17:10:58,335 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-12 17:10:58,336 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-12 17:10:58,336 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-12 17:10:58,353 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-12 17:10:58,353 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-12 17:10:58,354 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-12 17:10:58,355 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-12 17:10:58,358 INFO  [RetryExec] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect 
+2015-08-12 17:10:58,358 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2015-08-12 17:10:58,477 INFO  [Info] testLogout SKIPED 
+2015-08-12 17:20:30,028 INFO  [Info] #################################################################################### 
+2015-08-12 17:20:30,029 INFO  [Info] 						Status 
+2015-08-12 17:20:45,248 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:20:50,947 INFO  [Info] testLogin				PASSED 
+2015-08-12 17:21:04,278 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:21:29,028 INFO  [Info] testControl				FAILED 
+2015-08-12 17:21:42,795 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:21:48,382 INFO  [Info] testDeleteDevice				FAILED 
+2015-08-12 17:22:01,993 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:22:25,369 INFO  [Info] testAddDevice				FAILED 
+2015-08-12 17:22:39,468 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:22:45,423 INFO  [Info] testLogout				PASSED 
+2015-08-12 17:23:58,082 INFO  [Info] #################################################################################### 
+2015-08-12 17:23:58,083 INFO  [Info] 						Status 
+2015-08-12 17:24:12,529 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:24:18,293 INFO  [Info] testLogin				PASSED 
+2015-08-12 17:24:31,526 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:24:42,369 INFO  [Info] testControl				FAILED 
+2015-08-12 17:24:56,239 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:25:01,278 INFO  [Info] testDeleteDevice				FAILED 
+2015-08-12 17:25:15,639 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:25:39,069 INFO  [Info] testAddDevice				FAILED 
+2015-08-12 17:25:52,399 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:32:15,553 INFO  [Info] #################################################################################### 
+2015-08-12 17:32:15,553 INFO  [Info] 						Status 
+2015-08-12 17:32:30,507 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:32:44,647 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:32:57,681 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:33:04,868 INFO  [Info] testLogin				PASSED 
+2015-08-12 17:33:17,884 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:33:31,167 INFO  [Info] ---------------------------------------------------------------------------------- 
+2015-08-12 17:33:44,635 INFO  [Info] ---------------------------------------------------------------------------------- 
