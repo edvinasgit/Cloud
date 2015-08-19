@@ -18,7 +18,7 @@ import Tests.Login;
 public class AddDevice {
 
 	//-----------Global values---------------------------
-	public static String baseUrl = "https://security.eldes.lt";
+	public static String baseUrl; //= "https://security.eldes.lt";
 	public static String devname = "Edvinas Automatic Test";
 	//public static String UserName = "edvinasg@gmail.com";
 	//public static String UserPass = "edvinaseldes";
@@ -34,7 +34,7 @@ public class AddDevice {
 		
 	}
 	
-	public static void execute(WebDriver driver) throws Exception { 
+	public static void execute(WebDriver driver, String baseUrl) throws Exception { 
 		try
 		{
 
@@ -64,9 +64,9 @@ public class AddDevice {
 				driver.findElement(By.name("pin")).clear();
 				driver.findElement(By.name("pin")).sendKeys("1111");
 				driver.findElement(By.id("pinSubmit")).click();
-				Info.info("Pin Code Passed");
+				Info.info(String.format("%-50s %-20s","Pin Code","Passed"));
 				System.out.println("Pin Code Passed");
-				WebDriverWait wait2 = new WebDriverWait(driver, 180);
+				WebDriverWait wait2 = new WebDriverWait(driver, 340);
 				wait2.until(ExpectedConditions.visibilityOfElementLocated((By.className("device_on"))));
 				//Info.info("AddDevice Passed");
 				//System.out.println("AddDevice Passed");
@@ -81,7 +81,7 @@ public class AddDevice {
 				System.out.println("Device will be deleted automaticaly and test will be repeated");
 				driver.findElement(By.xpath("//*[@id='device-form']/div[4]/div[2]/button[1]")).click();
 				DeleteDevice.execute(driver);
-				AddDevice.execute(driver);
+				AddDevice.execute(driver, baseUrl);
 			}
 		}
 		catch(Exception e)

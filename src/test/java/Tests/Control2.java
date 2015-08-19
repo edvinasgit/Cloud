@@ -78,7 +78,7 @@ public class Control2 {
 
 			driver.findElement(selectAllBypass).click();
 			driver.findElement(okBypass).click();
-			Info.info("Bypass\t\t\t\tPassed");
+			Info.info(String.format("%-50s %-20s","Bypass","Passed"));
 			System.out.println("	Bypass PASSED");
 		}
 		catch(Exception e)
@@ -118,7 +118,7 @@ public class Control2 {
 			catch(Exception e){}
 			if(status == true)
 			{
-				Info.info("Arm/Disarm\t\t\t\tPASSED");
+				Info.info(String.format("%-50s %-20s","Arm/Disarm","PASSED"));
 				System.out.println("	Arm/Disarm PASSED");
 				return true;
 			}
@@ -155,7 +155,7 @@ public class Control2 {
 			boolean status = compare(on_off, expectedText);
 			if(status == true)
 			{
-				Info.info("Control ON/OFF\t\t\t\tPASSED");
+				Info.info(String.format("%-50s %-20s","Control ON/OFF","PASSED"));
 				System.out.println("	Control ON/OFF PASSED");
 				return true;
 			}

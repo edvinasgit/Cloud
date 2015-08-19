@@ -100,7 +100,7 @@ public class Control {
 
 			driver.findElement(selectAllBypass).click();
 			driver.findElement(okBypass).click();
-			Info.info("Bypass\t\t\t\tPassed");
+			Info.info(String.format("%10s %50s","Bypass", "Passed"));
 			System.out.println("	Bypass PASSED");
 		}
 		catch(Exception e)
@@ -131,7 +131,7 @@ public class Control {
 			}
 			else
 			{
-				Info.info("Arm/Disarm\t\t\t\tPASSED");
+				Info.info(String.format("%10s %50s","Arm/Disarm", "PASSED"));
 				System.out.println(" Arm/Disarm PASSED");
 				return true;
 			}
@@ -155,7 +155,7 @@ public class Control {
 
 			ExpectedObject EO = new ExpectedObject(on_off,null,"on","off" );
 			EO.apply(driver);
-			Info.info("OutputControl\t\t\t\tPASSED");
+			Info.info(String.format("%10s %50s","OutputControl","PASSED"));
 			System.out.println(" OutputControl PASSED");
 			return true;
 		}

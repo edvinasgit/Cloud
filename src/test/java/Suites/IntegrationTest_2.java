@@ -39,7 +39,7 @@ import Tests.Control2;
 import Tests.Logout;
 import Utility.FindID;
 
-public class IntegrationTest_1 {
+public class IntegrationTest_2 {
 	private StringBuffer verificationErrors = new StringBuffer(); 
 
 
